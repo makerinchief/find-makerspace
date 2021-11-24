@@ -1,0 +1,47 @@
+
+.navbar .navbar-collapse{
+    text-align:center;
+}
+
+
+
+
+
+.site-title{
+    max-width:1360px;
+    border:4px solid blue;
+}
+
+
+
+
+
+.map-section{
+    border: 10px solid orange;
+}
+
+
+.us-map{
+    border:2px solid blue;
+}
+
+
+
+.state-name{
+    /* visibility:hidden; */
+    fill: orange;
+    font: bold 30px sans-serif;
+}
+
+.state{
+    pointer-events:visibleFill; 
+}
+
+.state:hover{
+    fill:black;
+}
+
+.state:hover ~ .state-name {
+    fill:blue;
+    content:"Texas";
+}
