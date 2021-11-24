@@ -22,7 +22,7 @@ function addEvents() {
             });
 
             stateElements[s].addEventListener("mouseout", function () {
-                document.getElementById("state-id").textContent = "FIND A SPACE!";
+                document.getElementById("state-id").textContent = "PICK A STATE!";
             });
 
             stateElements[s].addEventListener("click", function () {
