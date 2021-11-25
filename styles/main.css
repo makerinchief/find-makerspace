@@ -1,36 +1,49 @@
+body{
+    font-family:monospace;
+}
+
+
+/* NAVBAR SECTION */
+.navbar a{
+    color:black;
+    font-weight:bold;
+    font-size:150%;
+}
 
 .navbar .navbar-collapse{
     text-align:center;
+    background-color:#dbdbdb;
+    border: 4px solid black;
 }
 
-
-
-
-
-.site-title{
-    max-width:1360px;
-    border:4px solid blue;
+.navbar-toggler-icon{
+    border: 4px solid black;
+    background-color:blue;
 }
 
-
-
-
-
-.map-section{
-    border: 10px solid orange;
+.navbar-toggler{
+    border: 4px solid black;
+    background-color:#dbdbdb;
 }
 
-
-.us-map{
-    border:2px solid blue;
+.dropdown-menu{
+    background-color:#dbdbdb;
 }
 
+/* MAP SECTION */
+#map-section{
+    border: 4px solid blue;
+}
 
+.map-svg{
+    border: 2px solid orange;
+}
 
 .state-name{
-    /* visibility:hidden; */
-    fill: orange;
-    font: bold 30px sans-serif;
+    color:black;
+    font-weight:bold;
+    font-size:200%;
+
 }
 
 .state{
@@ -41,7 +54,36 @@
     fill:black;
 }
 
-.state:hover ~ .state-name {
-    fill:blue;
-    content:"Texas";
+
+/* LIST SECTION */
+
+#list-header{
+    font-weight:bold;
+    font-size:200%;
+}
+
+#list-title{
+    font-weight:bold;
+    font-size:200%;
+}
+
+table{
+    background-color: #dbdbdb;
+    color:black;
+    font-weight:bold;
+}
+
+#thead{
+    background-color: blue;
+    color:black;
+    font-weight:bold;
+    font-size:150%;
+    border:2px solid orange;
+}
+
+#td{
+    background-color: #dbdbdb;
+    color:blue;
+    font-weight:bold;
+    border:2px solid red;
 }

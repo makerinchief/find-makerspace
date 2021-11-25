@@ -18,7 +18,6 @@ function addEvents() {
 
             stateElements[s].addEventListener("mouseover", function () {
                 document.getElementById("state-id").textContent = stateId.toUpperCase();
-                console.log(s);
             });
 
             stateElements[s].addEventListener("mouseout", function () {
@@ -26,39 +25,48 @@ function addEvents() {
             });
 
             stateElements[s].addEventListener("click", function () {
+                clearList();
                 updateMakerList(stateId);
+
+
+
             });
         }
     }
     stateIdArr.sort();
-    console.log(stateIdArr);
 }
 
-function updateMakerList(id) {
-    document.getElementById("list-title").innerHTML = id.toUpperCase() + " Makerspaces";
-    console.log(makerList[id]);
+function clearList() {
+    let spaceList = document.getElementById("space-list");
+    console.log(spaceList.children.length, spaceList.children);
 
-
-    // First clear the section of any previous tables
-
-    let previousTable = document.getElementById("link-table");
-
-    console.log(previousTable);
-    if (previousTable != null) {
-        previousTable.remove();
+    if (spaceList.children.length >= 1) {
+        console.log("TOO MANY KIDS!");
+        spaceList.removeChild(spaceList.children[0]);
     }
 
+    console.log(spaceList.children.length, spaceList.children);
+}
+
+
+function updateMakerList(id) {
+
+    document.getElementById("list-title").innerHTML = id.toUpperCase() + " Makerspaces";
+
     let table = document.createElement('table');
-    table.setAttribute("class", "border border-4 border-primary")
+    table.setAttribute("class", "border border-4 border-primary");
     table.setAttribute("id", "link-table")
+
     let tableHead = document.createElement('thead');
-    tableHead.setAttribute("class", "border border-2 border-seconday")
+    table.setAttribute("id", "link-head");
+    tableHead.setAttribute("class", "justify-content-center");
+
     let tableBody = document.createElement('tbody');
-    tableBody.setAttribute("class", "border border-2 border-danger")
+    table.setAttribute("id", "link-body");
+    tableHead.setAttribute("class", "justify-content-center");
 
     table.appendChild(tableHead);
     table.appendChild(tableBody);
-
 
     let tableRow = document.createElement('tr');
     let tableHeading = document.createElement('th');
@@ -77,22 +85,25 @@ function updateMakerList(id) {
 
         linkAnchor.innerHTML = makerList[id][link];
         linkAnchor.setAttribute("href", makerList[id][link]);
-        linkRowData.setAttribute("class", "text-center");
+        // linkRowData.setAttribute("class", "text-center");
 
         linkRowData.appendChild(linkAnchor);
         linkRow.appendChild(linkRowData);
         tableBody.appendChild(linkRow);
     }
 
-    document.getElementById("maker-list").appendChild(table);
+    document.getElementById("space-list").appendChild(table);
 
 
 }
 
 
 var statesSvg = document.getElementById("us-states");
-
 statesSvg.onload = addEvents();
+
+
+
+
 
 
 
