@@ -1,4 +1,4 @@
-let requestURL = 'https://raw.githubusercontent.com/intern-jck/findMakerspace/main/assets/stateList.json';
+let requestURL = 'https://raw.githubusercontent.com/intern-jck/findMakerspace/main/assets/spaceList.json';
 let request = new XMLHttpRequest();
 request.open('GET', requestURL);
 request.responseType = 'json';
@@ -82,6 +82,7 @@ function updateMakerList(id) {
     table.appendChild(tableBody);
 
     let tableRow = document.createElement('tr');
+
     let nameHeading = document.createElement('th');
     nameHeading.innerHTML = "NAME";
     nameHeading.setAttribute("class", "text-center");
@@ -95,17 +96,22 @@ function updateMakerList(id) {
 
 
     for (let link in makerList[id]) {
-        // console.log(makerList[id][link]);
+        // console.log(makerList[id][link][1]);
+
         var linkRow = document.createElement('tr');
+        var linkName = document.createElement('td');
+        linkName.innerHTML = makerList[id][link][0];
+
         var linkRowData = document.createElement('td');
         var linkAnchor = document.createElement('a');
 
-        linkAnchor.innerHTML = makerList[id][link];
+        linkAnchor.innerHTML = makerList[id][link][1];
         linkAnchor.setAttribute("href", makerList[id][link]);
         linkAnchor.setAttribute("target", "_blank");
         // linkRowData.setAttribute("class", "text-center");
 
         linkRowData.appendChild(linkAnchor);
+        linkRow.appendChild(linkName);
         linkRow.appendChild(linkRowData);
         tableBody.appendChild(linkRow);
     }
