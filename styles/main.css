@@ -73,17 +73,68 @@ table{
     font-weight:bold;
 }
 
-#thead{
-    background-color: blue;
+thead{
+    background-color: #dbdbdb;
     color:black;
     font-weight:bold;
     font-size:150%;
-    border:2px solid orange;
+    border:4px solid black;
 }
 
-#td{
+/* tbody{
+    background-color: #dbdbdb;
+    color:black;
+    font-weight:bold;
+    font-size:150%;
+    border:2px solid black;
+} */
+
+td{
     background-color: #dbdbdb;
     color:blue;
     font-weight:bold;
-    border:2px solid red;
+    font-size:150%;
+    border:2px solid black;
+}
+
+#about-title{
+    background-color: #dbdbdb;
+    color:blue;
+    font-weight:bold;
+    font-size:200%;
+    border:2px solid black;
+    width:auto;
+    margin:auto;
+}
+#about-text{
+    background-color: #dbdbdb;
+    color:blue;
+    font-weight:bold;
+    font-size:150%;
+    border:2px solid black;
+}
+#contact-title{
+    background-color: #dbdbdb;
+    color:blue;
+    font-weight:bold;
+    font-size:200%;
+    border:2px solid black;
+    width:auto;
+    margin:auto;
+}
+#github-link{
+    color:blue;
+    font-weight:bold;
+    font-size:150%;
+}
+
+#contact-form{
+    color:blue;
+    font-weight:bold;
+    font-size:150%;
+}
+
+#form-block{
+    background-color: #dbdbdb;
+    border:2px solid black;
 }

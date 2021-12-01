@@ -1,5 +1,10 @@
-{
-    "Alabama" : [
+
+
+Need to figure out how to import files into script
+
+
+const makerList = {
+    "alabama": [
         "https://guides.lib.ua.edu/makerspaces",
         "https://makerspacemobile.org/",
         "https://www.pelhamalabama.gov/613/Computer-Makerspace",
@@ -13,7 +18,7 @@
         "https://libguides.aamu.edu/makerspace",
         "https://hmcpl.org/studio"
     ],
-    "Alaska" : [
+    "alaska": [
         "https://www.anchoragemakerspace.com/",
         "https://www.facebook.com/AlaskaMakerspace/",
         "https://lam.alaska.gov/makerspaces",
@@ -33,7 +38,7 @@
         "https://www.nationalroboticsweek.org/Events?y=2016&s=AK",
         "https://www.youtube.com/watch?v=ksAdcruc5c8"
     ],
-    "Arizona" : [
+    "arizona": [
         "https://phxforge.com/",
         "https://www.azscience.org/attractions/create-makerspace/",
         "https://dtphx.org/2021/03/24/phoenix-forge-makerspace/",
@@ -51,7 +56,7 @@
         "https://www.aam-us.org/wp-content/uploads/2018/03/Museum-magazine.MarchApril-2018.Everybody-DIY.pdf",
         "https://www.azcentral.com/story/entertainment/2015/09/23/maker-spaces-trend-phoenix-tools-classes/32524943/"
     ],
-    "Arkansas" : [
+    "arkansas": [
         "https://arhub.org/",
         "https://www.arconductor.org/makerspace",
         "https://www.facebook.com/ARInnovationHub/",
@@ -73,7 +78,7 @@
         "https://talkbusiness.net/2021/05/arcbest-donates-1-million-to-peak-center-to-sponsor-community-room-maker-space/",
         "https://conway.fcl.org/events/page/93/conway-makerspace"
     ],
-    "California" : [
+    "california": [
         "https://ozobot.com/blog/25-awesome-family-friendly-makerspaces-in-southern-california",
         "https://www.makernexus.com/",
         "https://www.makernexus.com/our-story",
@@ -95,18 +100,10 @@
         "https://csumb.edu/library/makerspace/",
         "https://www.girlscoutshcc.org/en/our-council/STEMCenter.html"
     ],
-    "Colorado" : [
+    "colorado": [
         "https://tinkermill.org/",
-        "https://tinkermill.org/membership/",
-        "https://tinkermill.org/shops/",
-        "https://tinkermill.org/contact/",
-        "https://tinkermill.org/about/",
         "https://coloradomakerhub.org/hub-directory-of-shared-spaces/",
         "https://pikespeakmakerspace.org/",
-        "https://pikespeakmakerspace.org/joinfun",
-        "https://pikespeakmakerspace.org/equipment",
-        "https://pikespeakmakerspace.org/FAQs",
-        "https://pikespeakmakerspace.org/support-us",
         "https://www.historycolorado.org/exhibit/makerspace-build",
         "https://www.colorado.edu/ideaforge/facilities/makerspace",
         "https://boulderhackerspace.com/",
@@ -117,7 +114,7 @@
         "https://companyweek.com/article/industry-report-colorados-makerspaces-fill-void-in-manufacturing-ecosystem",
         "https://www.yelp.com/search?cflt=makerspaces&find_loc=denver%2C+CO"
     ],
-    "Connecticut" : [
+    "connecticut": [
         "https://makerspacect.com/home/",
         "https://makerspacect.com/join-the-movement/",
         "https://www.facebook.com/makerspacect",
@@ -139,7 +136,7 @@
         "https://www.nbcconnecticut.com/news/local/makerspace-ct-launches-new-program/2350162/",
         "https://www.meetup.com/CT-Hackerspace/"
     ],
-    "Delaware" : [
+    "delaware": [
         "https://www.delawarelibrary.org/locations/makerstudio/",
         "https://nextfab.com/location/downtown-wilmington/",
         "https://www.udel.edu/research-innovation/maker/spaces/",
@@ -161,7 +158,7 @@
         "http://make.xsead.cmu.edu/knowledgebase/spaces/spaces?tagged_on=categories&tagged_with=engineering",
         "https://github.com/usgs-makerspace/delaware-basin-story"
     ],
-    "Florida" : [
+    "florida": [
         "https://www.makemia.com/",
         "http://www.makerfx.org/",
         "http://www.makerfx.org/membership/",
@@ -183,7 +180,7 @@
         "https://www.ucf.edu/pegasus/dream-maker/",
         "https://floridasbdc.org/success-stories/story/moonlighter-markersspace-with-florida-sbdc-at-fiu/"
     ],
-    "Georgia" : [
+    "georgia": [
         "https://georgialibraries.org/makerspaces/",
         "https://galibtech.georgialibraries.org/emerging/makerspaces-in-ga",
         "https://libs.uga.edu/science/makerspace",
@@ -205,7 +202,7 @@
         "https://www.westga.edu/news/around-uwg/tinkers-box.php",
         "https://libcal.ccga.edu/booking/tech"
     ],
-    "Hawaii" : [
+    "hawaii": [
         "https://www.yelp.com/search?cflt=makerspaces&find_loc=Honolulu%2C%2BHI",
         "https://www.facebook.com/OahuMakerspace/",
         "https://fluxhawaii.com/conversation-piece-oahu-makerspace/",
@@ -227,7 +224,7 @@
         "https://www.eventbrite.com/d/hi--honolulu/oahu-makerspace/",
         "https://www.hawaiibusiness.com/coworking-spaces/"
     ],
-    "Idaho" : [
+    "idaho": [
         "https://www.facebook.com/upmakerspace/",
         "https://libraries.idaho.gov/stem/make-it/",
         "https://valleyofthetetonslibrary.org/makerspace-valley-of-the-tetons-library/",
@@ -249,7 +246,7 @@
         "https://www.argusobserver.com/independent/features/makerspace-coming-to-boys-girls-club/article_aa61d5ee-b8bb-11eb-a34b-8b184226f277.html",
         "https://cetrain.isu.edu/enrollment/course/create-collaborate-innovatemake/"
     ],
-    "Illinois" : [
+    "illinois": [
         "https://makerlab.illinois.edu/",
         "http://makerlab.illinois.edu/lab-hours/",
         "https://makerlab.illinois.edu/pricingservices",
@@ -271,7 +268,7 @@
         "https://www.aurorapubliclibrary.org/makerspace-4308",
         "https://www.ahml.info/makerplace"
     ],
-    "Indiana" : [
+    "indiana": [
         "https://indianamakers.org/indiana-makerspaces/",
         "https://makerspaces.luddy.indiana.edu/",
         "https://iumakes.indiana.edu/",
@@ -293,7 +290,7 @@
         "https://keepindianalearning.org/events/starting-makerspace-plainfield-middle-school-promote-innovation-inquiry/",
         "https://shakmakerspace.com/Shak-Events-and-Classes"
     ],
-    "Iowa" : [
+    "iowa": [
         "https://icfablab.org/",
         "https://icfablab.org/memberships/",
         "https://icfablab.org/artist/",
@@ -315,7 +312,7 @@
         "https://www.grinnellarts.org/stew-makerspace",
         "https://www.iowacityschools.org/Page/17431"
     ],
-    "Kansas" : [
+    "kansas": [
         "https://www.jocolibrary.org/makerspace",
         "https://www.jocolibrary.org/makerspace/laser-cutting-and-engraving",
         "https://www.jocolibrary.org/makerspace/3d-printing",
@@ -337,7 +334,7 @@
         "https://www.facebook.com/makervillagekc/",
         "https://www.fablabs.io/labs/jocolibrarymakerspace"
     ],
-    "Kentucky" : [
+    "kentucky": [
         "http://www.nkymakerspace.com/",
         "http://www.nkymakerspace.com/about.html",
         "http://www.nkymakerspace.com/student-interns.html",
@@ -359,7 +356,7 @@
         "https://www.kentuckymoversandmakers.com/",
         "http://ky.makerminded.com/activities/visit-nky-makerspace"
     ],
-    "Louisiana" : [
+    "louisiana": [
         "https://nwlamakerspace.org/",
         "http://lafayettepubliclibrary.org/?page_id=21857",
         "https://www.fablabs.io/labs/nwlamakerspace",
@@ -381,7 +378,7 @@
         "https://openei.org/wiki/NWLA_Makerspace",
         "https://www.instagram.com/nwlamakerspace/?hl=en"
     ],
-    "Maine" : [
+    "maine": [
         "https://factory3.org/",
         "https://factory3.org/become-a-member",
         "https://factory3.org/donate",
@@ -403,7 +400,7 @@
         "https://www.commonthreadsmaine.org/makerspace",
         "https://www.mainephilanthropy.org/redhen/org/4698"
     ],
-    "Maryland": [
+    "maryland": [
         "https://makerspace.umd.edu/",
         "https://makerspace.umd.edu/#makerspaces",
         "https://makerspace.umd.edu/map/",
@@ -425,7 +422,7 @@
         "https://www.innov8md.org/resources/sandbox-2ce6ed85e1",
         "https://www.lndl.org/spaces-technology/innovation-station"
     ],
-    "Massachusetts" : [
+    "massachusetts": [
         "https://www.umb.edu/makerspace/3d_printing/other_area_makerspaces",
         "https://www.umb.edu/makerspace",
         "https://www.bostontechmom.com/massachusetts-makerspaces-kids-invent-tinker-create/",
@@ -447,7 +444,7 @@
         "https://www.masscue.org/committees/makerspace-sig/",
         "https://www.ziprecruiter.com/Jobs/Makerspace/--in-Massachusetts"
     ],
-    "Michigan" : [
+    "michigan": [
         "https://www.maker-works.com/local-makerspaces",
         "http://michiganmakers.weebly.com/local-makerspaces.html",
         "https://www.i3detroit.org/",
@@ -469,7 +466,7 @@
         "https://www.cmich.edu/office_provost/CIS/Pages/Explore%20Teaching%20and%20Learning/Selecting%20or%20Developing%20Materials%20and%20Tools/Video-Maker-Space-Overview.aspx",
         "http://www.lakemichigancollege.edu/community/fab-lab"
     ],
-    "Minnesota" : [
+    "minnesota": [
         "https://mnmakerspace.com/",
         "https://mnmakerspace.com/contact-us/",
         "https://mnmakerspace.com/shop/",
@@ -491,7 +488,7 @@
         "https://www.lib.umn.edu/spaces",
         "http://m.brainerdlakeschamber.chambermaster.com/Mobile/Directory/memberdetails/minnesota-makerspace"
     ],
-    "Mississippi" : [
+    "mississippi": [
         "https://www.library.msstate.edu/dmc/spaces/makerspace",
         "https://ecenter.msstate.edu/programs/the-factory-msus-maker-space/",
         "https://www.madison-schools.com/domain/4010",
@@ -513,7 +510,7 @@
         "https://www.schoolandcollegelistings.com/US/Olive-Branch/1839832289574821/Tech-Dojo---a-North-Mississippi-Makerspace",
         "https://mschildrensmuseum.org/wp-content/uploads/2021/06/PR_NewExhibitWonderBox-1.pdf"
     ],
-    "Missouri" : [
+    "missouri": [
         "https://www.facebook.com/MSTMakerspace/",
         "https://mst.campuslabs.com/engage/organization/missouri-s-t-makerspace",
         "https://thelibrary.org/edge/maker-space.cfm",
@@ -535,7 +532,7 @@
         "http://www.carthage.lib.mo.us/event/steadley-makerspace-building-open-saturday/?instance_id=3188",
         "https://hammerspacehobby.com/"
     ],
-    "Montana" : [
+    "montana": [
         "https://www.montana.edu/makerspace/",
         "https://bozemanmakers.org/",
         "https://bozemanmakers.org/hebocon/",
@@ -557,7 +554,7 @@
         "https://www.montanaseniornews.com/wp-content/uploads/flipbook/21/files/basic-html/page30.html",
         "https://www.clintweb.net/site/default.aspx?PageType=3&DomainID=4&ModuleInstanceID=40&ViewID=6446EE88-D30C-497E-9316-3F8874B3E108&RenderLoc=0&FlexDataID=19331&PageID=1&Comments=true"
     ],
-    "Nebraska" : [
+    "nebraska": [
         "https://innovationstudio.unl.edu/",
         "https://research.unl.edu/events/makerspaceworkshop/",
         "http://nebraskaccess.nebraska.gov/makerspaces.asp",
@@ -579,7 +576,7 @@
         "https://www.mccneb.edu/Community-Business/Workforce-Innovation-Division/Our-Facility/Prototype-Design-Lab",
         "https://beyondschoolbells.org/mobile-maker-space/about-tmc-labs.html"
     ],
-    "Nevada" : [
+    "nevada": [
         "https://www.unr.edu/innevation/makerspace",
         "https://library.unr.edu/resources/making-resources",
         "https://bridgewire.org/",
@@ -601,7 +598,7 @@
         "https://www.linkedin.com/in/nick-crowl-50416086",
         "https://www.glassdoor.com/Salary/University-of-Nevada-Reno-Makerspace-Manager-Salaries-E130505_D_KO26,44.htm"
     ],
-    "New Hampshire" : [
+    "new-hampshire": [
         "https://www.nhbr.com/list-of-nh-makerspaces/",
         "https://manchestermakerspace.org/",
         "https://manchestermakerspace.org/calendar/",
@@ -623,7 +620,7 @@
         "https://makingmattersnh.org/",
         "https://nasaa-arts.org/newsletter/2021-nasaa-notes-issues/february-2021-nasaa-notes/new-hampshire-makerspace-network/"
     ],
-    "New Jersey" : [
+    "new-jersey": [
         "https://www.njitmakerspace.com/",
         "http://www.njitmakerspace.com/about-njit-makerspace",
         "https://www.njitmakerspace.com/training-courses-njit-community",
@@ -645,7 +642,7 @@
         "https://hobokenlibrary.org/makerspace-2/",
         "https://librarylinknj.org/projects/makerspaces"
     ],
-    "New Mexico" : [
+    "new-mexico": [
         "https://www.nmtechworks.com/maker-spaces.html",
         "https://nmost.org/makerspaces",
         "https://www.bizjournals.com/albuquerque/blog/morning-edition/2016/07/take-a-peak-inside-new-mexicos-makerspaces.html",
@@ -667,7 +664,7 @@
         "https://www.linkedin.com/in/bethany-cannon-9a67b4137",
         "http://www.cctnewmexico.org/wp-content/uploads/2016/03/NMSL_FY15_final-report_01.pdf"
     ],
-    "New York" : [
+    "new-york": [
         "https://www.makerspace.nyc/",
         "https://www.makerspace.nyc/classes",
         "https://www.makerspace.nyc/memberships",
@@ -689,7 +686,7 @@
         "https://futureworks.nyc/",
         "https://www.linkedin.com/company/makerspace-nyc"
     ],
-    "North Carolina" : [
+    "north-carolina": [
         "https://www.lib.ncsu.edu/services/makerspace",
         "https://www.themakersspaceraleigh.com/",
         "https://www.themakersspaceraleigh.com/workshop",
@@ -711,7 +708,7 @@
         "https://www.forsyth.cc/library/Central/makerspace.aspx",
         "https://makerspaceofgreenville.com/"
     ],
-    "North Dakota" : [
+    "north-dakota": [
         "https://gatewaytoscience.org/maker-space/",
         "https://www.facebook.com/MinotMakerSpace/",
         "https://www.ndsu.edu/experience/makerspace",
@@ -733,7 +730,7 @@
         "https://www.fargo.k12.nd.us/south",
         "https://polaris.odinlibrary.org/polaris/search/title.aspx?ctx=71.1033.0.0.1&pos=1&cn=96577"
     ],
-    "Ohio" : [
+    "ohio": [
         "https://www.schantzmakerspace.com/",
         "https://www.ohio.edu/instructional-innovation/initiatives/learning-environments/makerspaces",
         "https://www.ohio.edu/colab/makerspace",
@@ -755,7 +752,7 @@
         "https://themanufactory.us/",
         "https://greenelibrary.info/makerspace/"
     ],
-    "Oklahoma" : [
+    "oklahoma": [
         "https://www.facebook.com/prototekokc/",
         "https://colab-ok.com/",
         "https://colab-ok.com/membership/",
@@ -777,7 +774,7 @@
         "https://enid.okpls.org/programs/open-makerspace/",
         "https://libraries.ou.edu/content/edge"
     ],
-    "Oregon" : [
+    "oregon": [
         "https://business.oregonstate.edu/student-experience/resources/DAMlab",
         "https://library.uoregon.edu/scilib/psc-dearmond-makerspace",
         "https://www.hillsboro-oregon.gov/our-city/departments/library/services/collaboratory-makerspace",
@@ -799,7 +796,7 @@
         "https://www.sthelensoregon.gov/library/page/st-helens-public-library-makerspace",
         "https://www.oregonpubliclibrary.org/pop-up-makerspace"
     ],
-    "Pennsylvania" : [
+    "pennsylvania": [
         "https://www.statelibrary.pa.gov/GeneralPublic/State-Library-Makerspace/Pages/default.aspx",
         "https://www.pct.edu/academics/makerspace",
         "https://www.pct.edu/give/makerspace",
@@ -821,7 +818,7 @@
         "https://pa-gov.libguides.com/c.php?g=1100613&p=8083812",
         "https://chescolibraries.org/using-library/digital-media-lab-and-makerspace"
     ],
-    "Rhode Island" : [
+    "rhode-island": [
         "https://www.facebook.com/RhodeIslandMakerMill/",
         "https://www.oceanstatemakermill.org/",
         "https://guides.rilinkschools.org/FuseRIDSilvaMaker/RIresources",
@@ -843,7 +840,7 @@
         "https://twitter.com/rimakermill?lang=en",
         "https://www.clarklib.org/maker-space"
     ],
-    "South Carolina" : [
+    "south-carolina": [
         "https://www.colamakerspace.com/",
         "https://www.colamakerspace.com/tools.html",
         "https://www.colamakerspace.com/membership.html",
@@ -865,7 +862,7 @@
         "https://www.richlandlibrary.com/makerspace-workshop",
         "https://www.richlandlibrary.com/studio-services"
     ],
-    "South Dakota" : [
+    "south-dakota": [
         "https://www.dakotanewsnow.com/content/news/Brookings-Area-Makerspace-providing-innovators-with-tools-equipment-488047441.html",
         "https://www.kotatv.com/content/news/Makerspace-movement-hits-Rapid-City-with-opening-of-The-Shop-443465483.html",
         "https://wiki.hackerspaces.org/South_Dakota",
@@ -887,7 +884,7 @@
         "https://www.blackhillsfox.com/content/news/Creating-some-CHAOS-with-Rapid-City-Public-Library-396598961.html",
         "https://www.eda.gov/success-stories/innovation-entrepreneurship/stories/nd-state-university.htm"
     ],
-    "Tennessee" : [
+    "tennessee": [
         "http://tn.makerminded.com/activities/visit-makerspace",
         "https://www.attheco.com/makerspace",
         "https://www.lib.utk.edu/hours/spaces/makerspace/",
@@ -909,7 +906,7 @@
         "https://mtsu.libcal.com/reserve/makerspace_training",
         "http://make.xsead.cmu.edu/knowledgebase/spaces/spaces?tagged_on=categories&tagged_with=engineering"
     ],
-    "Texas" : [
+    "texas": [
         "https://dallasmakerspace.org/",
         "https://dallasmakerspace.org/join/",
         "https://dallasmakerspace.org/wiki/Main_Page",
@@ -931,7 +928,7 @@
         "https://walshtx.com/walsh-village/makerspace/",
         "https://dallasinnovates.com/not-sure-which-dfw-makerspace-right-you-heres-your-guide/"
     ],
-    "Utah" : [
+    "utah": [
         "https://makesaltlake.org/",
         "https://www.makesaltlake.org/contact",
         "https://slack.makesaltlake.org/",
@@ -953,7 +950,7 @@
         "https://engineering.usu.edu/students/idea-factory/",
         "https://utdmaker.space/"
     ],
-    "Vermont" : [
+    "vermont": [
         "https://generatorvt.com/",
         "https://generatorvt.com/classes-policies/",
         "https://generatorvt.com/events/",
@@ -975,7 +972,7 @@
         "https://www.reclaimedvermont.org/",
         "https://www.linkedin.com/company/generator-makerspace"
     ],
-    "Virginia" : [
+    "virginia": [
         "https://www.nova-labs.org/",
         "https://www.nova-labs.org/about",
         "https://www.nova-labs.org/contact",
@@ -997,7 +994,7 @@
         "https://library.loudoun.gov/SERVICES/Makerspace",
         "https://library.nnva.gov/219/Makerspace"
     ],
-    "Washington" : [
+    "washington": [
         "https://www.washington.edu/innovation/spaces/",
         "https://hfs.uw.edu/The-MILL/Maker-Space",
         "https://hfs.uw.edu/The-8/Maker-Space",
@@ -1019,7 +1016,7 @@
         "https://innovation.gwu.edu/maker-spaces-campus",
         "https://www.facebook.com/LaceyMakerSpace/"
     ],
-    "West Virginia" : [
+    "west-virginia": [
         "https://www.bridgevalley.edu/bridgevalley-artisan-maker-space",
         "https://launch.wvu.edu/let-us-help/makerlab",
         "https://extension.wvu.edu/news/2019/03/29/wvu-breaks-ground-on-first-dedicated-stem-and-makerspace-facility",
@@ -1041,7 +1038,7 @@
         "https://www.facebook.com/events/wvsu-edc/digiso-makerspace-open-lab/1437648423137601/",
         "http://educationalliance.org/blended-learning/"
     ],
-    "Wisconsin" : [
+    "wisconsin": [
         "https://making.engr.wisc.edu/",
         "https://making.engr.wisc.edu/welcome-to-the-makerspace/hours/",
         "https://making.engr.wisc.edu/3d-printers-2/",
@@ -1063,7 +1060,7 @@
         "https://www.sector67.org/blog/",
         "https://wisconsinmakers.org/about-us/"
     ],
-    "Wyoming" : [
+    "wyoming": [
         "https://www.wyrkshop.org/",
         "http://www.uwyo.edu/coesic/",
         "http://www.uwyo.edu/coesic/4h-makerspace.html",
@@ -1085,4 +1082,4 @@
         "https://www.sweetwaternow.com/uw-launches-statewide-satellite-makerspaces-project/",
         "https://oilcity.news/community/2021/04/29/natrona-librarys-creation-station-reopens-with-new-tools-like-3d-printers-glowforge-laser-cutters-and-more/"
     ]
-}
+};
