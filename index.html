@@ -11,7 +11,7 @@
         integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
     <!-- My CSS -->
     <link rel="stylesheet" type="text/css" href="styles/main.css">
-    <title>findMakerspace()</title>
+    <title>findMakerspace(state)</title>
 </head>
 
 
@@ -417,9 +417,13 @@
                     </div>
                 </div>
 
-                <div class="row m-4">
-                    <h3 id="list-title" class="text-center"></h3>
-                    <div id="space-list">
+                <div class="row m-4 justify-content-center">
+                    <div class="col=auto">
+                        <!-- Title gets updated from script -->
+                        <h3 id="list-title" class="text-center"></h3>
+                        <div id="space-list">
+                            <!-- Lists will show here -->
+                        </div>
                     </div>
                 </div>
 
