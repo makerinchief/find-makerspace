@@ -8,122 +8,113 @@ var makerList = {};
 
 request.onload = function () {
     makerList = request.response;
-    console.log(typeof (makerList));
+    console.log(makerList);
 }
 
-function getMakerList() {
-
-}
-
+// All the state SVGs
 function getStateElements() {
     let states = document.getElementsByClassName("state");
     return states;
 }
 
-var stateIdArr = [];
-
+// Add events to each state SVG
 function addEvents() {
 
     let stateElements = getStateElements();
 
     for (let s in stateElements) {
         let stateId = stateElements[s].id;
-        stateIdArr.push(stateId);
 
         if (stateId != undefined) {
-
+            // Change color of SVG and show state name
             stateElements[s].addEventListener("mouseover", function () {
-                document.getElementById("state-id").textContent = stateId.toUpperCase();
+                document.getElementById("state-title").textContent = formatId(stateId).toUpperCase();
             });
-
+            // Reset state SVG
             stateElements[s].addEventListener("mouseout", function () {
-                document.getElementById("state-id").textContent = "PICK A STATE!";
+                document.getElementById("state-title").textContent = "PICK A STATE!";
             });
-
+            // If clicked, show that state's makerspace list
             stateElements[s].addEventListener("click", function () {
-                console.log("Getting", stateId, "from", makerList);
+                // Remove whatever list was there, if one was there
                 clearList();
+                // Show the new state list
                 updateMakerList(stateId);
             });
         }
     }
-    stateIdArr.sort();
 }
 
-function clearList() {
-    let spaceList = document.getElementById("list-table");
-    // console.log(spaceList.children.length, spaceList.children);
-
-    if (spaceList.children.length >= 1) {
-        // console.log("TOO MANY KIDS!");
-        spaceList.removeChild(spaceList.children[0]);
-    }
-
-    // console.log(spaceList.children.length, spaceList.children);
-}
-
-function updateMakerList(id) {
-
-    console.log(id);
+// Take out the hyphen to display state name and search by key
+function formatId(id) {
     if (id.indexOf('-') >= 0) {
         arr = id.split("-");
         id = arr.join(" ");
     }
+    return id;
+}
 
-    console.log(id);
-    document.getElementById("list-title").innerHTML = id.toUpperCase() + " Makerspaces";
+function clearList() {
+    // Get the elements in the div
+    let spaceList = document.getElementById("list-content");
 
+    // If there are more than two, remove the first one, its the oldest
+    if (spaceList.children.length >= 1) {
+        spaceList.removeChild(spaceList.children[0]);
+    }
+}
+
+function updateMakerList(stateId) {
+
+    stateId = formatId(stateId);
+
+    // Title of the current makerspace list
+    document.getElementById("list-title").innerHTML = stateId.toUpperCase() + " Makerspaces";
+
+    // Create the table to show space names and links
     let table = document.createElement('table');
     table.setAttribute("class", "table table-responsive");
-    table.setAttribute("id", "link-table")
 
     let tableHead = document.createElement('thead');
-    tableHead.setAttribute("id", "link-head");
-    tableHead.setAttribute("class", "justify-content-center");
+    tableHead.setAttribute("class", "text-left");
 
     let tableBody = document.createElement('tbody');
-    tableBody.setAttribute("id", "link-body");
-    tableBody.setAttribute("class", "justify-content-center");
 
     table.appendChild(tableHead);
     table.appendChild(tableBody);
 
-    let tableRow = document.createElement('tr');
-
+    let headingRow = document.createElement('tr');
     let nameHeading = document.createElement('th');
     nameHeading.innerHTML = "NAME";
-    nameHeading.setAttribute("class", "text-center");
+
     let linkHeading = document.createElement('th');
     linkHeading.innerHTML = "LINK";
-    linkHeading.setAttribute("class", "text-center");
 
-    tableRow.appendChild(nameHeading);
-    tableRow.appendChild(linkHeading);
-    tableHead.appendChild(tableRow);
+    headingRow.appendChild(nameHeading);
+    headingRow.appendChild(linkHeading);
+    tableHead.appendChild(headingRow);
 
+    for (let space in makerList[stateId]) {
 
-    for (let link in makerList[id]) {
-        // console.log(makerList[id][link][1]);
+        let bodyRow = document.createElement('tr');
 
-        var linkRow = document.createElement('tr');
-        var linkName = document.createElement('td');
-        linkName.innerHTML = makerList[id][link][0];
+        var spaceName = document.createElement('td');
+        spaceName.innerHTML = makerList[stateId][space][0];
 
-        var linkRowData = document.createElement('td');
+        var spaceLink = document.createElement('td');
         var linkAnchor = document.createElement('a');
+        linkAnchor.innerHTML = makerList[stateId][space][1];
 
-        linkAnchor.innerHTML = makerList[id][link][1];
-        linkAnchor.setAttribute("href", makerList[id][link]);
+        linkAnchor.setAttribute("href", makerList[stateId][space][1]);
         linkAnchor.setAttribute("target", "_blank");
-        // linkRowData.setAttribute("class", "text-center");
 
-        linkRowData.appendChild(linkAnchor);
-        linkRow.appendChild(linkName);
-        linkRow.appendChild(linkRowData);
-        tableBody.appendChild(linkRow);
+        spaceLink.appendChild(linkAnchor);
+        bodyRow.appendChild(spaceName);
+        bodyRow.appendChild(spaceLink);
+        tableBody.appendChild(bodyRow);
     }
 
-    document.getElementById("list-table").appendChild(table);
+    document.getElementById("list-content").appendChild(table);
 
 
 }
@@ -131,60 +122,3 @@ function updateMakerList(id) {
 
 var statesSvg = document.getElementById("us-states");
 statesSvg.onload = addEvents();
-
-
-// Contact Form
-
-// function validateForm() {
-//     // var name = document.getElementById('name').value;
-//     // if (name == "") {
-//     //     document.querySelector('.status').innerHTML = "Name cannot be empty";
-//     //     return false;
-//     // }
-//     // var email = document.getElementById('email').value;
-//     // if (email == "") {
-//     //     document.querySelector('.status').innerHTML = "Email cannot be empty";
-//     //     return false;
-//     // } else {
-//     //     var re = /^(([^<>()\[\]\\.,;:\s@"]+(\.[^<>()\[\]\\.,;:\s@"]+)*)|(".+"))@((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}])|(([a-zA-Z\-0-9]+\.)+[a-zA-Z]{2,}))$/;
-//     //     if (!re.test(email)) {
-//     //         document.querySelector('.status').innerHTML = "Email format invalid";
-//     //         return false;
-//     //     }
-//     // }
-//     // var subject = document.getElementById('subject').value;
-//     // if (subject == "") {
-//     //     document.querySelector('.status').innerHTML = "Subject cannot be empty";
-//     //     return false;
-//     // }
-//     // var message = document.getElementById('message').value;
-//     // if (message == "") {
-//     //     document.querySelector('.status').innerHTML = "Message cannot be empty";
-//     //     return false;
-//     // }
-//     // document.querySelector('.status').innerHTML = "Sending...";
-
-//     document.getElementById('status').innerHTML = "Sending...";
-//     formData = {
-//         'name': $('input[name=name]').val(),
-//         'email': $('input[name=email]').val(),
-//         'subject': $('input[name=subject]').val(),
-//         'message': $('textarea[name=message]').val()
-//     };
-
-
-//     $.ajax({
-//         url: "mail.php",
-//         type: "POST",
-//         data: formData,
-//         success: function (data, textStatus, jqXHR) {
-
-//             $('#status').text(data.message);
-//             if (data.code) //If mail was sent successfully, reset the form.
-//                 $('#contact-form').closest('form').find("input[type=text], textarea").val("");
-//         },
-//         error: function (jqXHR, textStatus, errorThrown) {
-//             $('#status').text(jqXHR);
-//         }
-//     });
-// }

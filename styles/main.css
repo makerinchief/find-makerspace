@@ -2,12 +2,11 @@ body{
     font-family:monospace;
 }
 
-
 /* NAVBAR SECTION */
 .navbar a{
     color:black;
     font-weight:bold;
-    font-size:150%;
+    font-size:200%;
 }
 
 .navbar .navbar-collapse{
@@ -31,19 +30,19 @@ body{
 }
 
 /* MAP SECTION */
-#map-section{
+/* #map-section{
     border: 4px solid blue;
-}
+} */
 
-.map-svg{
+/* .map-svg{
     border: 2px solid orange;
-}
+    margin:10%;
+} */
 
-.state-name{
+#state-title{
     color:black;
-    font-weight:bold;
-    font-size:200%;
-
+    font-weight:bold;    
+    font-size:300%;
 }
 
 .state{
@@ -55,55 +54,53 @@ body{
 }
 
 
-/* LIST SECTION */
-
-#list-header{
-    font-weight:bold;
-    font-size:200%;
-}
+/* Makerspace List Section*/
 
 #list-title{
-    font-weight:bold;
-    font-size:200%;
+    font-weight:bold;    
+    font-size:300%;
 }
 
 table{
-    background-color: #dbdbdb;
-    color:black;
+    /* background-color: #dbdbdb; */
     font-weight:bold;
+    display:inline-block;
 }
 
 thead{
-    background-color: #dbdbdb;
-    color:black;
-    font-weight:bold;
-    font-size:150%;
-    border:4px solid black;
+    background-color: #adacac;
+    color:#2e3192;
+    font-size:200%;
 }
 
-/* tbody{
+tbody{
     background-color: #dbdbdb;
-    color:black;
-    font-weight:bold;
+    color:#9e005d;
     font-size:150%;
     border:2px solid black;
-} */
+}
+
+/* Table Head Text */
 th{
-    /* background-color: #dbdbdb; */
-    color:blue;
-    font-weight:bold;
-    font-size:150%;
     border:2px solid black;
 }
 
+/* Table Data Text */
 td{
-    /* background-color: #dbdbdb; */
-    color:blue;
-    font-weight:bold;
-    font-size:150%;
     border:2px solid black;
+    white-space:nowrap;
 }
 
+#list-content{
+    border:10px solid darkblue;
+}
+
+
+
+
+
+
+/* About and Contact Pages */
 #about-title{
     background-color: #dbdbdb;
     color:blue;
