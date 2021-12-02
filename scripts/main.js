@@ -8,7 +8,7 @@ var makerList = {};
 
 request.onload = function () {
     makerList = request.response;
-    console.log(makerList);
+    console.log(typeof (makerList));
 }
 
 function getMakerList() {
