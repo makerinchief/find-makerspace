@@ -51,7 +51,7 @@ function addEvents() {
 }
 
 function clearList() {
-    let spaceList = document.getElementById("space-list");
+    let spaceList = document.getElementById("list-table");
     // console.log(spaceList.children.length, spaceList.children);
 
     if (spaceList.children.length >= 1) {
@@ -74,16 +74,16 @@ function updateMakerList(id) {
     document.getElementById("list-title").innerHTML = id.toUpperCase() + " Makerspaces";
 
     let table = document.createElement('table');
-    table.setAttribute("class", "table table-responsive border border-4 border-primary");
+    table.setAttribute("class", "table table-responsive");
     table.setAttribute("id", "link-table")
 
     let tableHead = document.createElement('thead');
-    table.setAttribute("id", "link-head");
+    tableHead.setAttribute("id", "link-head");
     tableHead.setAttribute("class", "justify-content-center");
 
     let tableBody = document.createElement('tbody');
-    table.setAttribute("id", "link-body");
-    tableHead.setAttribute("class", "justify-content-center");
+    tableBody.setAttribute("id", "link-body");
+    tableBody.setAttribute("class", "justify-content-center");
 
     table.appendChild(tableHead);
     table.appendChild(tableBody);
@@ -123,7 +123,7 @@ function updateMakerList(id) {
         tableBody.appendChild(linkRow);
     }
 
-    document.getElementById("space-list").appendChild(table);
+    document.getElementById("list-table").appendChild(table);
 
 
 }
@@ -135,56 +135,56 @@ statesSvg.onload = addEvents();
 
 // Contact Form
 
-function validateForm() {
-    // var name = document.getElementById('name').value;
-    // if (name == "") {
-    //     document.querySelector('.status').innerHTML = "Name cannot be empty";
-    //     return false;
-    // }
-    // var email = document.getElementById('email').value;
-    // if (email == "") {
-    //     document.querySelector('.status').innerHTML = "Email cannot be empty";
-    //     return false;
-    // } else {
-    //     var re = /^(([^<>()\[\]\\.,;:\s@"]+(\.[^<>()\[\]\\.,;:\s@"]+)*)|(".+"))@((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}])|(([a-zA-Z\-0-9]+\.)+[a-zA-Z]{2,}))$/;
-    //     if (!re.test(email)) {
-    //         document.querySelector('.status').innerHTML = "Email format invalid";
-    //         return false;
-    //     }
-    // }
-    // var subject = document.getElementById('subject').value;
-    // if (subject == "") {
-    //     document.querySelector('.status').innerHTML = "Subject cannot be empty";
-    //     return false;
-    // }
-    // var message = document.getElementById('message').value;
-    // if (message == "") {
-    //     document.querySelector('.status').innerHTML = "Message cannot be empty";
-    //     return false;
-    // }
-    // document.querySelector('.status').innerHTML = "Sending...";
+// function validateForm() {
+//     // var name = document.getElementById('name').value;
+//     // if (name == "") {
+//     //     document.querySelector('.status').innerHTML = "Name cannot be empty";
+//     //     return false;
+//     // }
+//     // var email = document.getElementById('email').value;
+//     // if (email == "") {
+//     //     document.querySelector('.status').innerHTML = "Email cannot be empty";
+//     //     return false;
+//     // } else {
+//     //     var re = /^(([^<>()\[\]\\.,;:\s@"]+(\.[^<>()\[\]\\.,;:\s@"]+)*)|(".+"))@((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}])|(([a-zA-Z\-0-9]+\.)+[a-zA-Z]{2,}))$/;
+//     //     if (!re.test(email)) {
+//     //         document.querySelector('.status').innerHTML = "Email format invalid";
+//     //         return false;
+//     //     }
+//     // }
+//     // var subject = document.getElementById('subject').value;
+//     // if (subject == "") {
+//     //     document.querySelector('.status').innerHTML = "Subject cannot be empty";
+//     //     return false;
+//     // }
+//     // var message = document.getElementById('message').value;
+//     // if (message == "") {
+//     //     document.querySelector('.status').innerHTML = "Message cannot be empty";
+//     //     return false;
+//     // }
+//     // document.querySelector('.status').innerHTML = "Sending...";
 
-    document.getElementById('status').innerHTML = "Sending...";
-    formData = {
-        'name': $('input[name=name]').val(),
-        'email': $('input[name=email]').val(),
-        'subject': $('input[name=subject]').val(),
-        'message': $('textarea[name=message]').val()
-    };
+//     document.getElementById('status').innerHTML = "Sending...";
+//     formData = {
+//         'name': $('input[name=name]').val(),
+//         'email': $('input[name=email]').val(),
+//         'subject': $('input[name=subject]').val(),
+//         'message': $('textarea[name=message]').val()
+//     };
 
 
-    $.ajax({
-        url: "mail.php",
-        type: "POST",
-        data: formData,
-        success: function (data, textStatus, jqXHR) {
+//     $.ajax({
+//         url: "mail.php",
+//         type: "POST",
+//         data: formData,
+//         success: function (data, textStatus, jqXHR) {
 
-            $('#status').text(data.message);
-            if (data.code) //If mail was sent successfully, reset the form.
-                $('#contact-form').closest('form').find("input[type=text], textarea").val("");
-        },
-        error: function (jqXHR, textStatus, errorThrown) {
-            $('#status').text(jqXHR);
-        }
-    });
-}
+//             $('#status').text(data.message);
+//             if (data.code) //If mail was sent successfully, reset the form.
+//                 $('#contact-form').closest('form').find("input[type=text], textarea").val("");
+//         },
+//         error: function (jqXHR, textStatus, errorThrown) {
+//             $('#status').text(jqXHR);
+//         }
+//     });
+// }

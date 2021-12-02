@@ -88,9 +88,16 @@ thead{
     font-size:150%;
     border:2px solid black;
 } */
+th{
+    /* background-color: #dbdbdb; */
+    color:blue;
+    font-weight:bold;
+    font-size:150%;
+    border:2px solid black;
+}
 
 td{
-    background-color: #dbdbdb;
+    /* background-color: #dbdbdb; */
     color:blue;
     font-weight:bold;
     font-size:150%;
