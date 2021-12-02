@@ -1,4 +1,4 @@
-let requestURL = 'https://raw.githubusercontent.com/intern-jck/findMakerspace/main/assets/spaceList.json';
+let requestURL = 'https://raw.githubusercontent.com/intern-jck/findMakerspace/main/assets/json/spaceList.json';
 let request = new XMLHttpRequest();
 request.open('GET', requestURL);
 request.responseType = 'json';
