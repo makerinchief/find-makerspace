@@ -8,54 +8,41 @@ var makerList = {};
 
 request.onload = function () {
     makerList = request.response;
-    console.log(makerList);
+    // console.log(makerList);
 }
 
 let mySvg = document.getElementById("us-map");
-mySvg.onload = addEvents();
-
+mySvg.onload = getStates();
 
 // All the state SVGs
-function getStateElements() {
-    let states = document.getElementsByClassName("state");
-    return states;
+function getStates() {
+    // Get each state path
+    let svgPaths = document.getElementById("us-map").children;
+    // Add the events to it
+    for (let i = 0; i < svgPaths.length; i++) {
+        // console.log(svgPaths[i]);
+        addEvent(svgPaths[i]);
+    }
 }
 
 // Add events to each state SVG
-function addEvents() {
+function addEvent(element) {
 
-    let stateElements = getStateElements();
+    // let stateElements = getStates();
 
-    for (let s in stateElements) {
-        let stateId = stateElements[s].id;
+    element.addEventListener("mouseover", function () {
+        document.getElementById("state-title").textContent = formatId(element.id).toUpperCase();
+    });
+    // Reset state SVG
+    element.addEventListener("mouseout", function () {
+        document.getElementById("state-title").textContent = "PICK A STATE!";
+    });
+    // If clicked, show that state's makerspace list
+    element.addEventListener("click", function () {
+        // Show the new state list
+        updateMakerList(element.id);
+    });
 
-        if (stateId != undefined) {
-            // Change color of SVG and show state name
-            stateElements[s].addEventListener("mouseover", function () {
-                document.getElementById("state-title").textContent = formatId(stateId).toUpperCase();
-            });
-            // Reset state SVG
-            stateElements[s].addEventListener("mouseout", function () {
-                document.getElementById("state-title").textContent = "PICK A STATE!";
-            });
-            // If clicked, show that state's makerspace list
-            stateElements[s].addEventListener("click", function () {
-                // Remove whatever list was there, if one was there
-                clearList();
-                // Show the new state list
-                updateMakerList(stateId);
-            });
-        }
-    }
-}
-
-// Take out the hyphen to display state name and search by key
-function formatId(id) {
-    if (id.indexOf('-') >= 0) {
-        arr = id.split("-");
-        id = arr.join(" ");
-    }
-    return id;
 }
 
 function clearList() {
@@ -69,8 +56,7 @@ function clearList() {
 }
 
 function updateMakerList(stateId) {
-
-    // stateId = formatId(stateId);
+    clearList();
 
     // Title of the current makerspace list
     document.getElementById("list-title").innerHTML = stateId.toUpperCase() + " Makerspaces";
@@ -119,7 +105,5 @@ function updateMakerList(stateId) {
     }
 
     document.getElementById("list-content").appendChild(table);
-
-
 }
 

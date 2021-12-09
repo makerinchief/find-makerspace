@@ -17,7 +17,7 @@ body{
 
 .navbar-toggler-icon{
     border: 4px solid black;
-    background-color:blue;
+    background-color:#2e3192;
 }
 
 .navbar-toggler{
@@ -28,16 +28,6 @@ body{
 .dropdown-menu{
     background-color:#dbdbdb;
 }
-
-/* MAP SECTION */
-/* #map-section{
-    border: 4px solid blue;
-} */
-
-/* .map-svg{
-    border: 2px solid orange;
-    margin:10%;
-} */
 
 #state-title{
     background-color: #dbdbdb;
@@ -50,15 +40,13 @@ body{
 }
 
 
-
 /* SVG Styles */
-
 
 .cls-1,
 .cls-2,
 .cls-3,
 .cls-4 {
-  stroke: #000;
+  stroke: black;
 }
 
 .cls-1,
@@ -80,6 +68,7 @@ body{
 .cls-3:hover,
 .cls-4:hover {
   fill: black;
+  cursor:pointer;
 }
 
 .cls-1 {
@@ -172,28 +161,7 @@ td{
 }
 
 #github-link{
-    color:blue;
+    color:#2e3192;
     font-weight:bold;
     font-size:200%;
-}
-
-.js-validate-error-label{
-    color:red;
-}
-
-#fcf-form{
-    color:black;
-    font-weight:bold;
-    font-size:150%;
-}
-
-.fcf-body{
-    background-color: #dbdbdb;
-    border:2px solid black;
-    border:2 solid black;
-    width:auto;
-    margin:auto;
-}
-.fcf-button{
-    font-weight:bold;
 }
