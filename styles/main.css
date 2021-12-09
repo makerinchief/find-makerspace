@@ -165,3 +165,16 @@ td{
     font-weight:bold;
     font-size:200%;
 }
+
+.btn {
+    border:2px solid black;
+    background-color:#009245;
+    font-weight:bold;
+    font-size:200%;
+    color:black;
+}
+
+#btn-title{    
+    font-weight:bold;
+    font-size:200%;
+}
