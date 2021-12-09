@@ -49,13 +49,55 @@ body{
     margin:auto;
 }
 
-.state{
-    pointer-events:visibleFill; 
+
+
+/* SVG Styles */
+
+
+.cls-1,
+.cls-2,
+.cls-3,
+.cls-4 {
+  stroke: #000;
 }
 
-.state:hover{
-    fill:black;
+.cls-1,
+.cls-2,
+.cls-3,
+.cls-4 {
+  stroke-miterlimit: 50;
 }
+
+.cls-1,
+.cls-2,
+.cls-3,
+.cls-4 {
+  pointer-events: visibleFill;
+}
+
+.cls-1:hover,
+.cls-2:hover,
+.cls-3:hover,
+.cls-4:hover {
+  fill: black;
+}
+
+.cls-1 {
+  fill: #ed1c24;
+}
+
+.cls-2 {
+  fill: #2e3192;
+}
+
+.cls-3 {
+  fill: #9e005d;
+}
+
+.cls-4 {
+  fill: #009245;
+}
+
 
 
 /* Makerspace List Section*/

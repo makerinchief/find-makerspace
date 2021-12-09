@@ -11,6 +11,10 @@ request.onload = function () {
     console.log(makerList);
 }
 
+let mySvg = document.getElementById("us-map");
+mySvg.onload = addEvents();
+
+
 // All the state SVGs
 function getStateElements() {
     let states = document.getElementsByClassName("state");
@@ -66,7 +70,7 @@ function clearList() {
 
 function updateMakerList(stateId) {
 
-    stateId = formatId(stateId);
+    // stateId = formatId(stateId);
 
     // Title of the current makerspace list
     document.getElementById("list-title").innerHTML = stateId.toUpperCase() + " Makerspaces";
@@ -119,6 +123,3 @@ function updateMakerList(stateId) {
 
 }
 
-
-var statesSvg = document.getElementById("us-states");
-statesSvg.onload = addEvents();
