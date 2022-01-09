@@ -26,21 +26,25 @@ function getStates() {
 }
 
 // Add events to each state SVG
-function addEvent(element) {
+function addEvent(state) {
 
     // let stateElements = getStates();
+    // console.log(state.id)
 
+    element = document.getElementById(state.id);
+
+    // console.log(element);
     element.addEventListener("mouseover", function () {
-        document.getElementById("state-title").textContent = formatId(element.id).toUpperCase();
+        document.getElementById("state-title").textContent = state.id.toUpperCase();
     });
-    // Reset state SVG
+    // // Reset state SVG
     element.addEventListener("mouseout", function () {
         document.getElementById("state-title").textContent = "PICK A STATE!";
     });
-    // If clicked, show that state's makerspace list
+    // // If clicked, show that state's makerspace list
     element.addEventListener("click", function () {
         // Show the new state list
-        updateMakerList(element.id);
+        updateMakerList(state.id);
     });
 
 }
@@ -105,5 +109,6 @@ function updateMakerList(stateId) {
     }
 
     document.getElementById("list-content").appendChild(table);
+    document.getElementById("list-title").scrollIntoView();
 }
 
