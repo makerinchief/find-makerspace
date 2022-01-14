@@ -29,12 +29,12 @@ body{
     background-color:#dbdbdb;
 }
 
+
+/* Body */
 #state-title{
-    background-color: #dbdbdb;
     color:black;
     font-weight:bold;
-    font-size:300%;
-    border:2px solid black;
+    font-size:250%;
     width:auto;
     margin:auto;
 }
@@ -95,40 +95,26 @@ body{
     background-color: #dbdbdb;
     color:black;
     font-weight:bold;
-    font-size:300%;
     border:4px solid black;
     width:auto;
     margin:auto;
 }
 
-table{
-    /* background-color: #dbdbdb; */
+.space-name{
     font-weight:bold;
-    display:inline-block;
+
 }
 
-thead{
-    background-color: #adacac;
+.list-col{
+    border:2px solid red;
+}
+
+.space-name{
+    color:#009245;
+}
+.space-link{
     color:#2e3192;
-    font-size:200%;
-}
-
-tbody{
-    background-color: #dbdbdb;
-    color:#9e005d;
-    font-size:150%;
-    border:2px solid black;
-}
-
-/* Table Head Text */
-th{
-    border:2px solid black;
-}
-
-/* Table Data Text */
-td{
-    border:2px solid black;
-    white-space:nowrap;
+word-wrap:break-word;
 }
 
 /* About and Contact Pages */
@@ -141,6 +127,7 @@ td{
     width:auto;
     margin:auto;
 }
+
 #about-text{
     background-color: #dbdbdb;
     color:color;
