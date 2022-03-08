@@ -41,10 +41,12 @@ function addEvent(state) {
     element.addEventListener("mouseout", function () {
         document.getElementById("state-title").textContent = "PICK A STATE!";
     });
+
     // // If clicked, show that state's makerspace list
     element.addEventListener("click", function () {
         // Show the new state list
         updateMakerList(state.id);
+        window.scrollBy(0, 400);
     });
 
 }
@@ -61,18 +63,18 @@ function clearList() {
 
 function updateMakerList(stateId) {
 
-    document.getElementById("list-content").scrollIntoView();
+    let listContent = document.getElementById("list-content");
+    //listContent.scrollIntoView(true);
+    //window.scrollBy(0, 400);
+    //location.href = '#list-content';
+    // document.getElementById("list-content").scrollIntoView();
+
     // Title of the current makerspace list
     document.getElementById("list-title").innerHTML = stateId.toUpperCase() + " Makerspaces";
-
-    let listContent = document.getElementById("list-content");
 
     while (listContent.firstChild) {
         listContent.removeChild(listContent.firstChild);
     }
-
-
-
 
     for (let space in makerList[stateId]) {
         // let listContentCol = document.createElement("div");
