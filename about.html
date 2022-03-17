@@ -2,69 +2,154 @@
 <html lang="en">
 
 <head>
-    <!-- Required meta tags -->
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>findMakerspace(state)</title>
 
-    <!-- Bootstrap CSS -->
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
-        integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
-    <!-- My CSS -->
-    <link rel="stylesheet" type="text/css" href="styles/main.css">
-    <title>findMakerspace(state)</title>
+    <!-- Font Awesome Icons -->
+    <script src="https://kit.fontawesome.com/cdcc65decb.js" crossorigin="anonymous"></script>
+
+  <!-- Bootstrap CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+
+  <!-- Bootstrap JavaScript -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"
+    defer></script>
+
+    <!-- EmailJS -->
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"
+        defer></script>
+    <!-- <script src="scripts/emailjs.js" defer></script> -->
+
+  <!-- My CSS -->
+  <link rel="stylesheet" type="text/css" href="styles/main.css">
+
+  <!-- My Script -->
+  <!-- <script src="scripts/main.js" defer></script> -->
+
 </head>
-
 
 <body>
 
-    <header>
+  <nav class="navbar navbar-expand-lg" aria-label="site-nav">
+    <div class="container">
 
-        <nav class="navbar navbar-expand-md" aria-label="site nav">
+      <a class="navbar-brand" href="index.html">findMakerspace()</a>
+      <a href="https://github.com/intern-jck/find-makerspace" target="_blank"><i class="fab fa-github fa-2x"></i></a>
 
-            <div class="container">
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#site-navbar"
+        aria-controls="site-navbar" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
 
-                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#siteNavbar"
-                    aria-controls="siteNavbar" aria-expanded="false" aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
-                </button>
+      <div class="collapse navbar-collapse justify-content-end" id="site-navbar">
+        <ul class="navbar-nav">
 
-                <div class="collapse navbar-collapse justify-content-center" id="siteNavbar">
+          <li class="nav-item fs-3 fw-bold">
+            <a class="nav-link active" href="about.html">About</a>
+          </li>
 
-                    <ul class="navbar-nav">
-                        <li class="nav-item">
-                            <a class="nav-link" href="index.html">Home</a>
-                        </li>
+          <li class="nav-item fs-3 fw-bold">
+            <a class="nav-link" href="contact.html">Contact</a>
+          </li>
 
-                        <li class="nav-item">
-                            <a class="nav-link active" aria-current="page" href="about.html">About</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="contact.html">Contact</a>
-                        </li>
+        </ul>
+      </div>
 
-                    </ul>
-                </div>
-            </div>
-        </nav>
-    </header>
+    </div>
+  </nav>
 
-    <section id="about-section" class="m-4">
-        <div class="container">
-            <div class="row m-4 gx-4 justify-content-center">
-                <h2 id="about-title" class="text-center p-2">ABOUT</h2>
-                <p id="about-text" class="p-2 m-4">I created this site to be a fun tool to find US based makerspaces.
-                    It's a work in progress and my first attempt at a real page. I used a Python script to scrape Google
-                    searches and Javascript to create the interactive map. Check out the contact page for a link to the
-                    Github repo.</p>
-            </div>
-        </div>
-    </section>
 
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
-        integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
-        crossorigin="anonymous"></script>
+  <div class="container">
+    <div class="row flex-column m-4">
 
-    <script src="scripts/main.js"></script>
+      <div class="col-8 mx-auto">
+        <h1 class="page-title text-center fw-bold">ABOUT</h1>
+      </div>
+
+      <div class="col-10 mx-auto">
+        <p class="mt-4 fs-3">
+          I created this site to be a fun tool to find US based makerspaces.
+          It's a work in progress and my first attempt at a web app.
+          I used the Python script below to search for makerspaces for each state in the US.
+        </p>
+      </div>
+
+      <div class="col mx-auto border border-4 border-dark">
+        <pre class="pre-scrollable">
+from requests import get
+from bs4 import BeautifulSoup
+import json
+from time import sleep
+# Needed?
+# import os
+
+state_list = [ #String for every state ]
+
+maker_list = {}
+
+# Filter results to find only title and urls of links for search results
+def filter_results(raw_html):
+    soup = BeautifulSoup(raw_html, "html.parser")
+    result_block = soup.find_all("div", attrs={"class": "g"})
+    search_results = []
+    for result in result_block:
+        link = result.find("a", href=True)
+        title = result.find("h3")
+        if link and title:
+            # print(f"FOUND:\nTITLE: {title.text} \nLINK: {link['href']}")
+            arr = [title.text, link["href"]]
+            search_results.append(arr)
+
+    return search_results
+
+# Create a url for a give string
+# Request response from url for a given number of results
+def search_google(state, num_results):
+    user_agent = {
+        "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) "
+        "Chrome/61.0.3163.100 Safari/537.36"
+    }
+
+    search_term = state + "+makerspace"
+    google_url = "https://www.google.com/search?q={}&num={}&hl={}".format(
+        search_term, num_results, "en"
+    )
+    print(google_url)
+    response = get(google_url, headers=user_agent, proxies=None)
+    response.raise_for_status()
+    return response.text
+
+# Search all the states in the list
+# Add the title and url to each state in the json file
+for state in state_list:
+    print(f"Finding spaces in {state}")
+    state_spaces = filter_results(search_google(state, 25))
+    maker_list[state] = state_spaces
+
+    print(f"Saving {state} to JSON...")
+    with open("./py-scripts/spaceList.json", "r+") as json_file:
+        json.dump(maker_list, json_file)
+    sleep(4)
+
+        </pre>
+
+      </div>
+
+      <div class="col-10 mx-auto">
+        <p class="mt-4 fs-3">
+          I scraped the results to grab names and websites for each makerspace.
+          Results are saved to a json file which I later cleaned up each title and verified each link manually.
+          JavaScript is used to create the interactive map.
+          Check out the GitHub repo for Python sketch and webpage files.
+        </p>
+      </div>
+
+    </div>
+  </div>
 
 </body>
 

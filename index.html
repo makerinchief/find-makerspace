@@ -5,6 +5,10 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>findMakerspace(state)</title>
+
+    <!-- Font Awesome Icons -->
+    <script src="https://kit.fontawesome.com/cdcc65decb.js" crossorigin="anonymous"></script>
 
   <!-- Bootstrap CSS -->
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
@@ -15,133 +19,137 @@
     integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"
     defer></script>
 
+    <!-- EmailJS -->
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"
+        defer></script>
+    <!-- <script src="scripts/emailjs.js" defer></script> -->
+
   <!-- My CSS -->
   <link rel="stylesheet" type="text/css" href="styles/main.css">
+
   <!-- My Script -->
   <script src="scripts/main.js" defer></script>
 
-  <title>findMakerspace(state)</title>
 </head>
-
 
 <body>
 
-  <header>
-    <nav class="navbar navbar-expand-md" aria-label="site nav">
+  <nav class="navbar navbar-expand-lg" aria-label="site-nav">
+    <div class="container">
 
-      <div class="container">
+      <a class="navbar-brand" href="index.html">findMakerspace()</a>
+      <a href="https://github.com/intern-jck/find-makerspace" target="_blank"><i class="fab fa-github fa-2x"></i></a>
 
-        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#siteNavbar"
-          aria-controls="siteNavbar" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
-        </button>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#site-navbar"
+        aria-controls="site-navbar" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
 
-        <div class="collapse navbar-collapse justify-content-center" id="siteNavbar">
+      <div class="collapse navbar-collapse justify-content-end" id="site-navbar">
+        <ul class="navbar-nav">
 
-          <ul class="navbar-nav">
-            <li class="nav-item">
-              <a class="nav-link active" aria-current="page" href="index.html">Home</a>
-            </li>
+          <li class="nav-item fs-3 fw-bold">
+            <a class="nav-link" href="about.html">About</a>
+          </li>
 
-            <li class="nav-item">
-              <a class="nav-link" href="about.html">About</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="contact.html">Contact</a>
-            </li>
-            <li class="nav-item dropdown">
-              <a class="nav-link dropdown-toggle" href="#" id="state-dropdown" data-bs-toggle="dropdown"
-                aria-expanded="false">States</a>
-              <ul class="dropdown-menu" aria-labelledby="state-dropdown">
+          <li class="nav-item fs-3 fw-bold">
+            <a class="nav-link" href="contact.html">Contact</a>
+          </li>
 
-                <li><a class="dropdown-item" href="#space-list" onclick="updateMakerList('alabama')">Alabama</a></li>
-                <li><a class="dropdown-item" href="#space-list" onclick="updateMakerList('alaska')">Alaska</a></li>
-                <li><a class="dropdown-item" href="#space-list" onclick="updateMakerList('arizona')">Arizona</a></li>
-                <li><a class="dropdown-item" href="#space-list" onclick="updateMakerList('arkansas')">Arkansas</a></li>
-                <li><a class="dropdown-item" href="#space-list" onclick="updateMakerList('california')">California</a>
-                </li>
+          <li class="nav-item dropdown fs-3 fw-bold">
+            <a class="nav-link dropdown-toggle" href="#" data-bs-toggle="dropdown"
+              aria-expanded="false">States</a>
+            <ul id="state-dropdown-menu" class="dropdown-menu fs-3" aria-labelledby="state-dropdown">
 
-                <li><a class="dropdown-item" href="#space-list" onclick="updateMakerList('colorado')">Colorado</a></li>
-                <li><a class="dropdown-item" href="#space-list" onclick="updateMakerList('connecticut')">Connecticut</a>
-                </li>
-                <li><a class="dropdown-item" href="#space-list" onclick="updateMakerList('delaware')">Delaware</a></li>
-                <li><a class="dropdown-item" href="#space-list" onclick="updateMakerList('florida')">Florida</a></li>
-                <li><a class="dropdown-item" href="#space-list" onclick="updateMakerList('georgia')">Georgia</a></li>
-                <li><a class="dropdown-item" href="#space-list" onclick="updateMakerList('hawaii')">Hawaii</a></li>
-                <li><a class="dropdown-item" href="#space-list" onclick="updateMakerList('idaho')">Idaho</a></li>
-                <li><a class="dropdown-item" href="#space-list" onclick="updateMakerList('illinois')">Illinois</a></li>
-                <li><a class="dropdown-item" href="#space-list" onclick="updateMakerList('indiana')">Indiana</a></li>
-                <li><a class="dropdown-item" href="#space-list" onclick="updateMakerList('iowa')">Iowa</a></li>
-                <li><a class="dropdown-item" href="#space-list" onclick="updateMakerList('kansas')">Kansas</a></li>
-                <li><a class="dropdown-item" href="#space-list" onclick="updateMakerList('kentucky')">Kentucky</a></li>
-                <li><a class="dropdown-item" href="#space-list" onclick="updateMakerList('louisiana')">Louisiana</a>
-                </li>
-                <li><a class="dropdown-item" href="#space-list" onclick="updateMakerList('maine')">Maine</a></li>
-                <li><a class="dropdown-item" href="#space-list" onclick="updateMakerList('maryland')">Maryland</a></li>
-                <li><a class="dropdown-item" href="#space-list"
-                    onclick="updateMakerList('massachusetts')">Massachusetts</a></li>
-                <li><a class="dropdown-item" href="#space-list" onclick="updateMakerList('michigan')">Michigan</a></li>
-                <li><a class="dropdown-item" href="#space-list" onclick="updateMakerList('minnesota')">Minnesota</a>
-                </li>
-                <li><a class="dropdown-item" href="#space-list" onclick="updateMakerList('mississippi')">Mississippi</a>
-                </li>
-                <li><a class="dropdown-item" href="#space-list" onclick="updateMakerList('missouri')">Missouri</a></li>
-                <li><a class="dropdown-item" href="#space-list" onclick="updateMakerList('montana')">Montana</a></li>
-                <li><a class="dropdown-item" href="#space-list" onclick="updateMakerList('nebraska')">Nebraska</a></li>
-                <li><a class="dropdown-item" href="#space-list" onclick="updateMakerList('nevada')">Nevada</a></li>
-                <li><a class="dropdown-item" href="#space-list" onclick="updateMakerList('new-hampshire')">New
-                    Hampshire</a></li>
-                <li><a class="dropdown-item" href="#space-list" onclick="updateMakerList('new-jersey')">New Jersey</a>
-                </li>
-                <li><a class="dropdown-item" href="#space-list" onclick="updateMakerList('new-mexico')">New Mexico</a>
-                </li>
-                <li><a class="dropdown-item" href="#space-list" onclick="updateMakerList('new-york')">New York</a></li>
-                <li><a class="dropdown-item" href="#space-list" onclick="updateMakerList('north-carolina')">North
-                    Carolina</a></li>
-                <li><a class="dropdown-item" href="#space-list" onclick="updateMakerList('borth-dakota')">North
-                    Dakota</a></li>
-                <li><a class="dropdown-item" href="#space-list" onclick="updateMakerList('ohio')">Ohio</a></li>
-                <li><a class="dropdown-item" href="#space-list" onclick="updateMakerList('oklahoma')">Oklahoma</a></li>
-                <li><a class="dropdown-item" href="#space-list" onclick="updateMakerList('oregon')">Oregon</a></li>
-                <li><a class="dropdown-item" href="#space-list"
-                    onclick="updateMakerList('pennsylvania')">Pennsylvania</a></li>
-                <li><a class="dropdown-item" href="#space-list" onclick="updateMakerList('rhode-island')">Rhode
-                    Island</a></li>
-                <li><a class="dropdown-item" href="#space-list" onclick="updateMakerList('south-carolina')">South
-                    Carolina</a></li>
-                <li><a class="dropdown-item" href="#space-list" onclick="updateMakerList('south-dakota')">South
-                    Dakota</a></li>
-                <li><a class="dropdown-item" href="#space-list" onclick="updateMakerList('tennessee')">Tennessee</a>
-                </li>
-                <li><a class="dropdown-item" href="#space-list" onclick="updateMakerList('texas')">Texas</a></li>
-                <li><a class="dropdown-item" href="#space-list" onclick="updateMakerList('utah')">Utah</a></li>
-                <li><a class="dropdown-item" href="#space-list" onclick="updateMakerList('vermont')">Vermont</a></li>
-                <li><a class="dropdown-item" href="#space-list" onclick="updateMakerList('virginia')">Virginia</a></li>
-                <li><a class="dropdown-item" href="#space-list" onclick="updateMakerList('washington')">Washington</a>
-                </li>
-                <li><a class="dropdown-item" href="#space-list" onclick="updateMakerList('west-virginia')">West
-                    Virginia</a></li>
-                <li><a class="dropdown-item" href="#space-list" onclick="updateMakerList('wisconsin')">Wisconsin</a>
-                </li>
-                <li><a class="dropdown-item" href="#space-list" onclick="updateMakerList('wyoming')">Wyoming</a></li>
-              </ul>
-            </li>
-          </ul>
-        </div>
+              <li><a class="dropdown-item" href="#space-list" onclick="updateMakerList('alabama')">Alabama</a></li>
+              <li><a class="dropdown-item" href="#space-list" onclick="updateMakerList('alaska')">Alaska</a></li>
+              <li><a class="dropdown-item" href="#space-list" onclick="updateMakerList('arizona')">Arizona</a></li>
+              <li><a class="dropdown-item" href="#space-list" onclick="updateMakerList('arkansas')">Arkansas</a></li>
+              <li><a class="dropdown-item" href="#space-list" onclick="updateMakerList('california')">California</a>
+              </li>
+
+              <li><a class="dropdown-item" href="#space-list" onclick="updateMakerList('colorado')">Colorado</a></li>
+              <li><a class="dropdown-item" href="#space-list" onclick="updateMakerList('connecticut')">Connecticut</a>
+              </li>
+              <li><a class="dropdown-item" href="#space-list" onclick="updateMakerList('delaware')">Delaware</a></li>
+              <li><a class="dropdown-item" href="#space-list" onclick="updateMakerList('florida')">Florida</a></li>
+              <li><a class="dropdown-item" href="#space-list" onclick="updateMakerList('georgia')">Georgia</a></li>
+              <li><a class="dropdown-item" href="#space-list" onclick="updateMakerList('hawaii')">Hawaii</a></li>
+              <li><a class="dropdown-item" href="#space-list" onclick="updateMakerList('idaho')">Idaho</a></li>
+              <li><a class="dropdown-item" href="#space-list" onclick="updateMakerList('illinois')">Illinois</a></li>
+              <li><a class="dropdown-item" href="#space-list" onclick="updateMakerList('indiana')">Indiana</a></li>
+              <li><a class="dropdown-item" href="#space-list" onclick="updateMakerList('iowa')">Iowa</a></li>
+              <li><a class="dropdown-item" href="#space-list" onclick="updateMakerList('kansas')">Kansas</a></li>
+              <li><a class="dropdown-item" href="#space-list" onclick="updateMakerList('kentucky')">Kentucky</a></li>
+              <li><a class="dropdown-item" href="#space-list" onclick="updateMakerList('louisiana')">Louisiana</a>
+              </li>
+              <li><a class="dropdown-item" href="#space-list" onclick="updateMakerList('maine')">Maine</a></li>
+              <li><a class="dropdown-item" href="#space-list" onclick="updateMakerList('maryland')">Maryland</a></li>
+              <li><a class="dropdown-item" href="#space-list"
+                  onclick="updateMakerList('massachusetts')">Massachusetts</a></li>
+              <li><a class="dropdown-item" href="#space-list" onclick="updateMakerList('michigan')">Michigan</a></li>
+              <li><a class="dropdown-item" href="#space-list" onclick="updateMakerList('minnesota')">Minnesota</a>
+              </li>
+              <li><a class="dropdown-item" href="#space-list" onclick="updateMakerList('mississippi')">Mississippi</a>
+              </li>
+              <li><a class="dropdown-item" href="#space-list" onclick="updateMakerList('missouri')">Missouri</a></li>
+              <li><a class="dropdown-item" href="#space-list" onclick="updateMakerList('montana')">Montana</a></li>
+              <li><a class="dropdown-item" href="#space-list" onclick="updateMakerList('nebraska')">Nebraska</a></li>
+              <li><a class="dropdown-item" href="#space-list" onclick="updateMakerList('nevada')">Nevada</a></li>
+              <li><a class="dropdown-item" href="#space-list" onclick="updateMakerList('new-hampshire')">New
+                  Hampshire</a></li>
+              <li><a class="dropdown-item" href="#space-list" onclick="updateMakerList('new-jersey')">New Jersey</a>
+              </li>
+              <li><a class="dropdown-item" href="#space-list" onclick="updateMakerList('new-mexico')">New Mexico</a>
+              </li>
+              <li><a class="dropdown-item" href="#space-list" onclick="updateMakerList('new-york')">New York</a></li>
+              <li><a class="dropdown-item" href="#space-list" onclick="updateMakerList('north-carolina')">North
+                  Carolina</a></li>
+              <li><a class="dropdown-item" href="#space-list" onclick="updateMakerList('borth-dakota')">North
+                  Dakota</a></li>
+              <li><a class="dropdown-item" href="#space-list" onclick="updateMakerList('ohio')">Ohio</a></li>
+              <li><a class="dropdown-item" href="#space-list" onclick="updateMakerList('oklahoma')">Oklahoma</a></li>
+              <li><a class="dropdown-item" href="#space-list" onclick="updateMakerList('oregon')">Oregon</a></li>
+              <li><a class="dropdown-item" href="#space-list"
+                  onclick="updateMakerList('pennsylvania')">Pennsylvania</a></li>
+              <li><a class="dropdown-item" href="#space-list" onclick="updateMakerList('rhode-island')">Rhode
+                  Island</a></li>
+              <li><a class="dropdown-item" href="#space-list" onclick="updateMakerList('south-carolina')">South
+                  Carolina</a></li>
+              <li><a class="dropdown-item" href="#space-list" onclick="updateMakerList('south-dakota')">South
+                  Dakota</a></li>
+              <li><a class="dropdown-item" href="#space-list" onclick="updateMakerList('tennessee')">Tennessee</a>
+              </li>
+              <li><a class="dropdown-item" href="#space-list" onclick="updateMakerList('texas')">Texas</a></li>
+              <li><a class="dropdown-item" href="#space-list" onclick="updateMakerList('utah')">Utah</a></li>
+              <li><a class="dropdown-item" href="#space-list" onclick="updateMakerList('vermont')">Vermont</a></li>
+              <li><a class="dropdown-item" href="#space-list" onclick="updateMakerList('virginia')">Virginia</a></li>
+              <li><a class="dropdown-item" href="#space-list" onclick="updateMakerList('washington')">Washington</a>
+              </li>
+              <li><a class="dropdown-item" href="#space-list" onclick="updateMakerList('west-virginia')">West
+                  Virginia</a></li>
+              <li><a class="dropdown-item" href="#space-list" onclick="updateMakerList('wisconsin')">Wisconsin</a>
+              </li>
+              <li><a class="dropdown-item" href="#space-list" onclick="updateMakerList('wyoming')">Wyoming</a></li>
+            </ul>
+          </li>
+
+        </ul>
       </div>
-    </nav>
-  </header>
 
-  <!-- US Map -->
+    </div>
+  </nav>
+
   <div class="container-fluid">
 
-    <div class="row">
-      <h1 id="state-title" class="p-2 text-center fs-2">PICK A STATE!</h1>
+    <div class="row mt-5 mb-2">
+      <h1 id="state-title" class="page-title text-center fw-bold">PICK A STATE!</h1>
     </div>
 
+    <!-- SVG MAP  -->
     <div class="row">
-      <div class="col-8 mx-auto p-4 border border-4 border-dark">
-        <!-- SVG MAP  -->
+      <div class="col-8 mx-auto">
+        <!-- Each state is a seperate svg -->
         <svg id="us-map" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 670.1 367.18">
 
           <g id="wyoming">
@@ -399,8 +407,9 @@
     </div>
 
     <div class="row">
-      <h2 id="list-title" class="text-center p-2 mt-4"></h2>
+      <h2 id="list-title" class="text-center mt-5 fw-bold"></h2>
       <div id="list-content" class="p-4">
+        <!-- The table listing the names and links of makerspaces gets made in main.js -->
       </div>
     </div>
 

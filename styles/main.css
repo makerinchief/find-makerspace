@@ -1,65 +1,81 @@
+:root {
+  --bg-color:white;
+  --nav-font-color: black;
+  --font-color:black;
+  --nav-bg-color:#dbdbdb;
+  --icon-color:black;
+  --border-color:black;
+
+  --state-1-color:#ed1c24;
+  --state-2-color:#2e3192;
+  --state-3-color:#9e005d;
+  --state-4-color:#009245;
+  --state-fill-color:black;
+  --state-stroke-color:black;
+
+  --active-color:var(--state-4-color);
+}
+
 body{
-    font-family:monospace;
+  background-color: var(--bg-color);
+  font-family:monospace;
+  font-size: 100%;
 }
 
 /* NAVBAR SECTION */
-.navbar a{
-    color:black;
-    font-weight:bold;
-    font-size:200%;
+.navbar {
+    background-color:var(--nav-bg-color);
+    border:4px solid var(--border-color);
 }
 
-.navbar .navbar-collapse{
-    text-align:center;
-    background-color:#dbdbdb;
-    border: 4px solid black;
+.navbar-brand {
+  color:var(--icon-color);
+  font-weight:bold;
+  font-size:200%;
 }
 
-.navbar-toggler-icon{
-    border: 4px solid black;
-    background-color:#2e3192;
-}
-
-.navbar-toggler{
-    border: 4px solid black;
-    background-color:#dbdbdb;
+.navbar i {
+  color:var(--icon-color);
 }
 
 .dropdown-menu{
-    background-color:#dbdbdb;
+  background-color:var(--nav-bg-color);
 }
 
-
-/* Body */
-#state-title{
-    color:black;
-    font-weight:bold;
-    font-size:250%;
-    width:auto;
-    margin:auto;
+.nav-link,
+.dropdown-item {
+  color:var(--font-color);
 }
 
+.nav-link .active {
+  color:var(--active-color);
+}
+
+.navbar i:hover,
+.nav-link:hover,
+.navbar-brand:hover,
+.dropdown-item:hover {
+  color:var(--active-color);
+  cursor:pointer;
+  background-color:var(--nav-bg-color);
+}
+
+.navbar-toggler-icon{
+  background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3e%3cpath stroke='rgba%280, 0, 0, 1%29' stroke-linecap='round' stroke-miterlimit='10' stroke-width='4' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e");
+}
+
+/* PAGE */
+.page-title {
+  color:var(--font-color);
+}
 
 /* SVG Styles */
-
 .cls-1,
 .cls-2,
 .cls-3,
 .cls-4 {
-  stroke: black;
-}
-
-.cls-1,
-.cls-2,
-.cls-3,
-.cls-4 {
+  stroke: var(--state-stroke-color);
   stroke-miterlimit: 50;
-}
-
-.cls-1,
-.cls-2,
-.cls-3,
-.cls-4 {
   pointer-events: visibleFill;
 }
 
@@ -67,76 +83,52 @@ body{
 .cls-2:hover,
 .cls-3:hover,
 .cls-4:hover {
-  fill: black;
+  fill: var(--state-fill-color);
   cursor:pointer;
 }
 
 .cls-1 {
-  fill: #ed1c24;
+  fill: var(--state-1-color);
 }
 
 .cls-2 {
-  fill: #2e3192;
+  fill: var(--state-2-color);
 }
 
 .cls-3 {
-  fill: #9e005d;
+  fill: var(--state-3-color);
 }
 
 .cls-4 {
-  fill: #009245;
+  fill: var(--state-4-color);
 }
 
+/* Makerspace List Section */
 
+#list-title {
+  color:var(--font-color);
+}
 
-/* Makerspace List Section*/
-
-#list-title{
-    background-color: #dbdbdb;
-    color:black;
-    font-weight:bold;
-    border:4px solid black;
-    width:auto;
-    margin:auto;
+.space-name {
+  font-weight:bold;
 }
 
 .space-name{
-    font-weight:bold;
-
-}
-
-.list-col{
-    border:2px solid red;
-}
-
-.space-name{
-    color:#009245;
+    color:var(--state-4-color);
 }
 .space-link{
-    color:#2e3192;
-word-wrap:break-word;
-}
-
-/* About and Contact Pages */
-#about-title{
-    background-color: #dbdbdb;
-    color:black;
-    font-weight:bold;
-    font-size:300%;
-    border:2px solid black;
-    width:auto;
-    margin:auto;
-}
-
-#about-text{
-    background-color: #dbdbdb;
-    color:color;
-    font-weight:bold;
-    font-size:150%;
-    border:2px solid black;
+  color:var(--state-2-color);
+  word-wrap:break-word;
 }
 
 
+/* ABOUT */
+pre {
+  white-space: wrap;
+  overflow-y: scroll;
+}
+
+/* CONTACT */
 #contact-title{
     background-color: #dbdbdb;
     color:black;
@@ -161,7 +153,7 @@ word-wrap:break-word;
     border:2px solid black;
 }
 
-#btn-title{    
+#btn-title{
     font-weight:bold;
     font-size:200%;
 }

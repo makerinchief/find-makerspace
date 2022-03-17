@@ -1,21 +1,20 @@
+// Get the json file of us makerspaces from github
 let requestURL = 'https://raw.githubusercontent.com/intern-jck/findMakerspace/main/assets/json/spaceList.json';
 let request = new XMLHttpRequest();
 request.open('GET', requestURL);
 request.responseType = 'json';
 request.send();
 
-var makerList = {};
-
+// Save contents of json
+let makerList = {};
 request.onload = function () {
     makerList = request.response;
-    // console.log(makerList);
-}
+};
 
+// When the SVG loads, add events to each SVG path
 let mySvg = document.getElementById("us-map");
-mySvg.onload = getStates();
+mySvg.onload = function () {
 
-// All the state SVGs
-function getStates() {
     // Get each state path
     let svgPaths = document.getElementById("us-map").children;
     // Add the events to it
@@ -23,71 +22,54 @@ function getStates() {
         // console.log(svgPaths[i]);
         addEvent(svgPaths[i]);
     }
-}
+};
 
 // Add events to each state SVG
 function addEvent(state) {
 
-    // let stateElements = getStates();
-    // console.log(state.id)
-
+    // Get each state svg.
     element = document.getElementById(state.id);
 
-    // console.log(element);
+    // If mouse hover on state svg, show it's name
     element.addEventListener("mouseover", function () {
         document.getElementById("state-title").textContent = state.id.toUpperCase();
     });
-    // // Reset state SVG
+    // Reset title if not
     element.addEventListener("mouseout", function () {
         document.getElementById("state-title").textContent = "PICK A STATE!";
     });
 
-    // // If clicked, show that state's makerspace list
+    // If clicked, show that state's makerspace list
     element.addEventListener("click", function () {
-        // Show the new state list
         updateMakerList(state.id);
         window.scrollBy(0, 400);
     });
 
-}
-
-function clearList() {
-    // Get the elements in the div
-    let spaceList = document.getElementById("list-content");
-
-    // If there are more than two, remove the first one, its the oldest
-    if (spaceList.children.length >= 1) {
-        spaceList.removeChild(spaceList.children[0]);
-    }
-}
+};
 
 function updateMakerList(stateId) {
 
+    // Get the block to display makerspace list
     let listContent = document.getElementById("list-content");
-    //listContent.scrollIntoView(true);
-    //window.scrollBy(0, 400);
-    //location.href = '#list-content';
-    // document.getElementById("list-content").scrollIntoView();
 
-    // Title of the current makerspace list
+    // Create title for list
     document.getElementById("list-title").innerHTML = stateId.toUpperCase() + " Makerspaces";
 
+    // Clear any lists currently being shown
     while (listContent.firstChild) {
         listContent.removeChild(listContent.firstChild);
     }
 
+    // For each space in the list
     for (let space in makerList[stateId]) {
-        // let listContentCol = document.createElement("div");
-        // listContentCol.classList.add("col");
-        // listContentCol.classList.add("list-col");
-        // listContentCol.classList.add("d-flex");        
 
         // Make the space row
         let spaceNameRow = document.createElement("div");
         spaceNameRow.classList.add("row");
         spaceNameRow.classList.add("space-name-row");
         spaceNameRow.classList.add("d-flex");
-        // Get the space name
+
+        // Make the space name
         var spaceName = document.createElement('h2');
         spaceName.innerHTML = makerList[stateId][space][0];
         spaceName.classList.add("pt-2");
@@ -99,7 +81,7 @@ function updateMakerList(stateId) {
         spaceLinkRow.classList.add("space-link-row");
         spaceLinkRow.classList.add("d-flex");
 
-        // Get the space link
+        // Make the space link
         var spaceLink = document.createElement('h3');
         var linkAnchor = document.createElement('a');
         linkAnchor.innerHTML = makerList[stateId][space][1];
@@ -109,7 +91,7 @@ function updateMakerList(stateId) {
         linkAnchor.classList.add("space-link");
         spaceLink.appendChild(linkAnchor);
 
-        // Add them to the row
+        // Add name and link to their rows
         spaceNameRow.appendChild(spaceName);
         spaceLinkRow.appendChild(spaceLink);
 
@@ -117,70 +99,4 @@ function updateMakerList(stateId) {
         listContent.appendChild(spaceNameRow);
         listContent.appendChild(spaceLinkRow);
     }
-
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-    // clearList();
-    // // Create the table to show space names and links
-    // let table = document.createElement('table');
-    // table.setAttribute("class", "table table-responsive");
-    // let tableHead = document.createElement('thead');
-    // tableHead.setAttribute("class", "text-left");
-
-    // let tableBody = document.createElement('tbody');
-
-    // table.appendChild(tableHead);
-    // table.appendChild(tableBody);
-
-    // let headingRow = document.createElement('tr');
-    // let nameHeading = document.createElement('th');
-    // nameHeading.innerHTML = "NAME";
-
-    // let linkHeading = document.createElement('th');
-    // linkHeading.innerHTML = "LINK";
-
-    // headingRow.appendChild(nameHeading);
-    // headingRow.appendChild(linkHeading);
-    // tableHead.appendChild(headingRow);
-
-    // for (let space in makerList[stateId]) {
-
-    //     let bodyRow = document.createElement('tr');
-
-    //     var spaceName = document.createElement('td');
-    //     spaceName.innerHTML = makerList[stateId][space][0];
-
-    //     var spaceLink = document.createElement('td');
-    //     var linkAnchor = document.createElement('a');
-    //     linkAnchor.innerHTML = makerList[stateId][space][1];
-
-    //     linkAnchor.setAttribute("href", makerList[stateId][space][1]);
-    //     linkAnchor.setAttribute("target", "_blank");
-
-    //     spaceLink.appendChild(linkAnchor);
-    //     bodyRow.appendChild(spaceName);
-    //     bodyRow.appendChild(spaceLink);
-    //     tableBody.appendChild(bodyRow);
-    // }
-
-    // document.getElementById("list-content").appendChild(table);
-    // document.getElementById("list-title").scrollIntoView();
-
-
