@@ -26,9 +26,11 @@
 
   <!-- My CSS -->
   <link rel="stylesheet" type="text/css" href="styles/main.css">
+  <link rel="stylesheet" type="text/css" href="styles/prism.css">
 
   <!-- My Script -->
   <!-- <script src="scripts/main.js" defer></script> -->
+  <script src="scripts/prism.js" defer></script>
 
 </head>
 
@@ -66,9 +68,7 @@
   <div class="container">
     <div class="row flex-column m-4">
 
-      <div class="col-8 mx-auto">
-        <h1 class="page-title text-center fw-bold">ABOUT</h1>
-      </div>
+      <h1 class="page-title text-center fw-bold mt-5">ABOUT</h1>
 
       <div class="col-10 mx-auto">
         <p class="mt-4 fs-3">
@@ -80,6 +80,7 @@
 
       <div class="col mx-auto border border-4 border-dark">
         <pre class="pre-scrollable">
+          <code class="language-python">
 from requests import get
 from bs4 import BeautifulSoup
 import json
@@ -134,9 +135,8 @@ for state in state_list:
     with open("./py-scripts/spaceList.json", "r+") as json_file:
         json.dump(maker_list, json_file)
     sleep(4)
-
+          </code>
         </pre>
-
       </div>
 
       <div class="col-10 mx-auto">

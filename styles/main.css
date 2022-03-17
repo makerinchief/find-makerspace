@@ -114,7 +114,7 @@ body{
 }
 
 .space-name{
-    color:var(--state-4-color);
+  color:var(--state-4-color);
 }
 .space-link{
   color:var(--state-2-color);
@@ -129,31 +129,16 @@ pre {
 }
 
 /* CONTACT */
-#contact-title{
-    background-color: #dbdbdb;
-    color:black;
-    font-weight:bold;
-    font-size:300%;
-    border:2px solid black;
-    width:auto;
-    margin:auto;
-}
-
 #github-link{
-    color:#2e3192;
-    font-weight:bold;
-    font-size:200%;
+  color:#2e3192;
+  font-weight:bold;
+  font-size:200%;
 }
 
 .btn {
-    background-color:#009245;
-    font-weight:bold;
-    font-size:200%;
-    color:black;
-    border:2px solid black;
-}
-
-#btn-title{
-    font-weight:bold;
-    font-size:200%;
+  width:fit-content;
+  font-weight:bold;
+  font-size:200%;
+  color:black;
+  border:2px solid black;
 }
