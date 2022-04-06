@@ -8,7 +8,7 @@ request.send();
 // Save contents of json
 let makerList = {};
 request.onload = function () {
-    makerList = request.response;
+  makerList = request.response;
 };
 
 // When the SVG loads, add events to each SVG path
@@ -19,7 +19,6 @@ mySvg.onload = function () {
   let svgPaths = document.getElementById("us-map").children;
   // Add the events to it
   for (let i = 0; i < svgPaths.length; i++) {
-    // console.log(svgPaths[i]);
     addEvent(svgPaths[i]);
   }
 };
