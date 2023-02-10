@@ -12,22 +12,35 @@ request.onload = function () {
 };
 
 // When the SVG loads, add events to each SVG path.
-let mySvg = document.getElementById("us-map");
-mySvg.onload = function () {
-  let svgPaths = document.getElementById("us-map").children;
-  for (let i = 0; i < svgPaths.length; i++) {
-    addEvent(svgPaths[i]);
-  }
-};
+// let mySvg = document.getElementById("us-map");
+// console.log(mySvg)
 
-function addEvent(state) {
+// mySvg.onload = function () {
+//   let svgPaths = document.getElementById("us-map").children;
+//   console.log(svgPaths)
+//   for (let i = 0; i < svgPaths.length; i++) {
+//     addEvent(svgPaths[i]);
+//   }
+// };
+
+window.addEventListener('load', () => {
+  let mySvg = document.getElementById("us-map");
+  let svgPaths = document.getElementById("us-map").children;
+  console.log(svgPaths)
+  for (let i = 0; i < svgPaths.length; i++) {
+    addStateMouseEvents(svgPaths[i]);
+  }
+});
+
+function addStateMouseEvents(state) {
 
   // Get state svg.
   element = document.getElementById(state.id);
   // Show name on mouse hover.
   element.addEventListener("mouseover", function () {
-    document.getElementById("state-title").textContent = state.id.toUpperCase();
+    document.getElementById("state-title").textContent = state.id.replace('-', ' ').toUpperCase();
   });
+
   // Reset title if not.
   element.addEventListener("mouseout", function () {
     document.getElementById("state-title").textContent = "PICK A STATE!";
@@ -36,12 +49,15 @@ function addEvent(state) {
   // If clicked, show that state's makerspace list.
   element.addEventListener("click", function () {
     updateMakerList(state.id);
-    window.scrollBy(0, 400);
+    const windowHeight = window.innerHeight;
+    // A little hacky but should adjust so window scrolls into view on different screens
+    window.scrollBy(0, windowHeight - 200);
   });
 
 };
 
 function updateMakerList(stateId) {
+  console.log(stateId)
 
   // Get the div to display makerspace list.
   let listContent = document.getElementById("list-content");
