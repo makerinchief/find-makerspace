@@ -1,2854 +1,895 @@
 {
-    "alabama": [
-        [
-            "University of Alabama Libraries",
-            "https://guides.lib.ua.edu/makerspaces"
-        ],
-        [
-            "Mobile Makerspace",
-            "https://makerspacemobile.org/"
-        ],
-        [
-            "Pelham Public Library",
-            "https://www.pelhamalabama.gov/613/Computer-Makerspace"
-        ],
-        [
-            "M. Louis Salmon Library Makerspace at UAH",
-            "https://www.uah.edu/library/services/makerspace"
-        ],
-        [
-            "Alabama - HackerspaceWiki - Hackerspaces",
-            "https://wiki.hackerspaces.org/Alabama"
-        ],
-        [
-            "Alabama School of Math and Science",
-            "https://www.asms.net/academics/makerspace"
-        ],
-        [
-            "Makers Local 256",
-            "https://256.makerslocal.org/"
-        ],
-        [
-            "MAKEbhm",
-            "https://www.makebhm.com/"
-        ],
-        [
-            "Red Mountain Makers",
-            "https://redmountainmakers.wildapricot.org/"
-        ],
-        [
-            "Vestavia Hills Library in the Forest",
-            "https://vestavialibrary.org/about-our-makerspace/"
-        ],
-        [
-            "Huntsville-Madison County Public",
-            "https://hmcpl.org/studio"
-        ],
-        [
-            "AAMU",
-            "https://libguides.aamu.edu/makerspace"
-        ],
-        [
-            "Auburn Engineering Design and Innovation Center",
-            "https://www.eng.auburn.edu/makerspace/"
-        ],
-        [
-            "Wylam Elementary School Virtual Makerspace",
-            "https://www.bhamcityschools.org/Page/41755"
-        ],
-        [
-            "University of North Alabama",
-            "https://www.una.edu/strategicdoing/SD_in_the_Shoals.html"
-        ],
-        [
-            "Mobile Public Library",
-            "https://www.mobilepubliclibrary.org/makerlab/"
-        ],
-        [
-            "Burrow Library Services - Maker Maven",
-            "https://www.burrowlibraryservices.com/maker-maven"
-        ]
+  "alabama": [
+    ["University of Alabama Libraries", "https://guides.lib.ua.edu/makerspaces"],
+    ["Mobile Makerspace", "https://makerspacemobile.org/"],
+    ["Pelham Public Library", "https://www.pelhamalabama.gov/613/Computer-Makerspace"],
+    ["M. Louis Salmon Library Makerspace at UAH", "https://www.uah.edu/library/services/makerspace"],
+    ["Alabama - HackerspaceWiki - Hackerspaces", "https://wiki.hackerspaces.org/Alabama"],
+    ["Alabama School of Math and Science", "https://www.asms.net/academics/makerspace"],
+    ["Makers Local 256", "https://256.makerslocal.org/"],
+    ["MAKEbhm", "https://www.makebhm.com/"],
+    ["Red Mountain Makers", "https://redmountainmakers.wildapricot.org/"],
+    ["Vestavia Hills Library in the Forest", "https://vestavialibrary.org/about-our-makerspace/"],
+    ["Huntsville-Madison County Public", "https://hmcpl.org/studio"],
+    ["AAMU", "https://libguides.aamu.edu/makerspace"],
+    ["Auburn Engineering Design and Innovation Center", "https://www.eng.auburn.edu/makerspace/"],
+    ["Wylam Elementary School Virtual Makerspace", "https://www.bhamcityschools.org/Page/41755"],
+    ["University of North Alabama", "https://www.una.edu/strategicdoing/SD_in_the_Shoals.html"],
+    ["Mobile Public Library", "https://www.mobilepubliclibrary.org/makerlab/"],
+    ["Burrow Library Services - Maker Maven", "https://www.burrowlibraryservices.com/maker-maven"]
+  ],
+  "alaska": [
+    ["Anchorage MakerSpace", "https://www.anchoragemakerspace.com/"],
+    ["Alaska State Library", "https://lam.alaska.gov/makerspaces"],
+    ["Juneau Makerspace", "http://juneaumakerspace.org/"],
+    ["Alaska Gateway Schools", "https://www.agsd.us/page/makerspace"],
+    ["AK Learns", "https://aklearns.org/alaska-learning-makerspace/"],
+    ["UAF Makerspace", "https://www.uaf.edu/honors/climate-scholars/makerspace.php"],
+    ["Sitka School District", "https://www.sitkaschools.org/Page/3189"],
+    ["Homer Makerspace", "https://vymaps.com/US/Homer-Makerspace-290071194659798/"]
+  ],
+  "arizona": [
+    ["Phoenix Forge", "https://phxforge.com/"],
+    ["Arizona Science Center", "https://www.azscience.org/attractions/create-makerspace/"],
+    ["ASU Library", "https://lib.asu.edu/makerspace"],
+    ["AZCOWORK", "https://www.azcowork.com/makerspace.html"],
+    ["CATalyst Studios at University of Arizona", "https://libguides.library.arizona.edu/catalyst"],
+    ["Xerocraft", "https://xerocraft.org/"],
+    ["SciTech Institute", "https://scitechinstitute.org"],
+    ["Prescott Valley Public Library", "https://www.pvlib.net/maker-space"],
+    ["HeatSync Labs", "https://www.heatsynclabs.org/"]
+  ],
+  "arkansas": [
+    ["Arkansas Regional Innovation Hub", "https://arhub.org/"],
+    ["The Conductor Makerspace", "https://www.arconductor.org/makerspace"],
+    ["A-State Innovate", "https://astateinnovate.com/index.php/sites/the-garage/"],
+    ["Arkansas City Public Library", "https://arkcity.scklslibrary.info/aboutmakerspace/"],
+    ["Integrated Design Lab", "https://www.nwacc.edu/workforce/integrateddesign/integrateddesignlab.aspx"],
+    ["McMillon Innovation Studio University of Arkansas", "https://mcmillonstudio.uark.edu/"],
+    ["Arkansas Public Library", "https://conway.fcl.org/events/page/93/conway-makerspace"],
+    ["Rogers Experimental House", "https://www.experimentalhouse.com/"],
+    [
+      "Arkansas State University",
+      "https://www.astate.edu/college/education/services/arkansas-science-festival/calendar/asf-tinkerfest.dot"
     ],
-    "alaska": [
-        [
-            "Anchorage MakerSpace",
-            "https://www.anchoragemakerspace.com/"
-        ],
-        [
-            "Alaska State Library",
-            "https://lam.alaska.gov/makerspaces"
-        ],
-        [
-            "Juneau Makerspace",
-            "http://juneaumakerspace.org/"
-        ],
-        [
-            "Alaska Gateway Schools",
-            "https://www.agsd.us/page/makerspace"
-        ],
-        [
-            "AK Learns",
-            "https://aklearns.org/alaska-learning-makerspace/"
-        ],
-        [
-            "UAF Makerspace",
-            "https://www.uaf.edu/honors/climate-scholars/makerspace.php"
-        ],
-        [
-            "Sitka School District",
-            "https://www.sitkaschools.org/Page/3189"
-        ],
-        [
-            "Homer Makerspace",
-            "https://vymaps.com/US/Homer-Makerspace-290071194659798/"
-        ]
+    ["National Park College", "https://np.edu/academics/it-center-excellence/makerspace.aspx"],
+    ["The Free Weekly", "https://freeweekly.com/category/features/maker-space/"]
+  ],
+  "california": [
+    ["Maker Nexus", "https://www.makernexus.com/"],
+    ["LA Makerspace", "http://lamakerspace.org/"],
+    ["CSUM", "https://www.csum.edu/makerspace/index.html"],
+    ["SLO MakerSpace", "https://www.slomakerspace.com/"],
+    ["UC Berkeley", "https://esc.berkeley.edu/makerspaces.html"],
+    ["Ace Makerspace", "https://www.acemakerspace.org/"],
+    ["California State University", "https://csumb.edu/library/makerspace/"],
+    ["CSM Library Makerspace", "https://collegeofsanmateo.edu/library/services/makerspace.php"],
+    ["Girl Scouts Heart of Central", "https://www.girlscoutshcc.org/en/our-council/STEMCenter.html"],
+    [
+      "Creation Station Makerspace",
+      "https://www.laquintaca.gov/our-city/city-departments/community-resources/creation-station-makerspace"
     ],
-    "arizona": [
-        [
-            "Phoenix Forge",
-            "https://phxforge.com/"
-        ],
-        [
-            "Arizona Science Center",
-            "https://www.azscience.org/attractions/create-makerspace/"
-        ],
-        [
-            "ASU Library",
-            "https://lib.asu.edu/makerspace"
-        ],
-        [
-            "AZCOWORK",
-            "https://www.azcowork.com/makerspace.html"
-        ],
-        [
-            "CATalyst Studios at University of Arizona",
-            "https://libguides.library.arizona.edu/catalyst"
-        ],
-        [
-            "Xerocraft",
-            "https://xerocraft.org/"
-        ],
-        [
-            "SciTech Institute",
-            "https://scitechinstitute.org"
-        ],
-        [
-            "Prescott Valley Public Library",
-            "https://www.pvlib.net/maker-space"
-        ],
-        [
-            "HeatSync Labs",
-            "https://www.heatsynclabs.org/"
-        ]
+    ["CSUMB Makerspace", "https://csumb.libguides.com/makerspace"],
+    ["MSJC Eagle MakerSpace", "https://www.msjc.edu/makerspace/index.html"],
+    ["Mountie MakerSpace", "https://www.mtsac.edu/makerspace/"],
+    ["UMakers", "https://www.umakers.org/"],
+    ["Sacramento Public Library", "https://www.saclibrary.org/Education/Tech-Creation/Makerspaces"],
+    ["Sonoma State University Library", "https://library.sonoma.edu/makerspace"],
+    [
+      "Mountain View Elementary School",
+      "https://mountainview.cusd.claremont.edu/pf4/cms2/view_page?d=x&group_id=1517645735061&vdid=i239gt2en1t9tk"
     ],
-    "arkansas": [
-        [
-            "Arkansas Regional Innovation Hub",
-            "https://arhub.org/"
-        ],
-        [
-            "The Conductor Makerspace",
-            "https://www.arconductor.org/makerspace"
-        ],
-        [
-            "A-State Innovate",
-            "https://astateinnovate.com/index.php/sites/the-garage/"
-        ],
-        [
-            "Arkansas City Public Library",
-            "https://arkcity.scklslibrary.info/aboutmakerspace/"
-        ],
-        [
-            "Integrated Design Lab",
-            "https://www.nwacc.edu/workforce/integrateddesign/integrateddesignlab.aspx"
-        ],
-        [
-            "McMillon Innovation Studio University of Arkansas",
-            "https://mcmillonstudio.uark.edu/"
-        ],
-        [
-            "Arkansas Public Library",
-            "https://conway.fcl.org/events/page/93/conway-makerspace"
-        ],
-        [
-            "Rogers Experimental House",
-            "https://www.experimentalhouse.com/"
-        ],
-        [
-            "Arkansas State University",
-            "https://www.astate.edu/college/education/services/arkansas-science-festival/calendar/asf-tinkerfest.dot"
-        ],
-        [
-            "National Park College",
-            "https://np.edu/academics/it-center-excellence/makerspace.aspx"
-        ],
-        [
-            "The Free Weekly",
-            "https://freeweekly.com/category/features/maker-space/"
-        ]
+    ["Lightspeed", "https://www.ontarioca.gov/lightspeed"]
+  ],
+  "colorado": [
+    ["TinkerMill", "https://tinkermill.org/"],
+    ["Pikes Peak Makerspace", "https://pikespeakmakerspace.org/"],
+    ["Boulder Hackerspace", "https://boulderhackerspace.com/"],
+    ["University of Colorado Boulder", "https://www.colorado.edu/ideaforge/facilities/makerspace"],
+    ["Colorado Maker Hub", "https://coloradomakerhub.org/"],
+    ["MHistory Colorado", "https://www.historycolorado.org/exhibit/makerspace-build"],
+    ["BBoulder Library Makerspace", "https://boulderlibrary.org/bldg61/"],
+    ["Colorado Community Makerspaces", "https://iamamaker.org/co-nonprofit-makerspaces/"],
+    ["Pikes Peak Library District", "https://ppld.org/create/makerspaces"],
+    ["Loveland CreatorSpace", "https://www.lovelandcreatorspace.com/"],
+    ["Maker Society", "https://orgs.mines.edu/makersociety/"],
+    ["Colorado Association of Libraries", "https://cal-webs.org/Makerspace"],
+    ["Studio 775", "https://www.lafayetteco.gov/2097/Makerspace---Studio-775"],
+    [
+      "TinkerMill Makerspace",
+      "https://www.solidsmack.com/fabrication/tour-tinkermill-makerspace-in-longmont-colorado/"
     ],
-    "california": [
-        [
-            "Maker Nexus",
-            "https://www.makernexus.com/"
-        ],
-        [
-            "LA Makerspace",
-            "http://lamakerspace.org/"
-        ],
-        [
-            "CSUM",
-            "https://www.csum.edu/makerspace/index.html"
-        ],
-        [
-            "SLO MakerSpace",
-            "https://www.slomakerspace.com/"
-        ],
-        [
-            "UC Berkeley",
-            "https://esc.berkeley.edu/makerspaces.html"
-        ],
-        [
-            "Ace Makerspace",
-            "https://www.acemakerspace.org/"
-        ],
-        [
-            "California State University",
-            "https://csumb.edu/library/makerspace/"
-        ],
-        [
-            "CSM Library Makerspace",
-            "https://collegeofsanmateo.edu/library/services/makerspace.php"
-        ],
-        [
-            "Girl Scouts Heart of Central",
-            "https://www.girlscoutshcc.org/en/our-council/STEMCenter.html"
-        ],
-        [
-            "Creation Station Makerspace",
-            "https://www.laquintaca.gov/our-city/city-departments/community-resources/creation-station-makerspace"
-        ],
-        [
-            "CSUMB Makerspace",
-            "https://csumb.libguides.com/makerspace"
-        ],
-        [
-            "MSJC Eagle MakerSpace",
-            "https://www.msjc.edu/makerspace/index.html"
-        ],
-        [
-            "Mountie MakerSpace",
-            "https://www.mtsac.edu/makerspace/"
-        ],
-        [
-            "UMakers",
-            "https://www.umakers.org/"
-        ],
-        [
-            "Sacramento Public Library",
-            "https://www.saclibrary.org/Education/Tech-Creation/Makerspaces"
-        ],
-        [
-            "Sonoma State University Library",
-            "https://library.sonoma.edu/makerspace"
-        ],
-        [
-            "Mountain View Elementary School",
-            "https://mountainview.cusd.claremont.edu/pf4/cms2/view_page?d=x&group_id=1517645735061&vdid=i239gt2en1t9tk"
-        ],
-        [
-            "Lightspeed",
-            "https://www.ontarioca.gov/lightspeed"
-        ]
+    ["Denver Public Library", "https://www.denverlibrary.org/idealab"],
+    ["Verizon Innovative Learning Lab", "https://www.d11.org/domain/1520"]
+  ],
+  "connecticut": [
+    ["MakerspaceCT", "https://makerspacect.com/home/"],
+    ["MakeHaven", "https://www.makehaven.org/"],
+    ["East Hartford CT", "https://www.easthartfordct.gov/east-hartford-public-library/pages/makerspace"],
+    ["SCSU Research Guides", "https://libguides.southernct.edu/makerspace"],
+    ["Science At Play", "https://ctsciencecenter.org/blog/science-at-play-your-at-home-makerspace/"],
+    ["MFerguson Library", "https://www.fergusonlibrary.org/services/makerspace"],
+    ["Spark Makerspace", "https://www.sparkmakerspace.org/"],
+    ["Connecticut State Library", "https://libguides.ctstatelibrary.org/dld/children/makerspaces"],
+    ["CT Hackerspace", "http://www.cthackerspace.com/"],
+    ["Norwalk Community College", "https://norwalk.edu/makerspace/"],
+    ["The Westport Library", "https://westportlibrary.org/makes/"]
+  ],
+  "delaware": [
+    ["Delaware County District Library", "https://www.delawarelibrary.org/locations/makerstudio/"],
+    ["NextFab", "https://nextfab.com/location/downtown-wilmington/"],
+    ["University of Delaware", "https://www.udel.edu/research-innovation/maker/"],
+    ["For Delaware Librarians: Makerspaces - LibGuides", "https://guides.lib.de.us/c.php?g=127472&p=833847"],
+    ["M4Reactor", "https://m4reactor.org/"],
+    ["Makerspace Delaware Libraries", "https://delawarelibraries.libcal.com/event/8233858?hs=a"]
+  ],
+  "florida": [
+    ["MakerFX", "http://www.makerfx.org/"],
+    ["MakeMIA", "https://www.makemia.com/"],
+    ["The Hive", "https://www.osc.org/visit/exhibits/makerspace/"],
+    ["Southwest Florida Hackerspace", "https://www.swflhackerspace.com/"],
+    ["Melbourne Makerspace", "http://www.melbournemakerspace.org/"],
+    ["Catapult Lakeland", "https://catapultlakeland.com/makerspace/"],
+    ["HackerspaceWiki", "https://wiki.hackerspaces.org/Florida"],
+    ["Moonlighter Makerspace", "https://wynwoodmiami.com/businesses/moonlighter-makerspace/"],
+    ["St. Pete Makers", "https://www.stpetemakers.org/"],
+    ["University of Florida's Fab Lab", "https://fablab.arts.ufl.edu/services/"],
+    ["Skylab MakerSpace", "https://libguides.uwf.edu/makerspace"],
+    [
+      "Makerspaces - Manatee County",
+      "https://www.mymanatee.org/departments/manatee_county_public_library_system/library_events___classes/makerspace_programs"
     ],
-    "colorado": [
-        [
-            "TinkerMill",
-            "https://tinkermill.org/"
-        ],
-        [
-            "Pikes Peak Makerspace",
-            "https://pikespeakmakerspace.org/"
-        ],
-        [
-            "Boulder Hackerspace",
-            "https://boulderhackerspace.com/"
-        ],
-        [
-            "University of Colorado Boulder",
-            "https://www.colorado.edu/ideaforge/facilities/makerspace"
-        ],
-        [
-            "Colorado Maker Hub",
-            "https://coloradomakerhub.org/"
-        ],
-        [
-            "MHistory Colorado",
-            "https://www.historycolorado.org/exhibit/makerspace-build"
-        ],
-        [
-            "BBoulder Library Makerspace",
-            "https://boulderlibrary.org/bldg61/"
-        ],
-        [
-            "Colorado Community Makerspaces",
-            "https://iamamaker.org/co-nonprofit-makerspaces/"
-        ],
-        [
-            "Pikes Peak Library District",
-            "https://ppld.org/create/makerspaces"
-        ],
-        [
-            "Loveland CreatorSpace",
-            "https://www.lovelandcreatorspace.com/"
-        ],
-        [
-            "Maker Society",
-            "https://orgs.mines.edu/makersociety/"
-        ],
-        [
-            "Colorado Association of Libraries",
-            "https://cal-webs.org/Makerspace"
-        ],
-        [
-            "Studio 775",
-            "https://www.lafayetteco.gov/2097/Makerspace---Studio-775"
-        ],
-        [
-            "TinkerMill Makerspace",
-            "https://www.solidsmack.com/fabrication/tour-tinkermill-makerspace-in-longmont-colorado/"
-        ],
-        [
-            "Denver Public Library",
-            "https://www.denverlibrary.org/idealab"
-        ],
-        [
-            "Verizon Innovative Learning Lab",
-            "https://www.d11.org/domain/1520"
-        ]
+    ["Land O'Lakes Foundry | Pasco Libraries", "https://www.pascolibraries.org/about-us/land-o-lakes-makerspace/"],
+    ["Assessing Your Library's Makerspace", "https://floridalibrarywebinars.org/assessing-your-librarys-makerspace/"],
+    ["Assessing Your Library's Makerspace", "https://floridalibrarywebinars.org/assessing-your-librarys-makerspace/"],
+    [
+      "Makerspaces in Today's World | Florida Library Webinars",
+      "https://floridalibrarywebinars.org/makerspaces-in-todays-world/"
     ],
-    "connecticut": [
-        [
-            "MakerspaceCT",
-            "https://makerspacect.com/home/"
-        ],
-        [
-            "MakeHaven",
-            "https://www.makehaven.org/"
-        ],
-        [
-            "East Hartford CT",
-            "https://www.easthartfordct.gov/east-hartford-public-library/pages/makerspace"
-        ],
-        [
-            "SCSU Research Guides",
-            "https://libguides.southernct.edu/makerspace"
-        ],
-        [
-            "Science At Play",
-            "https://ctsciencecenter.org/blog/science-at-play-your-at-home-makerspace/"
-        ],
-        [
-            "MFerguson Library",
-            "https://www.fergusonlibrary.org/services/makerspace"
-        ],
-        [
-            "Spark Makerspace",
-            "https://www.sparkmakerspace.org/"
-        ],
-        [
-            "Connecticut State Library",
-            "https://libguides.ctstatelibrary.org/dld/children/makerspaces"
-        ],
-        [
-            "CT Hackerspace",
-            "http://www.cthackerspace.com/"
-        ],
-        [
-            "Norwalk Community College",
-            "https://norwalk.edu/makerspace/"
-        ],
-        [
-            "The Westport Library",
-            "https://westportlibrary.org/makes/"
-        ]
+    [
+      "Jax Makerspace - Urban Libraries Council",
+      "https://www.urbanlibraries.org/resources/makerspaces-in-libraries/jax-makerspace"
     ],
-    "delaware": [
-        [
-            "Delaware County District Library",
-            "https://www.delawarelibrary.org/locations/makerstudio/"
-        ],
-        [
-            "NextFab",
-            "https://nextfab.com/location/downtown-wilmington/"
-        ],
-        [
-            "University of Delaware",
-            "https://www.udel.edu/research-innovation/maker/"
-        ],
-        [
-            "For Delaware Librarians: Makerspaces - LibGuides",
-            "https://guides.lib.de.us/c.php?g=127472&p=833847"
-        ],
-        [
-            "M4Reactor",
-            "https://m4reactor.org/"
-        ],
-        [
-            "Makerspace Delaware Libraries",
-            "https://delawarelibraries.libcal.com/event/8233858?hs=a"
-        ]
-    ],
-    "florida": [
-        [
-            "MakerFX",
-            "http://www.makerfx.org/"
-        ],
-        [
-            "MakeMIA",
-            "https://www.makemia.com/"
-        ],
-        [
-            "The Hive",
-            "https://www.osc.org/visit/exhibits/makerspace/"
-        ],
-        [
-            "Southwest Florida Hackerspace",
-            "https://www.swflhackerspace.com/"
-        ],
-        [
-            "Melbourne Makerspace",
-            "http://www.melbournemakerspace.org/"
-        ],
-        [
-            "Catapult Lakeland",
-            "https://catapultlakeland.com/makerspace/"
-        ],
-        [
-            "HackerspaceWiki",
-            "https://wiki.hackerspaces.org/Florida"
-        ],
-        [
-            "Moonlighter Makerspace",
-            "https://wynwoodmiami.com/businesses/moonlighter-makerspace/"
-        ],
-        [
-            "St. Pete Makers",
-            "https://www.stpetemakers.org/"
-        ],
-        [
-            "University of Florida's Fab Lab",
-            "https://fablab.arts.ufl.edu/services/"
-        ],
-        [
-            "Skylab MakerSpace",
-            "https://libguides.uwf.edu/makerspace"
-        ],
-        [
-            "Makerspaces - Manatee County",
-            "https://www.mymanatee.org/departments/manatee_county_public_library_system/library_events___classes/makerspace_programs"
-        ],
-        [
-            "Land O'Lakes Foundry | Pasco Libraries",
-            "https://www.pascolibraries.org/about-us/land-o-lakes-makerspace/"
-        ],
-        [
-            "Assessing Your Library's Makerspace",
-            "https://floridalibrarywebinars.org/assessing-your-librarys-makerspace/"
-        ],
-        [
-            "Assessing Your Library's Makerspace",
-            "https://floridalibrarywebinars.org/assessing-your-librarys-makerspace/"
-        ],
-        [
-            "Makerspaces in Today's World | Florida Library Webinars",
-            "https://floridalibrarywebinars.org/makerspaces-in-todays-world/"
-        ],
-        [
-            "Jax Makerspace - Urban Libraries Council",
-            "https://www.urbanlibraries.org/resources/makerspaces-in-libraries/jax-makerspace"
-        ],
-        [
-            "Makerspace - Canterbury School of Florida",
-            "https://www.canterburyflorida.org/programs/educational-technology/makerspace"
-        ]
-    ],
-    "georgia": [
-        [
-            "Makerspaces in GA - galibtech",
-            "https://galibtech.georgialibraries.org/emerging/makerspaces-in-ga"
-        ],
-        [
-            "Science Library Makerspace",
-            "https://libs.uga.edu/science/makerspace"
-        ],
-        [
-            "Cherokee Makerspace",
-            "https://www.cherokeemakerspace.org/"
-        ],
-        [
-            "Georgia Tech College of Engineering",
-            "https://www.coe.gatech.edu/academics/maker-spaces"
-        ],
-        [
-            "Freeside Atlanta",
-            "https://www.freesideatlanta.org/"
-        ],
-        [
-            "SparkMacon",
-            "https://www.sparkmacon.com/8-georgia-makerspaces-we-love/"
-        ],
-        [
-            "Decatur Makers",
-            "https://decaturmakers.org/"
-        ],
-        [
-            "LibCal Technology & Makerspace",
-            "https://libcal.ccga.edu/booking/tech"
-        ],
-        [
-            "Georgia Southern University Innovation Studio",
-            "https://coe.georgiasouthern.edu/centers/innovation-studio/"
-        ],
-        [
-            "Georgia State University EXLAB",
-            "https://technology.gsu.edu/technology-services/it-services/labs-and-classrooms/exlab/cmii/"
-        ],
-        [
-            "Okefenokee Regional Library System",
-            "https://okrls.org/makerspace/"
-        ],
-        [
-            "Georgia O'Keeffe Elementary School",
-            "https://goes-aps-nm.schoolloop.com/makerspace"
-        ],
-        [
-            "Atlanta Public Schools",
-            "https://www.atlantapublicschools.us/Page/48270"
-        ],
-        [
-            "Roswell Firelabs",
-            "https://roswellfirelabs.org/"
-        ],
-        [
-            "The Maker Station",
-            "https://www.themakerstation.com/"
-        ],
-        [
-            "Drew Charter Makerspaces",
-            "https://steamatdrew.weebly.com/makerspaces.html"
-        ],
-        [
-            "Raider MakerSpace",
-            "https://www.fultonschools.org/domain/7438"
-        ]
-    ],
-    "hawaii": [
-        [
-            "Conversation Piece: Oahu Makerspace - FLUX Hawaii",
-            "https://fluxhawaii.com/conversation-piece-oahu-makerspace/"
-        ],
-        [
-            "HICapacity",
-            "http://hicapacity.org/"
-        ],
-        [
-            "Oahu Hackerspaces",
-            "https://wiki.hackerspaces.org/Oahu_Makerspace"
-        ],
-        [
-            "UH College of Engineering",
-            "https://www.eng.hawaii.edu/fablab/"
-        ],
-        [
-            "Entrepreneurs Sandbox",
-            "https://sandboxhawaii.org/"
-        ],
-        [
-            "Hawaii State Public Library",
-            "https://www.librarieshawaii.org/event/maker-tuesdays-imagine-design-create/all/"
-        ],
-        [
-            "UH FabLabs",
-            "http://make.xsead.cmu.edu/knowledgebase/spaces/spaces/uh-fablab"
-        ],
-        [
-            "Hawaii Children's Discovery Center",
-            "http://discoverycenterhawaii.org/"
-        ],
-        [
-            "University of Hawaii at Manoa",
-            "https://monoahawaiilis.libguides.com/digitaltechandmakerspaces"
-        ],
-        [
-            "Makerspace - Ewa Makai Middle School",
-            "https://www.ewamakai.org/makerspace"
-        ],
-        [
-            "Kauai Makerspace | Making stuff on the Garden Island",
-            "http://kauaimakerspace.org/"
-        ],
-        [
-            "PMDP - Papah\u0101naumoku\u0101kea Marine Debris Project.",
-            "https://www.pmdphawaii.org/projects-2"
-        ],
-        [
-            "STEM competition, programs and units - Hawaii DOE",
-            "https://www.hawaiipublicschools.org/TeachingAndLearning/StudentLearning/Stem/Pages/Competitions-and-Units.aspx"
-        ]
-    ],
-    "idaho": [
-        [
-            "Make It at the Library",
-            "https://libraries.idaho.gov/stem/make-it/"
-        ],
-        [
-            "Valley of the Tetons Library",
-            "https://valleyofthetetonslibrary.org/makerspace-valley-of-the-tetons-library/"
-        ],
-        [
-            "University of Idaho",
-            "https://www.lib.uidaho.edu/mill/"
-        ],
-        [
-            "Gizmo-CdA",
-            "https://www.gizmo-cda.org/"
-        ],
-        [
-            "Idaho Out-Of-School Network",
-            "https://idahooutofschool.org/think-make-create-labs-land/"
-        ],
-        [
-            "Idaho Art Lab",
-            "https://www.idahoartlab.org/"
-        ],
-        [
-            "McCall, Idaho Makerspace",
-            "https://www.mccall.id.us/events/26530/"
-        ],
-        [
-            "Boise Makers",
-            "https://boisemakers.wordpress.com/"
-        ],
-        [
-            "JUMP",
-            "http://jumpboise.org/make"
-        ],
-        [
-            "Idaho Falls Public Library",
-            "https://www.ifpl.org/makerspace/"
-        ],
-        [
-            "Boise State University",
-            "https://www.boisestate.edu/library-makerlab/"
-        ],
-        [
-            "Idaho State University",
-            "https://cetrain.isu.edu/enrollment/course/create-collaborate-innovatemake/"
-        ],
-        [
-            "GIZMO-CDA",
-            "https://www.nic.edu/venture/pageGizmo.html"
-        ]
-    ],
-    "illinois": [
-        [
-            "Illinois MakerLab",
-            "https://makerlab.illinois.edu/"
-        ],
-        [
-            "Research Park",
-            "https://researchpark.illinois.edu/resource/makerspace/"
-        ],
-        [
-            "Makerspace Urbana",
-            "https://makerspaceurbana.org/"
-        ],
-        [
-            "UIC Engineering Makerspace",
-            "https://makerspace.uic.edu/"
-        ],
-        [
-            "Makers in Chicago",
-            "https://makersinchicago.org/"
-        ],
-        [
-            "Illinois Mathematics and Science Academy",
-            "https://www.imsa.edu/centers/center-for-innovation-and-inquiry/maker-programs-makerspace/"
-        ],
-        [
-            "Illinois Institute of Technology",
-            "http://bulletin.iit.edu/undergraduate/campus-overview/campus-resources/idea-shop/"
-        ],
-        [
-            "Champaign-Urbana Community Fab Lab",
-            "http://cucfablab.org/"
-        ],
-        [
-            "Aurora Public Library",
-            "https://www.aurorapubliclibrary.org/makerspace-4308"
-        ],
-        [
-            "Arlington Heights Memorial Library",
-            "https://www.ahml.info/makerplace"
-        ],
-        [
-            "River City Labs",
-            "https://rivercitylabs.space/"
-        ],
-        [
-            "Illinois Hackerspaces",
-            "https://wiki.hackerspaces.org/Illinois"
-        ],
-        [
-            "Rockford MakerSpace",
-            "https://www.rockfordmakerspace.com/"
-        ],
-        [
-            "Elmhurst Public Library",
-            "https://elmhurstpubliclibrary.org/about-us/building-information/makerspace/"
-        ],
-        [
-            "Lovejoy Library MakerLab",
-            "https://libguides.siue.edu/makerlab"
-        ],
-        [
-            "Milner Library",
-            "https://library.illinoisstate.edu/services/technology/make-it-space/"
-        ],
-        [
-            "Harper College",
-            "https://www.harpercollege.edu/maker/index.php"
-        ],
-        [
-            "Lake Forest College",
-            "https://www.lakeforest.edu/academics/resources-and-support/innovationspaces/makerspace"
-        ],
-        [
-            "Chicago Public Library",
-            "https://www.chipublib.org/maker-lab/"
-        ],
-        [
-            "Fox Build",
-            "https://fox.build/"
-        ],
-        [
-            "Illinois Wesleyan University",
-            "https://digitalcommons.iwu.edu/idea_events/3/"
-        ]
-    ],
-    "indiana": [
-        [
-            "Indiana Makerspaces",
-            "https://indianamakers.org/indiana-makerspaces/"
-        ],
-        [
-            "1st Maker Space",
-            "https://1stmakerspace.com/"
-        ],
-        [
-            "Luddy School Makerspaces",
-            "https://makerspaces.luddy.indiana.edu/"
-        ],
-        [
-            "Makerfactoryindy",
-            "https://www.makerfactoryindy.com/"
-        ],
-        [
-            "Indiana K12 Makers Space",
-            "http://indianamakerspace.weebly.com/"
-        ],
-        [
-            "HUB & SPOKE",
-            "https://hubandspoke.works/makerspace/"
-        ],
-        [
-            "Bloominglabs",
-            "http://www.bloominglabs.org/index.php/Main_Page"
-        ],
-        [
-            "Maker13",
-            "https://www.maker13.com/"
-        ],
-        [
-            "Castlemakers",
-            "http://castlemakers.org/"
-        ],
-        [
-            "Ruth Lilly Medical Library",
-            "https://library.mednet.iu.edu/makerspace/"
-        ],
-        [
-            "Purdue Polytechnic Institute",
-            "https://polytechnic.purdue.edu/anderson/p3-makerspace"
-        ],
-        [
-            "Indiana IoT Lab",
-            "https://indianaiot.com/member-spotlight-1st-maker-space/"
-        ]
-    ],
-    "iowa": [
-        [
-            "Iowa City Fab Lab",
-            "https://icfablab.org/"
-        ],
-        [
-            "Center for Technology in Learning and Teaching",
-            "https://www.ctlt.iastate.edu/makerspace/"
-        ],
-        [
-            "Area515",
-            "https://area515.org/"
-        ],
-        [
-            "DMACC",
-            "https://dmacc.edu/ci/Pages/makerspace.aspx"
-        ],
-        [
-            "University of Northern Iowa",
-            "https://library.uni.edu/spaces/makerspace"
-        ],
-        [
-            "ICCSD Foundation",
-            "http://iccsdfoundation.org/makerspaces/"
-        ],
-        [
-            "Cedar Valley Makers",
-            "https://www.cedarvalleymakers.org/"
-        ],
-        [
-            "Iowa University Engineering Library",
-            "https://www.lib.uiowa.edu/eng/creative-space/"
-        ],
-        [
-            "Luther College",
-            "https://www.luther.edu/makerspace/"
-        ],
-        [
-            "Grinnell Area Arts Council Stew Makerspace",
-            "https://www.grinnellarts.org/stew-makerspace"
-        ],
-        [
-            "Iowa City Community School",
-            "https://www.iowacityschools.org/Page/17431"
-        ],
-        [
-            "Grant Wood AEA",
-            "https://www.dlgwaea.org/makerspaces.html"
-        ],
-        [
-            "The Quad Cities Makerspace",
-            "https://www.qccolab.com/"
-        ],
-        [
-            "CBPL",
-            "http://www.councilbluffslibrary.org/makerspace/"
-        ],
-        [
-            "Gilbert Community School District",
-            "http://www.gilbertcsd.org/schools/gilbert-intermediate-school/makerspace/"
-        ],
-        [
-            "Fairfield MakerSpace",
-            "https://www.fairfieldmakerspace.com/"
-        ],
-        [
-            "Grinnell College",
-            "https://www.grinnell.edu/academics/resources/wilson/makerspace"
-        ],
-        [
-            "Columbus Secondary School",
-            "http://www.columbus.k12.ia.us/cms/One.aspx?portalId=572870&pageId=4949673"
-        ],
-        [
-            "VolunteerSiouxland",
-            "https://www.volunteersiouxland.org/agency/detail/?agency_id=83132"
-        ]
-    ],
-    "kansas": [
-        [
-            "Johnson County Library",
-            "https://www.jocolibrary.org/makerspace"
-        ],
-        [
-            "Hammerspace Workshop",
-            "https://hammerspacehobby.com/"
-        ],
-        [
-            "MakeICT",
-            "https://makeict.org/makerspace/"
-        ],
-        [
-            "Great Plains MakerSpace",
-            "https://greatplainsmakerspace.com/"
-        ],
-        [
-            "KU Libraries",
-            "https://lib.ku.edu/makerspace"
-        ],
-        [
-            "Johnson County Library MakerSpace",
-            "https://www.fablabs.io/labs/jocolibrarymakerspace"
-        ],
-        [
-            "Hutchinson Public Library",
-            "https://www.hutchpl.org/spaces/makerspace"
-        ],
-        [
-            "Local Area Resources for Makers",
-            "https://stmary.libguides.com/c.php?g=370827&p=2636295"
-        ],
-        [
-            "K-State College of Education",
-            "https://coe.ksu.edu/student-success/undergraduate/makerspace/"
-        ],
-        [
-            "Fort Hays State University",
-            "https://www.fhsu.edu/smei/makerspace/"
-        ],
-        [
-            "Black & Veatch MakerSpace",
-            "https://www.kcstem.org/organizations/black-veatch-makerspace-johnson-county-library/"
-        ],
-        [
-            "McPherson County MakerSpace",
-            "https://www.mcphersoncountymakerspace.org/"
-        ],
-        [
-            "Maker Village",
-            "https://makervillagekc.org/"
-        ],
-        [
-            "Groover Labs",
-            "https://www.grooverlabs.org/"
-        ],
-        [
-            "Hutchinson Public Library",
-            "https://hutchpl.sharpschool.com/use_the_library/Makerspace/About_the_makerspace"
-        ],
-        [
-            "Lawrence Creates Makerspace",
-            "https://www.lawrencecreates.com/"
-        ],
-        [
-            "Block22",
-            "https://www.block22psu.com/foundry-memberships.html"
-        ]
-    ],
-    "kentucky": [
-        [
-            "University of Kentucky College of Engineering",
-            "https://www.engr.uky.edu/students/student-success/maker-spaces"
-        ],
-        [
-            "NKY MakerSpace",
-            "http://www.nkymakerspace.com/"
-        ],
-        [
-            "Louisville Free Public Library",
-            "https://www.lfpl.org/makerspace/"
-        ],
-        [
-            "Kre8Now Makerspace",
-            "http://www.kre8now.com/"
-        ],
-        [
-            "Stego Studio",
-            "https://inside.nku.edu/library/spaces/makerspace.html"
-        ],
-        [
-            "KENTUCKY MOVERS AND MAKERS",
-            "https://www.kentuckymoversandmakers.com/"
-        ],
-        [
-            "Living Arts & Science Center",
-            "https://lasclex.org/plan-your-visit/makers-space/"
-        ],
-        [
-            "EKU Geeks",
-            "https://geeks.eku.edu/makerspace"
-        ],
-        [
-            "Maker13",
-            "https://www.maker13.com/"
-        ],
-        [
-            "Franklin Center For Innovation",
-            "https://franklincenterforinnovation.com/"
-        ],
-        [
-            "Berea Makerspace",
-            "https://bereamakerspace.org/"
-        ],
-        [
-            "Kenton County Public Library",
-            "https://www.kentonlibrary.org/stream"
-        ],
-        [
-            "Northern Kentucky Makerspace",
-            "http://ky.makerminded.com/activities/visit-nky-makerspace"
-        ],
-        [
-            "WKU Makerspace",
-            "https://wkumakerspace.github.io/"
-        ]
-    ],
-    "louisiana": [
-        [
-            "NWLA Makerspace",
-            "https://nwlamakerspace.org/"
-        ],
-        [
-            "Lafayette Public Library",
-            "http://lafayettepubliclibrary.org/?page_id=21857"
-        ],
-        [
-            "The Workshop",
-            "https://www.theworkshopmakerspace.com/"
-        ],
-        [
-            "IDIYA",
-            "https://myidiya.com/"
-        ],
-        [
-            "Innovation Studio",
-            "https://xula.libguides.com/innovationstudio"
-        ],
-        [
-            "Tulane University",
-            "https://makerspace.tulane.edu/index.php/Scot_Ackerman_MakerSpace_at_Tulane_University_Wiki"
-        ],
-        [
-            "Prototyping | LSU Innovation Park",
-            "https://www.lsu.edu/innovationpark/prototyping.php"
-        ],
-        [
-            "STEM - COE HUB",
-            "https://www.latechhub.org/stem.html"
-        ],
-        [
-            "Rapides Parish Library",
-            "https://www.rpl.org/index.php/collections-services/in-branch-services/makerspace/"
-        ],
-        [
-            "LACUE",
-            "https://www.lacue.org/Page/178"
-        ],
-        [
-            "Geaux code",
-            "https://lsudatasci.github.io/"
-        ],
-        [
-            "Nicholls State University",
-            "https://www.nicholls.edu/thehub/"
-        ],
-        [
-            "Sts. Peter and Paul Catholic School",
-            "http://www.sts-peter-paul.org/academics/technology.cfm"
-        ],
-        [
-            "Lafourche Parish Public Library",
-            "https://lpplyastuff.wixsite.com/lafourchelibrary/makerspace"
-        ]
-    ],
-    "maine": [
-        [
-            "Factory 3",
-            "https://factory3.org/"
-        ],
-        [
-            "Maine State Library",
-            "https://www.maine.gov/msl/services/maker_space/index.shtml"
-        ],
-        [
-            "Open Bench Project",
-            "https://obportland.org/"
-        ],
-        [
-            "Portland Public Library",
-            "https://www.portlandlibrary.com/highlight/maker-resources-events/"
-        ],
-        [
-            "University of Southern Maine",
-            "https://usm.maine.edu/maker-innovation-studio"
-        ],
-        [
-            "Bangor Makerspace",
-            "https://bangormakerspace.org/"
-        ],
-        [
-            "University of New England in Maine",
-            "https://www.une.edu/provost/resources/makerspace-and-student-innovation-challenge"
-        ],
-        [
-            "The Connectory",
-            "https://theconnectory.org/opportunity/maker-space"
-        ],
-        [
-            "Engine",
-            "https://www.feedtheengine.org/"
-        ],
-        [
-            "Common Threads of Maine",
-            "https://www.commonthreadsmaine.org/makerspace"
-        ],
-        [
-            "LibGuides at University of Maine Augusta",
-            "https://umalibguides.uma.edu/collab"
-        ],
-        [
-            "Central Maine Youth Makerspace",
-            "https://www.mainephilanthropy.org/redhen/org/4698"
-        ],
-        [
-            "Children's Museum & Theatre of Maine",
-            "https://www.kitetails.org/makerspace"
-        ],
-        [
-            "Niles-Maine District Library",
-            "https://www.nileslibrary.org/creative-studio"
-        ],
-        [
-            "Port City Makerspace",
-            "https://www.portcitymakerspace.com/"
-        ],
-        [
-            "Belfast Free Library",
-            "https://belfastlibrary.org/makerspace/"
-        ],
-        [
-            "University of Maine",
-            "https://umaine.edu/hackerspace/"
-        ],
-        [
-            "Camden Hills Regional High School",
-            "http://chrhs.fivetowns.net/academics/innovation_center/spaces/maker_space"
-        ]
-    ],
-    "maryland": [
-        [
-            "University of Maryland, College Park",
-            "https://makerspace.umd.edu/"
-        ],
-        [
-            "Greenbelt MakerSpace",
-            "https://www.make125.org/"
-        ],
-        [
-            "Open Works",
-            "https://www.openworksbmore.org/"
-        ],
-        [
-            "Western Maryland Works",
-            "https://westernmarylandworks.com/"
-        ],
-        [
-            "Center for Innovation & Entrepreneurship",
-            "https://www.loyola.edu/department/center-innovation-entrepreneurship/student-involvement/makerspaces"
-        ],
-        [
-            "Loyola Notre Dame Library",
-            "https://www.lndl.org/spaces-technology/innovation-station"
-        ],
-        [
-            "Innov8MD",
-            "https://www.innov8md.org/"
-        ],
-        [
-            "Terrapin Works",
-            "https://www.innov8md.org/resources/terrapin-works-e4d1ddc93c"
-        ],
-        [
-            "Chesapeake Arts Center",
-            "https://www.chesapeakearts.org/makerspace"
-        ],
-        [
-            "Baltimore County Public Library",
-            "https://www.bcpl.info/youth/make-it-place.html"
-        ],
-        [
-            "Maryland - Hackerspaces",
-            "https://wiki.hackerspaces.org/Maryland"
-        ],
-        [
-            "Allegany College of Maryland",
-            "https://services.allegany.edu/ce/?course=PRO000"
-        ],
-        [
-            "Allegany College of Maryland Manufacturing Training Program",
-            "https://www.arc.gov/investment/western-maryland-works/"
-        ],
-        [
-            "Annapolis Makerspace",
-            "https://www.makeannapolis.org/"
-        ],
-        [
-            "Montgomery College",
-            "https://www.montgomerycollege.edu/workforce-development-continuing-education/youth-programs/summer/art-and-design/digital-fab-lab.html"
-        ],
-        [
-            "Rockville Library Makerspace",
-            "https://www.rockvillesciencecenter.org/rockville-library-makerspace"
-        ],
-        [
-            "Exploration Commons at 50 East",
-            "https://explorationcommons.carr.org/makerspace.asp"
-        ]
-    ],
-    "massachusetts": [
-        [
-            "University of Massachusetts Boston",
-            "https://www.umb.edu/makerspace"
-        ],
-        [
-            "Technocopia",
-            "https://technocopia.org/"
-        ],
-        [
-            "Framingham Makerspace",
-            "https://www.framinghammakerspace.org/"
-        ],
-        [
-            "Artisan's Asylum",
-            "https://artisansasylum.com/"
-        ],
-        [
-            "BOSTON MAKERS",
-            "https://www.bostonmakers.org/"
-        ],
-        [
-            "Watertown Library",
-            "https://www.watertownlib.org/hatch"
-        ],
-        [
-            "Lowell Makes",
-            "https://lowellmakes.com/"
-        ],
-        [
-            "Cambridge Hackspace",
-            "https://www.cambridgehackspace.com/"
-        ],
-        [
-            "Massachusetts k12 Engineering",
-            "https://www.engineeringk12mass.org/makerspaces.html"
-        ],
-        [
-            "MassCUE",
-            "https://www.masscue.org/committees/makerspace-sig/"
-        ],
-        [
-            "The Umbrella Arts Center",
-            "https://theumbrellaarts.org/blog/tag/makerspace"
-        ],
-        [
-            "Goodnow Library",
-            "https://goodnowlibrary.org/now-lab/"
-        ],
-        [
-            "Tinkerhaus",
-            "https://www.tinkerhaus.org/"
-        ],
-        [
-            "Old Stone Mill Center",
-            "https://oldstonemillcenter.org/"
-        ],
-        [
-            "Framingham Public Library",
-            "https://framinghamlibrary.org/makerspace"
-        ],
-        [
-            "Nissitissit Middle School",
-            "https://www.nmrsd.org/Page/752"
-        ]
-    ],
-    "michigan": [
-        [
-            "Maker Works",
-            "https://www.maker-works.com/"
-        ],
-        [
-            "Michigan Makers",
-            "http://michiganmakers.weebly.com/local-makerspaces.html"
-        ],
-        [
-            "i3Detroit",
-            "https://www.i3detroit.org/"
-        ],
-        [
-            "MTU Makerspace",
-            "https://makerspace.mtu.edu/"
-        ],
-        [
-            "University of Michigan Library",
-            "https://www.lib.umich.edu/visit-and-study/creation-and-learning-spaces/shapiro-design-lab"
-        ],
-        [
-            "Mid-Michigan Library League",
-            "https://www.mmll.org/a/maker-space-resources/maker-space-resources-1"
-        ],
-        [
-            "Makerspace - Michigan City Public Library",
-            "https://www.mclib.org/teens/makerspace/"
-        ],
-        [
-            "Western Michigan University",
-            "https://wmich.edu/library/makerspace"
-        ],
-        [
-            "Brightmoor Makerspace",
-            "https://brightmoormakerspace.org/"
-        ],
-        [
-            "Farmington Hills Makerspace",
-            "https://www.fhgov.com/Activities/The-Hawk/Programs/Makerspace.aspx"
-        ],
-        [
-            "Michigan - Hackerspaces",
-            "https://wiki.hackerspaces.org/Michigan"
-        ],
-        [
-            "Monroe County Community College",
-            "https://www.monroeccc.edu/aset/makerspace"
-        ],
-        [
-            "Selma D. and Stanley C. Hollander MakeCentral",
-            "https://lib.msu.edu/makerspace/"
-        ],
-        [
-            "Lake Michigan College",
-            "http://www.lakemichigancollege.edu/community/fab-lab"
-        ],
-        [
-            "Novi Library",
-            "https://novilibrary.org/services/icube-makerspace"
-        ],
-        [
-            "MSU Innovation Center",
-            "https://www.uppermichiganssource.com/2021/03/31/msu-innovation-center-awards-support-to-mtus-husky-innovate-makerspace/"
-        ],
-        [
-            "Maker13",
-            "https://www.maker13.com/"
-        ],
-        [
-            "Central Michigan University",
-            "https://www.cmich.edu/office_provost/CIS/Pages/Explore%20Teaching%20and%20Learning/Selecting%20or%20Developing%20Materials%20and%20Tools/Video-Maker-Space-Overview.aspx"
-        ],
-        [
-            "STUDIO JSD",
-            "https://www.studiojsd.com/"
-        ],
-        [
-            "University Innovation Fellows",
-            "https://universityinnovation.org/wiki/Main_Page"
-        ],
-        [
-            "Kzoo Makers",
-            "https://kzoomakers.org/"
-        ],
-        [
-            "Petoskey District Library",
-            "https://www.petoskeylibrary.org/using-the-library/makerspace/"
-        ]
-    ],
-    "minnesota": [
-        [
-            "Minnesota Makerspace",
-            "https://mnmakerspace.com/"
-        ],
-        [
-            "Twin Cities Maker",
-            "https://www.tcmaker.org/"
-        ],
-        [
-            "White Bear Makerspace",
-            "https://www.whitebearmakerspace.com/"
-        ],
-        [
-            "Minnesota Children's Museum",
-            "https://mcm.org/makerspace-movement/"
-        ],
-        [
-            "Mankato Makerspace",
-            "https://www.mankatomakerspace.org/"
-        ],
-        [
-            "Health Sciences Library",
-            "https://hsl.lib.umn.edu/spaces/makerspace"
-        ],
-        [
-            "University of Minnesota Libraries",
-            "https://www.lib.umn.edu/spaces/breakerspace"
-        ],
-        [
-            "Duluth MakerSpace",
-            "http://duluthmakerspace.com/"
-        ],
-        [
-            "Mall of America",
-            "https://www.mallofamerica.com/makerspace"
-        ],
-        [
-            "Red Wing Ignite",
-            "https://www.redwingignite.org/makerspace/"
-        ],
-        [
-            "Mounds Park Academy",
-            "https://www.moundsparkacademy.org/academics/school-wide/makerspace/"
-        ],
-        [
-            "Saint Paul Public Library",
-            "https://sppl.org/innovation-lab/"
-        ],
-        [
-            "Science Museum of Minnesota",
-            "https://www.smm.org/classes/10510"
-        ],
-        [
-            "MN Tool Library",
-            "https://www.mntoollibrary.org/"
-        ],
-        [
-            "Chisago Lakes School District",
-            "https://www.isd2144.org/Domain/379"
-        ],
-        [
-            "Bethel University",
-            "https://www.bethel.edu/library/makerspace"
-        ]
-    ],
-    "mississippi": [
-        [
-            "Mississippi State University Libraries",
-            "https://www.library.msstate.edu/dmc/spaces/makerspace"
-        ],
-        [
-            "MSU's Maker Space",
-            "https://ecenter.msstate.edu/programs/the-factory-msus-maker-space/"
-        ],
-        [
-            "Madison County Schools",
-            "https://www.madison-schools.com/domain/4010"
-        ],
-        [
-            "Eagle Maker Hub",
-            "https://www.eaglemakerhub.org/"
-        ],
-        [
-            "Jackson State University",
-            "https://www.jsums.edu/innovationcenter/makerspace/"
-        ],
-        [
-            "Coast Episcopal School",
-            "https://coastepiscopalschool.org/mc/academics/makerspace/"
-        ],
-        [
-            "Starkville Oktibbeha School District",
-            "https://www.starkvillesd.com/discoverycenter/makerspaces"
-        ],
-        [
-            "Southern Lehigh Middle School",
-            "https://www.slsd.org/Page/4885"
-        ],
-        [
-            "The University of Mississippi Libraries",
-            "https://libraries.olemiss.edu/idea-lab/"
-        ],
-        [
-            "The Collaborative Space",
-            "https://www.mslightcollaborative.com/the-collaborative-space"
-        ],
-        [
-            "Mississippi Robotics",
-            "https://mississippirobotics.org/"
-        ],
-        [
-            "TheLab.ms",
-            "https://thelab.ms/"
-        ]
-    ],
-    "missouri": [
-        [
-            "The Makerspace at Missouri S&T",
-            "https://sites.google.com/mst.edu/mstmakerspace/home"
-        ],
-        [
-            "Missouri S&T Makerspace",
-            "https://mst.campuslabs.com/engage/organization/missouri-s-t-makerspace"
-        ],
-        [
-            "The Edge Community Technology Center",
-            "https://thelibrary.org/edge/maker-space.cfm"
-        ],
-        [
-            "MADE Makerspace",
-            "https://madestl.com/"
-        ],
-        [
-            "Joplin Public Library",
-            "https://www.joplinpubliclibrary.org/makerspace/"
-        ],
-        [
-            "Mizzou College of Education",
-            "https://education.missouri.edu/information-science-learning-technologies/2017/07/26/wemake-design-learn-lab/"
-        ],
-        [
-            "Saint Louis Science Center",
-            "https://www.slsc.org/exhibits-attractions/makerspace/"
-        ],
-        [
-            "Camden County Library District",
-            "https://www.ccld.us/creation_station/"
-        ],
-        [
-            "Johnson County Library",
-            "https://www.jocolibrary.org/makerspace"
-        ],
-        [
-            "Millet & Hammer",
-            "https://milletandhammer.com/company"
-        ],
-        [
-            "Missouri - Hackerspaces",
-            "https://wiki.hackerspaces.org/Missouri"
-        ],
-        [
-            "Nevada Public Library",
-            "https://www.nplmo.org/the-next-level-makerspace-by-npl"
-        ],
-        [
-            "Moberly Area Community College",
-            "https://www.macc.edu/makerspace"
-        ],
-        [
-            "Hammerspace Workshop",
-            "https://hammerspacehobby.com/"
-        ],
-        [
-            "Lewis and Clark Elementary",
-            "https://www.lps53.org/domain/1133"
-        ],
-        [
-            "Finley Farms",
-            "https://finleyfarmsmo.com/the-workshop/"
-        ],
-        [
-            "MACCLAB",
-            "https://macclab.com/"
-        ]
-    ],
-    "montana": [
-        [
-            "Montana State University",
-            "https://www.montana.edu/makerspace/"
-        ],
-        [
-            "Bozeman Makerspace",
-            "https://bozemanmakers.org/"
-        ],
-        [
-            "Missoula Public Library",
-            "https://www.missoulapubliclibrary.org/home/spaces/makerspace/"
-        ],
-        [
-            "University of Montana",
-            "https://www.umt.edu/innovation-factory/"
-        ],
-        [
-            "SCRAP",
-            "http://scrapinbillings.com/"
-        ],
-        [
-            "Frenchtown School District",
-            "https://www.ftsd.org/page/elemintlibrary"
-        ]
-    ],
-    "nebraska": [
-        [
-            "Nebraska Innovation Studio",
-            "https://innovationstudio.unl.edu/"
-        ],
-        [
-            "Nebraska Makerspace Workshop",
-            "https://research.unl.edu/events/makerspaceworkshop/"
-        ],
-        [
-            "Library Makerspaces - Resources",
-            "http://nlc.nebraska.gov/libraries/maker/"
-        ],
-        [
-            "Mid-Nebraska Makerspace Lab",
-            "https://mnm.esu10.org/"
-        ],
-        [
-            "MakeShift",
-            "http://makeshiftlincoln.org/"
-        ],
-        [
-            "City of Norfolk Nebraska Makerspace",
-            "https://norfolkne.gov/government/departments/library/makerspace/"
-        ],
-        [
-            "Made New",
-            "https://madenewomaha.com/"
-        ],
-        [
-            "Whiteclay Makerspace",
-            "https://whiteclayredo.com/"
-        ],
-        [
-            "Nebraska Library Innovation Studios Makerspace Partnership",
-            "https://libraries.ne.gov/superior/2019/09/13/nebraska-library-innovation-studios-makerspace-partnership/"
-        ],
-        [
-            "City of Kearney Public Library Makerspace",
-            "https://cityofkearney.org/2010/Makerspace"
-        ],
-        [
-            "Beyond School Bells",
-            "https://beyondschoolbells.org/mobile-maker-space/"
-        ],
-        [
-            "Metropolitan Community College",
-            "https://www.mccneb.edu/Community-Business/Workforce-Innovation-Division/Our-Facility/Prototype-Design-Lab"
-        ]
-    ],
-    "nevada": [
-        [
-            "University of Nevada, Reno",
-            "https://www.unr.edu/innevation/makerspace"
-        ],
-        [
-            "Bridgewire Makerspace",
-            "https://bridgewire.org/"
-        ],
-        [
-            "UNLV University Libraries",
-            "https://www.library.unlv.edu/spaces/makerspace"
-        ],
-        [
-            "The Generator",
-            "https://www.therenogenerator.com/"
-        ],
-        [
-            "Washoe County Library",
-            "https://www.washoecountylibrary.us/makers/"
-        ],
-        [
-            "Carson City Library",
-            "https://carsoncitylibrary.org/capital-makers/"
-        ],
-        [
-            "The Curious Forge",
-            "https://thecuriousforge.org/"
-        ],
-        [
-            "Discovery Lab",
-            "https://www.discoverykidslv.org/visit/exhibits/discovery-lab"
-        ],
-        [
-            "State of Nevada List of Coworking Spaces",
-            "https://business.nv.gov/Resource_Center/Coworking/_Incubator/_Accelerator_Spaces/"
-        ],
-        [
-            "Pinon Hills Elementary School",
-            "https://phes-dcsd1-nv.schoolloop.com/pf4/cms2/view_page?d=x&group_id=1540279697928&vdid=i217b20cab82dj"
-        ],
-        [
-            "Nevada Public Library",
-            "https://www.nplmo.org/the-next-level-makerspace-by-npl"
-        ],
-        [
-            "DeLaMare Library",
-            "https://unr.libcal.com/reserve/makerspace"
-        ]
-    ],
-    "new-hampshire": [
-        [
-            "Manchester Makerspace",
-            "https://manchestermakerspace.org/"
-        ],
-        [
-            "Making Matters NH",
-            "https://www.makingmattersnh.org/"
-        ],
-        [
-            "University of New Hampshire",
-            "https://www.unh.edu/ecenter/makerspace"
-        ],
-        [
-            "MakeIt Labs",
-            "http://www.makeitlabs.com/"
-        ],
-        [
-            "The Claremont MakerSpace",
-            "https://claremontmakerspace.org/"
-        ],
-        [
-            "NASAA Makerspace Network",
-            "https://www.nh.gov/nharts/programservices/communityarts.html"
-        ],
-        [
-            "Port City Makerspace",
-            "https://www.portcitymakerspace.com/"
-        ],
-        [
-            "New Hampshire - Hackerspaces",
-            "https://wiki.hackerspaces.org/New_Hampshire"
-        ],
-        [
-            "Amherst Makerspace",
-            "https://www.amherstmakerspace.com/"
-        ],
-        [
-            "MAxT Makerspace",
-            "http://www.maxtmakerspace.org/"
-        ],
-        [
-            "Assemble Makerspace",
-            "https://www.assemblenh.com/"
-        ],
-        [
-            "Woodturners & Manchester Makerspace",
-            "https://www.gnhw.org/blog/woodturners-manchester-makerspace"
-        ],
-        [
-            "Research Guides",
-            "https://libguides.snhu.edu/sb.php?subject_id=93430"
-        ],
-        [
-            "Keene Public Library's All Age Makerspace",
-            "https://keenenh.gov/keene-public-library/keene-public-librarys-all-age-makerspace"
-        ],
-        [
-            "Makers Mill",
-            "https://www.makersmill.org/"
-        ],
-        [
-            "Howe Library",
-            "https://www.thehowe.org/maker"
-        ]
-    ],
-    "new-jersey": [
-        [
-            "NJIT Makerspace",
-            "https://www.njitmakerspace.com/"
-        ],
-        [
-            "Rutgers Makerspace",
-            "https://makerspace.rutgers.edu/home"
-        ],
-        [
-            "Bergen Makerspace",
-            "http://bergenmakerspace.bergen.org/"
-        ],
-        [
-            "Piscataway Public Library",
-            "https://piscatawaylibrary.org/miy/"
-        ],
-        [
-            "Maker Junction",
-            "https://makerjunction.org/"
-        ],
-        [
-            "New Jersey Library Makerspaces",
-            "https://librarylinknj.org/projects/makerspaces"
-        ],
-        [
-            "HackNCraftNJ",
-            "http://www.hackncraftnj.org/"
-        ],
-        [
-            "Hoboken Public Library",
-            "https://hobokenlibrary.org/makerspace-2/"
-        ],
-        [
-            "FUBAR Labs",
-            "https://fubarlabs.org/"
-        ],
-        [
-            "Gloucester County Library System",
-            "https://www.gcls.org/make"
-        ],
-        [
-            "AIMM Makerspace",
-            "https://dct.tcnj.edu/facilities/makerspace/"
-        ],
-        [
-            "New Brunswick Free Public Library",
-            "https://www.nbfpl.org/makerspace"
-        ],
-        [
-            "Jersey City Fabrication Lab",
-            "https://jcfablab.com/"
-        ],
-        [
-            "The Belmar Public Library",
-            "https://www.belmarlibrary.org/content.php?page=19"
-        ]
-    ],
-    "new-mexico": [
-        [
-            "Quelab",
-            "https://quelab.net/"
-        ],
-        [
-            "FUSE Makerspace",
-            "https://www.cnm.edu/locations/fuse-makerspace"
-        ],
-        [
-            "Socorro Makerspace",
-            "https://socorromakerspace.wordpress.com/"
-        ],
-        [
-            "School of Architecture and Planning",
-            "https://saap.unm.edu/research/projects/mobilelab.html"
-        ],
-        [
-            "Hitchhiker",
-            "http://hitchhiker.nmstatelibrary.org/tag/makerspaces/"
-        ],
-        [
-            "AFRL Maker Hub",
-            "http://afrlmakerhub.com"
-        ],
-        [
-            "Parachute Factory",
-            "https://www.cctnewmexico.org/parachute-factory/"
-        ]
-    ],
-    "new-york": [
-        [
-            "MakerSpace NYC",
-            "https://www.makerspace.nyc/"
-        ],
-        [
-            "NYC Makerspace",
-            "http://nycmakerspace.org/"
-        ],
-        [
-            "The Makery",
-            "https://www.nycmakery.com/"
-        ],
-        [
-            "Staten Island MakerSpace",
-            "https://www.nycgo.com/arts-culture/staten-island-makerspace-st.-george"
-        ],
-        [
-            "Futureworks NYC",
-            "https://futureworks.nyc/"
-        ],
-        [
-            "Fat Cat Fab Lab",
-            "https://fatcatfablab.org/"
-        ],
-        [
-            "Spark Workshop Brooklyn",
-            "https://sparkworkshopbrooklyn.com/"
-        ],
-        [
-            "NYU Tandon School of Engineering",
-            "https://engineering.nyu.edu/research-innovation/makerspace"
-        ],
-        [
-            "New York City School Library System",
-            "https://nycdoe.libguides.com/innovation"
-        ],
-        [
-            "The Rochester Makerspace",
-            "https://rocmakers.org/"
-        ],
-        [
-            "Syracuse University",
-            "https://makerspace.syr.edu/"
-        ]
-    ],
-    "north-carolina": [
-        [
-            "NCSU Libraries",
-            "https://www.lib.ncsu.edu/services/makerspace"
-        ],
-        [
-            "MakerSpace Charlotte",
-            "https://www.makerspacecharlotte.org/"
-        ],
-        [
-            "The Maker's Space",
-            "https://www.themakersspaceraleigh.com/"
-        ],
-        [
-            "Forge Greensboro",
-            "https://www.forgegreensboro.org/"
-        ],
-        [
-            "UNC-Chapel Hill Libraries",
-            "https://library.unc.edu/science/makerspace/"
-        ],
-        [
-            "Blackspace",
-            "http://theblackspace.org/"
-        ],
-        [
-            "Splat Space",
-            "https://splatspace.org/"
-        ],
-        [
-            "Forsyth County Library",
-            "https://www.forsyth.cc/library/Central/makerspace.aspx"
-        ],
-        [
-            "Makerspace of Greenville",
-            "https://makerspaceofgreenville.com/"
-        ],
-        [
-            "J. Murrey Atkins Library",
-            "https://library.charlotte.edu/technology-equipment/area-49/makerspace"
-        ],
-        [
-            "UNC Charlotte Area 49",
-            "https://guides.library.uncc.edu/area49/makerspace"
-        ],
-        [
-            "Asheville Makers",
-            "http://ashevillemakers.org/"
-        ],
-        [
-            "UNC Chapel Hill Murray Hall Makerspace and Lab",
-            "https://www.bhdp.com/university-north-carolina-chapel-hill-murray-hall-makerspace-and-lab-fit"
-        ],
-        [
-            "Asheville City Schools",
-            "https://nc02214494.schoolwires.net/domain/443"
-        ],
-        [
-            "LibGuides at North Carolina Wesleyan College",
-            "https://ncwc.libguides.com/Makerspace"
-        ],
-        [
-            "Guilford County Schools",
-            "https://www.gcsnc.com/domain/10045"
-        ],
-        [
-            "University of North Carolina",
-            "https://digitalmakerspace.uncw.edu/"
-        ]
-    ],
-    "north-dakota": [
-        [
-            "North Dakota's Hands-on Science Center",
-            "https://gatewaytoscience.org/maker-space/"
-        ],
-        [
-            "North Dakota LibGuides",
-            "https://library-nd.libguides.com/programming/STEAM"
-        ],
-        [
-            "North Dakota - Hackerspaces",
-            "https://wiki.hackerspaces.org/North_Dakota"
-        ],
-        [
-            "Makerspace in the Architecture Library",
-            "https://libguides.library.nd.edu/architecture/makerspace"
-        ]
-    ],
-    "ohio": [
-        [
-            "Schantz MakerSpace",
-            "https://www.schantzmakerspace.com/"
-        ],
-        [
-            "Ohio University",
-            "https://www.ohio.edu/instructional-innovation/initiatives/learning-environments/makerspaces"
-        ],
-        [
-            "Cleveland Public Library",
-            "https://cpl.org/aboutthelibrary/subjectscollections/techcentral/makerspace/"
-        ],
-        [
-            "UpCycle Ohio",
-            "https://upcycleohio.com/"
-        ],
-        [
-            "Akron Makerspace",
-            "https://akronmakerspace.org/"
-        ],
-        [
-            "Cincinnati & Hamilton County Public Library",
-            "https://cincinnatilibrary.org/services/makerspace/"
-        ],
-        [
-            "University of Dayton",
-            "https://udayton.edu/engineering/connect/innovation_center/makerspace/index.php"
-        ],
-        [
-            "BiG Fab Lab",
-            "http://bigfablab.com/"
-        ],
-        [
-            "Mentor Public Library",
-            "https://mentorpl.org/makers/makerspace/"
-        ],
-        [
-            "Makerspace \u2014 BB2C - Building Bridges to Careers",
-            "https://bb2careers.org/makerspace"
-        ],
-        [
-            "Makerspace: Home - Subject & Course Guides",
-            "https://libguides.lib.miamioh.edu/create/makerspace"
-        ],
-        [
-            "Cincinnati's Makerspace",
-            "https://themanufactory.us/"
-        ],
-        [
-            "Greene County Public Library",
-            "https://greenelibrary.info/makerspace/"
-        ],
-        [
-            "Public Library of Youngstown and Mahoning County",
-            "https://www.libraryvisit.org/makerspace/"
-        ],
-        [
-            "Delaware County District Library",
-            "https://www.delawarelibrary.org/locations/makerstudio/"
-        ],
-        [
-            "University Of Cincinnati",
-            "https://innovation.uc.edu/makerspace.html"
-        ],
-        [
-            "Cuyahoga Falls Library",
-            "https://cuyahogafallslibrary.org/services/makerspace/"
-        ],
-        [
-            "Hudson City Schools",
-            "https://www.hudson.k12.oh.us/domain/1218"
-        ]
-    ],
-    "oklahoma": [
-        [
-            "Co-Laboratory Oklahoma",
-            "https://colab-ok.com/"
-        ],
-        [
-            "Oklahoma City IdeaSpace",
-            "http://www.okcideaspace.org/about"
-        ],
-        [
-            "The University of Oklahoma",
-            "https://www.ou.edu/innovationhub"
-        ],
-        [
-            "City of Mustang Oklahoma",
-            "https://www.cityofmustang.org/library/page/makerspace-all-ages-0"
-        ],
-        [
-            "Enid Public Library",
-            "https://enid.okpls.org/programs/open-makerspace/"
-        ],
-        [
-            "Oklahoma - Hackerspaces",
-            "https://wiki.hackerspaces.org/Oklahoma"
-        ],
-        [
-            "Fab Lab Tulsa",
-            "https://fablabtulsa.org/"
-        ],
-        [
-            "The Steam Engine",
-            "https://www.steamengineokc.org/"
-        ]
-    ],
-    "oregon": [
-        [
-            "DAMlab Makerspace",
-            "https://business.oregonstate.edu/student-experience/resources/DAMlab"
-        ],
-        [
-            "DeArmond MakerSpace",
-            "https://library.uoregon.edu/scilib/psc-dearmond-makerspace"
-        ],
-        [
-            "The Collaboratory",
-            "https://www.hillsboro-oregon.gov/our-city/departments/library/services/collaboratory-makerspace"
-        ],
-        [
-            "Eugene Makerspace",
-            "https://eugenemakerspace.com/"
-        ],
-        [
-            "Multnomah County Library",
-            "https://multcolib.org/library-location/rockwood-makerspace"
-        ],
-        [
-            "Tualatin Public Library Makerspace",
-            "https://www.tualatinoregon.gov/library/tualatin-public-library-makerspace"
-        ],
-        [
-            "Clackamas Community College",
-            "https://www.clackamas.edu/campus-life/campuses-buildings-hours/makerspace"
-        ],
-        [
-            "DIYcave",
-            "https://diycave.com/"
-        ],
-        [
-            "Open Bench Project",
-            "https://obportland.org/"
-        ],
-        [
-            "Portland Public Schools",
-            "https://www.pps.net/Page/6960"
-        ],
-        [
-            "City of West Linn",
-            "https://westlinnoregon.gov/library/maker-programs-and-resources"
-        ],
-        [
-            "Oregon Public Library",
-            "https://www.oregonpubliclibrary.org/pop-up-makerspace"
-        ],
-        [
-            "Talent Maker City",
-            "https://www.talentmakercity.org/"
-        ],
-        [
-            "Craterworks.org",
-            "https://www.craterworks.org/"
-        ],
-        [
-            "Portland Community College",
-            "https://www.pcc.edu/maker/"
-        ],
-        [
-            "Gorge MakerSpace",
-            "https://www.gorgemakerspace.com/"
-        ],
-        [
-            "Arkitek Design & Architecture",
-            "https://www.arkitek.us/craterworksmakerspace"
-        ]
-    ],
-    "pennsylvania": [
-        [
-            "State Library Makerspace",
-            "https://www.statelibrary.pa.gov/GeneralPublic/State-Library-Makerspace/Pages/default.aspx"
-        ],
-        [
-            "Pennsylvania College of Technology",
-            "https://www.pct.edu/academics/makerspace"
-        ],
-        [
-            "NextFab",
-            "https://nextfab.com/"
-        ],
-        [
-            "Katapult Makerspace",
-            "https://www.katapultmakerspace.com/"
-        ],
-        [
-            "Cranberry Township",
-            "https://www.cranberrytownship.org/2742/Makerspace"
-        ],
-        [
-            "Pennovation Works",
-            "https://www.pennovation.upenn.edu/"
-        ],
-        [
-            "Penn State College of Engineering",
-            "https://www.lf.psu.edu/makerspace/index.aspx"
-        ],
-        [
-            "Swarthmore College",
-            "https://www.swarthmore.edu/makerspace"
-        ],
-        [
-            "Chester County Library",
-            "https://chescolibraries.org/using-library/digital-media-lab-and-makerspace"
-        ],
-        [
-            "Colonial School District",
-            "https://www.colonialsd.org/our-schools/plymouth-whitemarsh-high/library/makerspace"
-        ]
-    ],
-    "rhode-island": [
-        [
-            "Rhode Island Maker Mill",
-            "https://rimakermill.com/"
-        ],
-        [
-            "Studio 55 Makerspace",
-            "https://eastprovidencearts.org/spaces/studio-55-makerspace/"
-        ],
-        [
-            "University of Rhode Island",
-            "https://web.uri.edu/library/services/spaces/makerspaceuri/"
-        ],
-        [
-            "FabNewport",
-            "https://fabnewport.org/"
-        ],
-        [
-            "RI STEAM Center",
-            "http://www.risteamcenter.org/tag/makerspace/"
-        ],
-        [
-            "Biodesign Makerspace",
-            "https://biomaker.risd.edu/about.html"
-        ],
-        [
-            "Tinker Bristol",
-            "https://tinkerri.org/"
-        ],
-        [
-            "Providence Public Library",
-            "https://www.provlib.org/education/childrens-programs/pvd-young-makers/"
-        ],
-        [
-            "University of Rhode Island LibGuides",
-            "https://urilis.libguides.com/uri_library_makerspace"
-        ],
-        [
-            "Clark Memorial Library",
-            "https://www.clarklib.org/maker-space"
-        ],
-        [
-            "Westerly Library & Wilcox Park",
-            "https://westerlylibrary.org/event-location-new/makerspace"
-        ]
-    ],
-    "south-carolina": [
-        [
-            "University of South Carolina",
-            "https://sc.edu/about/offices_and_divisions/housing/rhodosfellows/makerspace/index.php"
-        ],
-        [
-            "Synergy Mill",
-            "https://synergymill.com/"
-        ],
-        [
-            "Cola Makerspace",
-            "https://www.colamakerspace.com/"
-        ],
-        [
-            "Clemson University",
-            "https://www.clemson.edu/centers-institutes/watt/about/makerspace.html"
-        ],
-        [
-            "Reforge Charleston",
-            "https://reforge.io/"
-        ],
-        [
-            "Wando Mount Pleasant Makerspace and Creative Studios",
-            "https://www.ccpl.org/makerspace-and-creative-studios-procedures"
-        ],
-        [
-            "Makerspace of Greenville",
-            "https://makerspaceofgreenville.com/"
-        ],
-        [
-            "Richland Library",
-            "https://www.richlandlibrary.com/studio-services"
-        ],
-        [
-            "The Makerspace At Columbia",
-            "https://make.columbia.edu/"
-        ],
-        [
-            "South Carolina - Hackerspaces",
-            "https://wiki.hackerspaces.org/South_Carolina"
-        ],
-        [
-            "Rock Hill Schools",
-            "https://www.rock-hill.k12.sc.us/Page/6035"
-        ],
-        [
-            "Cola Makerspace",
-            "https://www.causeiq.com/organizations/cola-makerspace,474348830/"
-        ]
-    ],
-    "south-dakota": [
-        [
-            "South Dakota - Hackerspaces",
-            "https://wiki.hackerspaces.org/South_Dakota"
-        ],
-        [
-            "Rapid City Makerspace",
-            "https://www.rapidcitylibrary.org/makerspace"
-        ],
-        [
-            "Arts South Dakota",
-            "https://artssouthdakota.org/event/open-makerspace-hours-4/"
-        ],
-        [
-            "Sturgis Public Library",
-            "https://www.sturgis-sd.gov/events/43482/"
-        ],
-        [
-            "makeSPACE",
-            "http://makespacesd.org/"
-        ],
-        [
-            "SD Afterschool Network",
-            "https://sdafterschoolnetwork.org/tmc-trailers/"
-        ],
-        [
-            "Lake Area Technical College",
-            "https://www.lakeareatech.edu/campus/library/makerspace/"
-        ],
-        [
-            "Continuous Learning in Brookings",
-            "https://liveinbrookings.com/learn/continuous-learning/"
-        ]
-    ],
-    "tennessee": [
-        [
-            "Walker Library at Middle Tennesse State University",
-            "https://library.mtsu.edu/c.php?g=1134802"
-        ],
-        [
-            "University of Tennessee",
-            "https://www.lib.utk.edu/hours/spaces/makerspace/"
-        ],
-        [
-            "The CO",
-            "https://www.attheco.com/makerspace"
-        ],
-        [
-            "Make Nashville",
-            "http://makenashville.org/"
-        ],
-        [
-            "Tennessee State University",
-            "https://www.tnstate.edu/library/makerspace.aspx"
-        ],
-        [
-            "ChattLab",
-            "https://wiki.chattlab.org/home"
-        ],
-        [
-            "Tennessee Tech University",
-            "https://www.tntech.edu/engineering/research/imakerspace/index.php"
-        ],
-        [
-            "Knox Makers",
-            "https://knoxmakers.org/"
-        ],
-        [
-            "Union University",
-            "https://www.uu.edu/dept/engineering/makerspace/"
-        ],
-        [
-            "Sync Spcae",
-            "https://syncspace.org/"
-        ],
-        [
-            "Chattanooga Public Library",
-            "https://chattlibrary.org/4th-floor/"
-        ],
-        [
-            "Tennessee Library Association",
-            "https://www.tnla.org/page/515"
-        ],
-        [
-            "Midsouth Makers",
-            "https://www.midsouthmakers.org/"
-        ],
-        [
-            "Inventor Center",
-            "https://theinventorcenter.com/"
-        ]
-    ],
-    "texas": [
-        [
-            "Dallas Makerspace",
-            "https://dallasmakerspace.org/"
-        ],
-        [
-            "Texas Inventionworks",
-            "https://inventionworks.engr.utexas.edu/"
-        ],
-        [
-            "TX/RX Labs",
-            "https://www.txrxlabs.org/"
-        ],
-        [
-            "Maker's Edge",
-            "http://www.themakersedge.com/"
-        ],
-        [
-            "Texas State University Libraries",
-            "https://www.library.txstate.edu/services/technology/3d-printing-makerspace.html"
-        ],
-        [
-            "WALSH",
-            "https://walshtx.com/walsh-village/makerspace/"
-        ],
-        [
-            "The MakerBarn",
-            "https://www.themakerbarn.org/"
-        ],
-        [
-            "Asmbly",
-            "https://asmbly.org/"
-        ],
-        [
-            "The City of Fort Worth Makerspace",
-            "https://www.fortworthtexas.gov/departments/library/programs/makerspace"
-        ],
-        [
-            "Texas Tech University",
-            "https://www.depts.ttu.edu/library/make/index.php"
-        ],
-        [
-            "Arlington Public Library",
-            "https://www.arlingtonlibrary.org/makerspace"
-        ],
-        [
-            "City of Tyler Makerspace",
-            "https://www.cityoftyler.org/government/departments/library/programs-services/programs/makerspace"
-        ],
-        [
-            "Lamar University",
-            "https://www.lamar.edu/science-and-technology/makerspace/index.html"
-        ],
-        [
-            "UTDesign Makerspace",
-            "https://utdmaker.space/"
-        ],
-        [
-            "Creation Station Makerspace",
-            "https://abilenetx.gov/760/Makerspace"
-        ],
-        [
-            "TheLab.ms",
-            "https://thelab.ms/"
-        ],
-        [
-            "Anna ISD Makerspace",
-            "https://www.annaisd.org/domain/459"
-        ],
-        [
-            "LibGuides at Texas Wesleyan",
-            "https://txwes.libguides.com/c.php?g=635993&p=4761915"
-        ],
-        [
-            "Texas A&M University Engineering",
-            "https://engineering.tamu.edu/academics/fedc/facility/index.html"
-        ],
-        [
-            "Crashworks STEAM Studio",
-            "https://crashworkswf.com/"
-        ],
-        [
-            "UTMB Health",
-            "https://www.utmb.edu/maker/home"
-        ]
-    ],
-    "utah": [
-        [
-            "Make Salt Lake",
-            "https://makesaltlake.org/"
-        ],
-        [
-            "Sid Atkin MakerSpace",
-            "http://library.washco.utah.gov/st-george/makerspace/"
-        ],
-        [
-            "Cache Maker",
-            "https://www.cachemakers.org/"
-        ],
-        [
-            "Atwood Innovation Plaza",
-            "https://innovation.dixie.edu/makerspace/"
-        ],
-        [
-            "Lassonde Entrepreneur Institute",
-            "https://lassonde.utah.edu/make/"
-        ],
-        [
-            "ProVolt",
-            "http://www.provolt.org/"
-        ],
-        [
-            "ProLabs Studio",
-            "https://prolabstudio.com/"
-        ],
-        [
-            "BYU Library",
-            "https://lib.byu.edu/services/makerspace/"
-        ],
-        [
-            "Southern Utah Makerspace",
-            "https://www.all-good.com/Southern-Utah-Makerspace"
-        ],
-        [
-            "USU College of Engineering",
-            "https://engineering.usu.edu/students/idea-factory/"
-        ],
-        [
-            "Utah - Hackerspaces",
-            "https://wiki.hackerspaces.org/Utah"
-        ],
-        [
-            "North Logan City Library",
-            "https://northloganlibrary.org/makerspace"
-        ],
-        [
-            "My Tech High",
-            "https://www.mytechhigh.com/makerspace-design"
-        ],
-        [
-            "Channing Hall Think Lab",
-            "https://channinghall.org/thinklab"
-        ]
-    ],
-    "vermont": [
-        [
-            "Generator Makerspace",
-            "https://generatorvt.com/"
-        ],
-        [
-            "Champlain College & Generator Makerspace Partnership",
-            "https://www.champlain.edu/centers-of-experience/generator-makerspace"
-        ],
-        [
-            "The MINT",
-            "https://rutlandmint.org/"
-        ],
-        [
-            "UVM FabLab",
-            "http://uvmfablab.net/working-with-the-fablab/"
-        ],
-        [
-            "Pacem's Makerspace: devoted to fostering creative pursuits",
-            "https://pacemschool.org/about/mission/"
-        ],
-        [
-            "REclaimED Poultney",
-            "https://www.reclaimedvermont.org/"
-        ],
-        [
-            "MakerSphere",
-            "https://www.makerspherevt.com/"
-        ],
-        [
-            "The MINT",
-            "https://rutlandvermont.com/the-mint/"
-        ],
-        [
-            "Spark",
-            "https://sparkvt.org/"
-        ],
-        [
-            "Saint Michael's College",
-            "https://www.smcvt.edu/student-life/student-activities/makerspace/"
-        ],
-        [
-            "The Foundry",
-            "https://thefoundryvt.org/"
-        ],
-        [
-            "The Claremont MakerSpace",
-            "https://claremontmakerspace.org/"
-        ],
-        [
-            "Essex Westford School District",
-            "https://www.ewsd.org/Page/6246"
-        ]
-    ],
-    "virginia": [
-        [
-            "NovaLabs",
-            "https://www.nova-labs.org/"
-        ],
-        [
-            "The University of Virginia",
-            "https://makergrounds.virginia.edu/"
-        ],
-        [
-            "TinkerTank",
-            "https://scholarslab.lib.virginia.edu/makerspace/"
-        ],
-        [
-            "757 Makerspace",
-            "https://www.757makerspace.com/"
-        ],
-        [
-            "Science Museum of Virginia",
-            "https://smv.org/explore/forge/"
-        ],
-        [
-            "Makersmiths Inc.",
-            "https://www.makersmiths.org/"
-        ],
-        [
-            "Staunton Makerspace",
-            "http://www.stauntonmakerspace.com/"
-        ],
-        [
-            "Northern Virginia Community College",
-            "https://www.nvcc.edu/systemic/fablab.html"
-        ],
-        [
-            "VCU Libraries",
-            "https://www.library.vcu.edu/spaces-tech/studios-and-makerspaces/"
-        ],
-        [
-            "Museum of the Shenandoah Valley",
-            "https://www.themsv.org/msv-makerspace/"
-        ],
-        [
-            "Loudoun County Public Library",
-            "https://library.loudoun.gov/SERVICES/Makerspace"
-        ],
-        [
-            "Newport News Library",
-            "https://www.library.nnva.gov/219/Makerspace"
-        ],
-        [
-            "Vector Space",
-            "https://vector-space.org/node/16"
-        ],
-        [
-            "Hacksburg",
-            "https://hacksburg.org/"
-        ],
-        [
-            "Prince William Public Library",
-            "https://www.pwcva.gov/department/library/central-library-makerspace"
-        ],
-        [
-            "Chesterfield County Library",
-            "https://library.chesterfield.gov/362/Makerspace"
-        ],
-        [
-            "The Makerspaces at William & Mary",
-            "https://makerspaces.wm.edu/resources/"
-        ],
-        [
-            "Arlington Public Library",
-            "https://library.arlingtonva.us/explore/for-makers-and-crafters/"
-        ],
-        [
-            "Hack.RVA",
-            "https://www.hackrva.org/"
-        ],
-        [
-            "Reynolds Community College",
-            "http://reynolds.edu/makerspace/"
-        ],
-        [
-            "Fairfax County",
-            "https://www.fairfaxcounty.gov/library/branch-out/create-home-makerspace"
-        ],
-        [
-            "WVU Parkersburg",
-            "https://www.wvup.edu/entrepreneur-opportunities/"
-        ]
-    ],
-    "washington": [
-        [
-            "Maker Space - UW HFS - University of Washington",
-            "https://hfs.uw.edu/The-MILL/Maker-Space"
-        ],
-        [
-            "Western Washington University",
-            "https://engineeringdesign.wwu.edu/makerspace"
-        ],
-        [
-            "Bellingham Makerspace",
-            "https://bellinghammakerspace.org/"
-        ],
-        [
-            "North End Makerspace",
-            "https://northendmakers.org/"
-        ],
-        [
-            "Washington County Library Makerspace",
-            "http://library.washco.utah.gov/washington/makerspace/"
-        ],
-        [
-            "UW Bothell",
-            "https://www.uwb.edu/ocl/collaboratory"
-        ],
-        [
-            "King County Library System",
-            "https://kcls.org/makerspaces/"
-        ],
-        [
-            "Lacey Maker Space",
-            "https://laceymakerspace.org/"
-        ],
-        [
-            "Voiland College of Engineering and Architecture",
-            "https://vcea.wsu.edu/student-success/maker-spaces/"
-        ],
-        [
-            "GW Office of Innovation and Entrepreneurship",
-            "https://innovation.gwu.edu/maker-spaces-campus"
-        ],
-        [
-            "Edmonds College",
-            "https://www.edmonds.edu/workforce/entrepreneurship/makerspace/default.html"
-        ],
-        [
-            "City of Auburn Makerspace",
-            "https://www.auburnwa.gov/city_hall/parks_arts_recreation/recreation/maker_space"
-        ]
-    ],
-    "west-virginia": [
-        [
-            "BridgeValley Artisan Maker Space",
-            "https://www.bridgevalley.edu/bridgevalley-artisan-maker-space"
-        ],
-        [
-            "WVU Launch Lab",
-            "https://launch.wvu.edu/home"
-        ],
-        [
-            "West Virginia Department of Education",
-            "https://wvde.us/steammindedwv/makerspace-guidance/"
-        ],
-        [
-            "WVNCC",
-            "https://www.wvncc.edu/current-students/makerspace@northern/7321"
-        ],
-        [
-            "WVU Parkersburg",
-            "https://www.wvup.edu/entrepreneur-opportunities/"
-        ],
-        [
-            "WV Hive Network",
-            "https://wvhive.com/makerspace/"
-        ],
-        [
-            "BB2C Makerspace",
-            "https://bb2careers.org/makerspace-hours-location"
-        ],
-        [
-            "West Virginia - Hackerspaces",
-            "https://wiki.hackerspaces.org/West_Virginia"
-        ],
-        [
-            "Crea Company",
-            "http://www.makebluefield.com/"
-        ],
-        [
-            "The Robert C. Byrd Institute",
-            "https://www.rcbi.org/maker-vault/"
-        ],
-        [
-            "West Virginia Schools For The Deaf and the Blind",
-            "https://www.wvsdb2.state.k12.wv.us/apps/pages/library"
-        ]
-    ],
-    "wisconsin": [
-        [
-            "University of Wisconsin",
-            "https://making.engr.wisc.edu/"
-        ],
-        [
-            "The Bodgery",
-            "https://www.thebodgery.org/"
-        ],
-        [
-            "Milwaukee Makerspace",
-            "https://milwaukeemakerspace.org/"
-        ],
-        [
-            "Sector67",
-            "https://www.sector67.org/blog/"
-        ],
-        [
-            "Concordia University",
-            "https://www.cuw.edu/academics/schools/arts-and-sciences/departments/computer-science/makerspace.html"
-        ],
-        [
-            "The Creation Station",
-            "https://onwisconsin.uwalumni.com/destination/the-creation-station/"
-        ],
-        [
-            "Wisconsin Makers",
-            "https://wisconsinmakers.org/about-us/"
-        ],
-        [
-            "Appleton Makerspace",
-            "https://appletonmakerspace.org/"
-        ],
-        [
-            "University of Wisconsin-Eau Claire",
-            "https://library.uwec.edu/spaces-collections/makerspace/"
-        ],
-        [
-            "UWM EMS Makerspace",
-            "https://uwm.edu/community-design-solutions/ems-makerspace/"
-        ],
-        [
-            "Einstein Project",
-            "https://www.einsteinproject.org/makerspaces"
-        ],
-        [
-            "Wisconsin Valley Library Service",
-            "https://wvls.org/equipment-for-booking/"
-        ],
-        [
-            "Idea Studio",
-            "https://fdlpl.org/ideastudio"
-        ],
-        [
-            "CESA",
-            "https://www.cesa2.org/curriculum/"
-        ],
-        [
-            "Forest Lodge Library",
-            "https://forestlodgelibrary.org/makerspace/"
-        ]
-    ],
-    "wyoming": [
-        [
-            "Wyrkshop",
-            "https://www.wyrkshop.org/"
-        ],
-        [
-            "University of Wyoming",
-            "http://www.uwyo.edu/coesic/"
-        ],
-        [
-            "Wyoming State Library",
-            "https://library.wyo.gov/put-a-makerspace-in-your-library/"
-        ],
-        [
-            "Maker Space 307",
-            "https://www.makerspace307.org/"
-        ],
-        [
-            "Innovation Wyrkshop",
-            "https://wyrkshop.libcal.com/"
-        ],
-        [
-            "Phorge Makerspace",
-            "https://phorge.co/"
-        ],
-        [
-            "LCCC Ludden Library Makerspace",
-            "https://libguides.lccc.wy.edu/makerspace/goldeneagle"
-        ],
-        [
-            "Powell Makerspace",
-            "https://powellchamber.org/powell-makerspace/"
-        ],
-        [
-            "Pinedale Wyrkshop",
-            "https://pinedalewyrkshop.com/"
-        ],
-        [
-            "Campbell County Libraries",
-            "https://www.ccgov.net/2160/Makerspace"
-        ],
-        [
-            "Sheridan College",
-            "https://www.sheridan.edu/about/facilities/gillette/area-59/"
-        ]
+    [
+      "Makerspace - Canterbury School of Florida",
+      "https://www.canterburyflorida.org/programs/educational-technology/makerspace"
     ]
+  ],
+  "georgia": [
+    ["Makerspaces in GA - galibtech", "https://galibtech.georgialibraries.org/emerging/makerspaces-in-ga"],
+    ["Science Library Makerspace", "https://libs.uga.edu/science/makerspace"],
+    ["Cherokee Makerspace", "https://www.cherokeemakerspace.org/"],
+    ["Georgia Tech College of Engineering", "https://www.coe.gatech.edu/academics/maker-spaces"],
+    ["Freeside Atlanta", "https://www.freesideatlanta.org/"],
+    ["SparkMacon", "https://www.sparkmacon.com/8-georgia-makerspaces-we-love/"],
+    ["Decatur Makers", "https://decaturmakers.org/"],
+    ["LibCal Technology & Makerspace", "https://libcal.ccga.edu/booking/tech"],
+    ["Georgia Southern University Innovation Studio", "https://coe.georgiasouthern.edu/centers/innovation-studio/"],
+    [
+      "Georgia State University EXLAB",
+      "https://technology.gsu.edu/technology-services/it-services/labs-and-classrooms/exlab/cmii/"
+    ],
+    ["Okefenokee Regional Library System", "https://okrls.org/makerspace/"],
+    ["Georgia O'Keeffe Elementary School", "https://goes-aps-nm.schoolloop.com/makerspace"],
+    ["Atlanta Public Schools", "https://www.atlantapublicschools.us/Page/48270"],
+    ["Roswell Firelabs", "https://roswellfirelabs.org/"],
+    ["The Maker Station", "https://www.themakerstation.com/"],
+    ["Drew Charter Makerspaces", "https://steamatdrew.weebly.com/makerspaces.html"],
+    ["Raider MakerSpace", "https://www.fultonschools.org/domain/7438"]
+  ],
+  "hawaii": [
+    ["Conversation Piece: Oahu Makerspace - FLUX Hawaii", "https://fluxhawaii.com/conversation-piece-oahu-makerspace/"],
+    ["HICapacity", "http://hicapacity.org/"],
+    ["Oahu Hackerspaces", "https://wiki.hackerspaces.org/Oahu_Makerspace"],
+    ["UH College of Engineering", "https://www.eng.hawaii.edu/fablab/"],
+    ["Entrepreneurs Sandbox", "https://sandboxhawaii.org/"],
+    ["Hawaii State Public Library", "https://www.librarieshawaii.org/event/maker-tuesdays-imagine-design-create/all/"],
+    ["UH FabLabs", "http://make.xsead.cmu.edu/knowledgebase/spaces/spaces/uh-fablab"],
+    ["Hawaii Children's Discovery Center", "http://discoverycenterhawaii.org/"],
+    ["University of Hawaii at Manoa", "https://monoahawaiilis.libguides.com/digitaltechandmakerspaces"],
+    ["Makerspace - Ewa Makai Middle School", "https://www.ewamakai.org/makerspace"],
+    ["Kauai Makerspace | Making stuff on the Garden Island", "http://kauaimakerspace.org/"],
+    ["PMDP - Papah\u0101naumoku\u0101kea Marine Debris Project.", "https://www.pmdphawaii.org/projects-2"],
+    [
+      "STEM competition, programs and units - Hawaii DOE",
+      "https://www.hawaiipublicschools.org/TeachingAndLearning/StudentLearning/Stem/Pages/Competitions-and-Units.aspx"
+    ]
+  ],
+  "idaho": [
+    ["Make It at the Library", "https://libraries.idaho.gov/stem/make-it/"],
+    ["Valley of the Tetons Library", "https://valleyofthetetonslibrary.org/makerspace-valley-of-the-tetons-library/"],
+    ["University of Idaho", "https://www.lib.uidaho.edu/mill/"],
+    ["Gizmo-CdA", "https://www.gizmo-cda.org/"],
+    ["Idaho Out-Of-School Network", "https://idahooutofschool.org/think-make-create-labs-land/"],
+    ["Idaho Art Lab", "https://www.idahoartlab.org/"],
+    ["McCall, Idaho Makerspace", "https://www.mccall.id.us/events/26530/"],
+    ["Boise Makers", "https://boisemakers.wordpress.com/"],
+    ["JUMP", "http://jumpboise.org/make"],
+    ["Idaho Falls Public Library", "https://www.ifpl.org/makerspace/"],
+    ["Boise State University", "https://www.boisestate.edu/library-makerlab/"],
+    ["Idaho State University", "https://cetrain.isu.edu/enrollment/course/create-collaborate-innovatemake/"],
+    ["GIZMO-CDA", "https://www.nic.edu/venture/pageGizmo.html"]
+  ],
+  "illinois": [
+    ["Illinois MakerLab", "https://makerlab.illinois.edu/"],
+    ["Research Park", "https://researchpark.illinois.edu/resource/makerspace/"],
+    ["Makerspace Urbana", "https://makerspaceurbana.org/"],
+    ["UIC Engineering Makerspace", "https://makerspace.uic.edu/"],
+    ["Makers in Chicago", "https://makersinchicago.org/"],
+    [
+      "Illinois Mathematics and Science Academy",
+      "https://www.imsa.edu/centers/center-for-innovation-and-inquiry/maker-programs-makerspace/"
+    ],
+    [
+      "Illinois Institute of Technology",
+      "http://bulletin.iit.edu/undergraduate/campus-overview/campus-resources/idea-shop/"
+    ],
+    ["Champaign-Urbana Community Fab Lab", "http://cucfablab.org/"],
+    ["Aurora Public Library", "https://www.aurorapubliclibrary.org/makerspace-4308"],
+    ["Arlington Heights Memorial Library", "https://www.ahml.info/makerplace"],
+    ["River City Labs", "https://rivercitylabs.space/"],
+    ["Illinois Hackerspaces", "https://wiki.hackerspaces.org/Illinois"],
+    ["Rockford MakerSpace", "https://www.rockfordmakerspace.com/"],
+    ["Elmhurst Public Library", "https://elmhurstpubliclibrary.org/about-us/building-information/makerspace/"],
+    ["Lovejoy Library MakerLab", "https://libguides.siue.edu/makerlab"],
+    ["Milner Library", "https://library.illinoisstate.edu/services/technology/make-it-space/"],
+    ["Harper College", "https://www.harpercollege.edu/maker/index.php"],
+    ["Lake Forest College", "https://www.lakeforest.edu/academics/resources-and-support/innovationspaces/makerspace"],
+    ["Chicago Public Library", "https://www.chipublib.org/maker-lab/"],
+    ["Fox Build", "https://fox.build/"],
+    ["Illinois Wesleyan University", "https://digitalcommons.iwu.edu/idea_events/3/"]
+  ],
+  "indiana": [
+    ["Indiana Makerspaces", "https://indianamakers.org/indiana-makerspaces/"],
+    ["1st Maker Space", "https://1stmakerspace.com/"],
+    ["Luddy School Makerspaces", "https://makerspaces.luddy.indiana.edu/"],
+    ["Makerfactoryindy", "https://www.makerfactoryindy.com/"],
+    ["Indiana K12 Makers Space", "http://indianamakerspace.weebly.com/"],
+    ["HUB & SPOKE", "https://hubandspoke.works/makerspace/"],
+    ["Bloominglabs", "http://www.bloominglabs.org/index.php/Main_Page"],
+    ["Maker13", "https://www.maker13.com/"],
+    ["Castlemakers", "http://castlemakers.org/"],
+    ["Ruth Lilly Medical Library", "https://library.mednet.iu.edu/makerspace/"],
+    ["Purdue Polytechnic Institute", "https://polytechnic.purdue.edu/anderson/p3-makerspace"],
+    ["Indiana IoT Lab", "https://indianaiot.com/member-spotlight-1st-maker-space/"]
+  ],
+  "iowa": [
+    ["Iowa City Fab Lab", "https://icfablab.org/"],
+    ["Center for Technology in Learning and Teaching", "https://www.ctlt.iastate.edu/makerspace/"],
+    ["Area515", "https://area515.org/"],
+    ["DMACC", "https://dmacc.edu/ci/Pages/makerspace.aspx"],
+    ["University of Northern Iowa", "https://library.uni.edu/spaces/makerspace"],
+    ["ICCSD Foundation", "http://iccsdfoundation.org/makerspaces/"],
+    ["Cedar Valley Makers", "https://www.cedarvalleymakers.org/"],
+    ["Iowa University Engineering Library", "https://www.lib.uiowa.edu/eng/creative-space/"],
+    ["Luther College", "https://www.luther.edu/makerspace/"],
+    ["Grinnell Area Arts Council Stew Makerspace", "https://www.grinnellarts.org/stew-makerspace"],
+    ["Iowa City Community School", "https://www.iowacityschools.org/Page/17431"],
+    ["Grant Wood AEA", "https://www.dlgwaea.org/makerspaces.html"],
+    ["The Quad Cities Makerspace", "https://www.qccolab.com/"],
+    ["CBPL", "http://www.councilbluffslibrary.org/makerspace/"],
+    ["Gilbert Community School District", "http://www.gilbertcsd.org/schools/gilbert-intermediate-school/makerspace/"],
+    ["Fairfield MakerSpace", "https://www.fairfieldmakerspace.com/"],
+    ["Grinnell College", "https://www.grinnell.edu/academics/resources/wilson/makerspace"],
+    ["Columbus Secondary School", "http://www.columbus.k12.ia.us/cms/One.aspx?portalId=572870&pageId=4949673"],
+    ["VolunteerSiouxland", "https://www.volunteersiouxland.org/agency/detail/?agency_id=83132"]
+  ],
+  "kansas": [
+    ["Johnson County Library", "https://www.jocolibrary.org/makerspace"],
+    ["Hammerspace Workshop", "https://hammerspacehobby.com/"],
+    ["MakeICT", "https://makeict.org/makerspace/"],
+    ["Great Plains MakerSpace", "https://greatplainsmakerspace.com/"],
+    ["KU Libraries", "https://lib.ku.edu/makerspace"],
+    ["Johnson County Library MakerSpace", "https://www.fablabs.io/labs/jocolibrarymakerspace"],
+    ["Hutchinson Public Library", "https://www.hutchpl.org/spaces/makerspace"],
+    ["Local Area Resources for Makers", "https://stmary.libguides.com/c.php?g=370827&p=2636295"],
+    ["K-State College of Education", "https://coe.ksu.edu/student-success/undergraduate/makerspace/"],
+    ["Fort Hays State University", "https://www.fhsu.edu/smei/makerspace/"],
+    [
+      "Black & Veatch MakerSpace",
+      "https://www.kcstem.org/organizations/black-veatch-makerspace-johnson-county-library/"
+    ],
+    ["McPherson County MakerSpace", "https://www.mcphersoncountymakerspace.org/"],
+    ["Maker Village", "https://makervillagekc.org/"],
+    ["Groover Labs", "https://www.grooverlabs.org/"],
+    ["Hutchinson Public Library", "https://hutchpl.sharpschool.com/use_the_library/Makerspace/About_the_makerspace"],
+    ["Lawrence Creates Makerspace", "https://www.lawrencecreates.com/"],
+    ["Block22", "https://www.block22psu.com/foundry-memberships.html"]
+  ],
+  "kentucky": [
+    ["University of Kentucky College of Engineering", "https://www.engr.uky.edu/students/student-success/maker-spaces"],
+    ["NKY MakerSpace", "http://www.nkymakerspace.com/"],
+    ["Louisville Free Public Library", "https://www.lfpl.org/makerspace/"],
+    ["Kre8Now Makerspace", "http://www.kre8now.com/"],
+    ["Stego Studio", "https://inside.nku.edu/library/spaces/makerspace.html"],
+    ["KENTUCKY MOVERS AND MAKERS", "https://www.kentuckymoversandmakers.com/"],
+    ["Living Arts & Science Center", "https://lasclex.org/plan-your-visit/makers-space/"],
+    ["EKU Geeks", "https://geeks.eku.edu/makerspace"],
+    ["Maker13", "https://www.maker13.com/"],
+    ["Franklin Center For Innovation", "https://franklincenterforinnovation.com/"],
+    ["Berea Makerspace", "https://bereamakerspace.org/"],
+    ["Kenton County Public Library", "https://www.kentonlibrary.org/stream"],
+    ["Northern Kentucky Makerspace", "http://ky.makerminded.com/activities/visit-nky-makerspace"],
+    ["WKU Makerspace", "https://wkumakerspace.github.io/"]
+  ],
+  "louisiana": [
+    ["NWLA Makerspace", "https://nwlamakerspace.org/"],
+    ["Lafayette Public Library", "http://lafayettepubliclibrary.org/?page_id=21857"],
+    ["The Workshop", "https://www.theworkshopmakerspace.com/"],
+    ["IDIYA", "https://myidiya.com/"],
+    ["Innovation Studio", "https://xula.libguides.com/innovationstudio"],
+    ["Tulane University", "https://makerspace.tulane.edu/index.php/Scot_Ackerman_MakerSpace_at_Tulane_University_Wiki"],
+    ["Prototyping | LSU Innovation Park", "https://www.lsu.edu/innovationpark/prototyping.php"],
+    ["STEM - COE HUB", "https://www.latechhub.org/stem.html"],
+    ["Rapides Parish Library", "https://www.rpl.org/index.php/collections-services/in-branch-services/makerspace/"],
+    ["LACUE", "https://www.lacue.org/Page/178"],
+    ["Geaux code", "https://lsudatasci.github.io/"],
+    ["Nicholls State University", "https://www.nicholls.edu/thehub/"],
+    ["Sts. Peter and Paul Catholic School", "http://www.sts-peter-paul.org/academics/technology.cfm"],
+    ["Lafourche Parish Public Library", "https://lpplyastuff.wixsite.com/lafourchelibrary/makerspace"]
+  ],
+  "maine": [
+    ["Factory 3", "https://factory3.org/"],
+    ["Maine State Library", "https://www.maine.gov/msl/services/maker_space/index.shtml"],
+    ["Open Bench Project", "https://obportland.org/"],
+    ["Portland Public Library", "https://www.portlandlibrary.com/highlight/maker-resources-events/"],
+    ["University of Southern Maine", "https://usm.maine.edu/maker-innovation-studio"],
+    ["Bangor Makerspace", "https://bangormakerspace.org/"],
+    [
+      "University of New England in Maine",
+      "https://www.une.edu/provost/resources/makerspace-and-student-innovation-challenge"
+    ],
+    ["The Connectory", "https://theconnectory.org/opportunity/maker-space"],
+    ["Engine", "https://www.feedtheengine.org/"],
+    ["Common Threads of Maine", "https://www.commonthreadsmaine.org/makerspace"],
+    ["LibGuides at University of Maine Augusta", "https://umalibguides.uma.edu/collab"],
+    ["Central Maine Youth Makerspace", "https://www.mainephilanthropy.org/redhen/org/4698"],
+    ["Children's Museum & Theatre of Maine", "https://www.kitetails.org/makerspace"],
+    ["Niles-Maine District Library", "https://www.nileslibrary.org/creative-studio"],
+    ["Port City Makerspace", "https://www.portcitymakerspace.com/"],
+    ["Belfast Free Library", "https://belfastlibrary.org/makerspace/"],
+    ["University of Maine", "https://umaine.edu/hackerspace/"],
+    ["Camden Hills Regional High School", "http://chrhs.fivetowns.net/academics/innovation_center/spaces/maker_space"]
+  ],
+  "maryland": [
+    ["University of Maryland, College Park", "https://makerspace.umd.edu/"],
+    ["Greenbelt MakerSpace", "https://www.make125.org/"],
+    ["Open Works", "https://www.openworksbmore.org/"],
+    ["Western Maryland Works", "https://westernmarylandworks.com/"],
+    [
+      "Center for Innovation & Entrepreneurship",
+      "https://www.loyola.edu/department/center-innovation-entrepreneurship/student-involvement/makerspaces"
+    ],
+    ["Loyola Notre Dame Library", "https://www.lndl.org/spaces-technology/innovation-station"],
+    ["Innov8MD", "https://www.innov8md.org/"],
+    ["Terrapin Works", "https://www.innov8md.org/resources/terrapin-works-e4d1ddc93c"],
+    ["Chesapeake Arts Center", "https://www.chesapeakearts.org/makerspace"],
+    ["Baltimore County Public Library", "https://www.bcpl.info/youth/make-it-place.html"],
+    ["Maryland - Hackerspaces", "https://wiki.hackerspaces.org/Maryland"],
+    ["Allegany College of Maryland", "https://services.allegany.edu/ce/?course=PRO000"],
+    [
+      "Allegany College of Maryland Manufacturing Training Program",
+      "https://www.arc.gov/investment/western-maryland-works/"
+    ],
+    ["Annapolis Makerspace", "https://www.makeannapolis.org/"],
+    [
+      "Montgomery College",
+      "https://www.montgomerycollege.edu/workforce-development-continuing-education/youth-programs/summer/art-and-design/digital-fab-lab.html"
+    ],
+    ["Rockville Library Makerspace", "https://www.rockvillesciencecenter.org/rockville-library-makerspace"],
+    ["Exploration Commons at 50 East", "https://explorationcommons.carr.org/makerspace.asp"]
+  ],
+  "massachusetts": [
+    ["University of Massachusetts Boston", "https://www.umb.edu/makerspace"],
+    ["Technocopia", "https://technocopia.org/"],
+    ["Framingham Makerspace", "https://www.framinghammakerspace.org/"],
+    ["Artisan's Asylum", "https://artisansasylum.com/"],
+    ["BOSTON MAKERS", "https://www.bostonmakers.org/"],
+    ["Watertown Library", "https://www.watertownlib.org/hatch"],
+    ["Lowell Makes", "https://lowellmakes.com/"],
+    ["Cambridge Hackspace", "https://www.cambridgehackspace.com/"],
+    ["Massachusetts k12 Engineering", "https://www.engineeringk12mass.org/makerspaces.html"],
+    ["MassCUE", "https://www.masscue.org/committees/makerspace-sig/"],
+    ["The Umbrella Arts Center", "https://theumbrellaarts.org/blog/tag/makerspace"],
+    ["Goodnow Library", "https://goodnowlibrary.org/now-lab/"],
+    ["Tinkerhaus", "https://www.tinkerhaus.org/"],
+    ["Old Stone Mill Center", "https://oldstonemillcenter.org/"],
+    ["Framingham Public Library", "https://framinghamlibrary.org/makerspace"],
+    ["Nissitissit Middle School", "https://www.nmrsd.org/Page/752"]
+  ],
+  "michigan": [
+    ["Maker Works", "https://www.maker-works.com/"],
+    ["Michigan Makers", "http://michiganmakers.weebly.com/local-makerspaces.html"],
+    ["i3Detroit", "https://www.i3detroit.org/"],
+    ["MTU Makerspace", "https://makerspace.mtu.edu/"],
+    [
+      "University of Michigan Library",
+      "https://www.lib.umich.edu/visit-and-study/creation-and-learning-spaces/shapiro-design-lab"
+    ],
+    ["Mid-Michigan Library League", "https://www.mmll.org/a/maker-space-resources/maker-space-resources-1"],
+    ["Makerspace - Michigan City Public Library", "https://www.mclib.org/teens/makerspace/"],
+    ["Western Michigan University", "https://wmich.edu/library/makerspace"],
+    ["Brightmoor Makerspace", "https://brightmoormakerspace.org/"],
+    ["Farmington Hills Makerspace", "https://www.fhgov.com/Activities/The-Hawk/Programs/Makerspace.aspx"],
+    ["Michigan - Hackerspaces", "https://wiki.hackerspaces.org/Michigan"],
+    ["Monroe County Community College", "https://www.monroeccc.edu/aset/makerspace"],
+    ["Selma D. and Stanley C. Hollander MakeCentral", "https://lib.msu.edu/makerspace/"],
+    ["Lake Michigan College", "http://www.lakemichigancollege.edu/community/fab-lab"],
+    ["Novi Library", "https://novilibrary.org/services/icube-makerspace"],
+    [
+      "MSU Innovation Center",
+      "https://www.uppermichiganssource.com/2021/03/31/msu-innovation-center-awards-support-to-mtus-husky-innovate-makerspace/"
+    ],
+    ["Maker13", "https://www.maker13.com/"],
+    [
+      "Central Michigan University",
+      "https://www.cmich.edu/office_provost/CIS/Pages/Explore%20Teaching%20and%20Learning/Selecting%20or%20Developing%20Materials%20and%20Tools/Video-Maker-Space-Overview.aspx"
+    ],
+    ["STUDIO JSD", "https://www.studiojsd.com/"],
+    ["University Innovation Fellows", "https://universityinnovation.org/wiki/Main_Page"],
+    ["Kzoo Makers", "https://kzoomakers.org/"],
+    ["Petoskey District Library", "https://www.petoskeylibrary.org/using-the-library/makerspace/"]
+  ],
+  "minnesota": [
+    ["Minnesota Makerspace", "https://mnmakerspace.com/"],
+    ["Twin Cities Maker", "https://www.tcmaker.org/"],
+    ["White Bear Makerspace", "https://www.whitebearmakerspace.com/"],
+    ["Minnesota Children's Museum", "https://mcm.org/makerspace-movement/"],
+    ["Mankato Makerspace", "https://www.mankatomakerspace.org/"],
+    ["Health Sciences Library", "https://hsl.lib.umn.edu/spaces/makerspace"],
+    ["University of Minnesota Libraries", "https://www.lib.umn.edu/spaces/breakerspace"],
+    ["Duluth MakerSpace", "http://duluthmakerspace.com/"],
+    ["Mall of America", "https://www.mallofamerica.com/makerspace"],
+    ["Red Wing Ignite", "https://www.redwingignite.org/makerspace/"],
+    ["Mounds Park Academy", "https://www.moundsparkacademy.org/academics/school-wide/makerspace/"],
+    ["Saint Paul Public Library", "https://sppl.org/innovation-lab/"],
+    ["Science Museum of Minnesota", "https://www.smm.org/classes/10510"],
+    ["MN Tool Library", "https://www.mntoollibrary.org/"],
+    ["Chisago Lakes School District", "https://www.isd2144.org/Domain/379"],
+    ["Bethel University", "https://www.bethel.edu/library/makerspace"]
+  ],
+  "mississippi": [
+    ["Mississippi State University Libraries", "https://www.library.msstate.edu/dmc/spaces/makerspace"],
+    ["MSU's Maker Space", "https://ecenter.msstate.edu/programs/the-factory-msus-maker-space/"],
+    ["Madison County Schools", "https://www.madison-schools.com/domain/4010"],
+    ["Eagle Maker Hub", "https://www.eaglemakerhub.org/"],
+    ["Jackson State University", "https://www.jsums.edu/innovationcenter/makerspace/"],
+    ["Coast Episcopal School", "https://coastepiscopalschool.org/mc/academics/makerspace/"],
+    ["Starkville Oktibbeha School District", "https://www.starkvillesd.com/discoverycenter/makerspaces"],
+    ["Southern Lehigh Middle School", "https://www.slsd.org/Page/4885"],
+    ["The University of Mississippi Libraries", "https://libraries.olemiss.edu/idea-lab/"],
+    ["The Collaborative Space", "https://www.mslightcollaborative.com/the-collaborative-space"],
+    ["Mississippi Robotics", "https://mississippirobotics.org/"],
+    ["TheLab.ms", "https://thelab.ms/"]
+  ],
+  "missouri": [
+    ["The Makerspace at Missouri S&T", "https://sites.google.com/mst.edu/mstmakerspace/home"],
+    ["Missouri S&T Makerspace", "https://mst.campuslabs.com/engage/organization/missouri-s-t-makerspace"],
+    ["The Edge Community Technology Center", "https://thelibrary.org/edge/maker-space.cfm"],
+    ["MADE Makerspace", "https://madestl.com/"],
+    ["Joplin Public Library", "https://www.joplinpubliclibrary.org/makerspace/"],
+    [
+      "Mizzou College of Education",
+      "https://education.missouri.edu/information-science-learning-technologies/2017/07/26/wemake-design-learn-lab/"
+    ],
+    ["Saint Louis Science Center", "https://www.slsc.org/exhibits-attractions/makerspace/"],
+    ["Camden County Library District", "https://www.ccld.us/creation_station/"],
+    ["Johnson County Library", "https://www.jocolibrary.org/makerspace"],
+    ["Millet & Hammer", "https://milletandhammer.com/company"],
+    ["Missouri - Hackerspaces", "https://wiki.hackerspaces.org/Missouri"],
+    ["Nevada Public Library", "https://www.nplmo.org/the-next-level-makerspace-by-npl"],
+    ["Moberly Area Community College", "https://www.macc.edu/makerspace"],
+    ["Hammerspace Workshop", "https://hammerspacehobby.com/"],
+    ["Lewis and Clark Elementary", "https://www.lps53.org/domain/1133"],
+    ["Finley Farms", "https://finleyfarmsmo.com/the-workshop/"],
+    ["MACCLAB", "https://macclab.com/"]
+  ],
+  "montana": [
+    ["Montana State University", "https://www.montana.edu/makerspace/"],
+    ["Bozeman Makerspace", "https://bozemanmakers.org/"],
+    ["Missoula Public Library", "https://www.missoulapubliclibrary.org/home/spaces/makerspace/"],
+    ["University of Montana", "https://www.umt.edu/innovation-factory/"],
+    ["SCRAP", "http://scrapinbillings.com/"],
+    ["Frenchtown School District", "https://www.ftsd.org/page/elemintlibrary"]
+  ],
+  "nebraska": [
+    ["Nebraska Innovation Studio", "https://innovationstudio.unl.edu/"],
+    ["Nebraska Makerspace Workshop", "https://research.unl.edu/events/makerspaceworkshop/"],
+    ["Library Makerspaces - Resources", "http://nlc.nebraska.gov/libraries/maker/"],
+    ["Mid-Nebraska Makerspace Lab", "https://mnm.esu10.org/"],
+    ["MakeShift", "http://makeshiftlincoln.org/"],
+    ["City of Norfolk Nebraska Makerspace", "https://norfolkne.gov/government/departments/library/makerspace/"],
+    ["Made New", "https://madenewomaha.com/"],
+    ["Whiteclay Makerspace", "https://whiteclayredo.com/"],
+    [
+      "Nebraska Library Innovation Studios Makerspace Partnership",
+      "https://libraries.ne.gov/superior/2019/09/13/nebraska-library-innovation-studios-makerspace-partnership/"
+    ],
+    ["City of Kearney Public Library Makerspace", "https://cityofkearney.org/2010/Makerspace"],
+    ["Beyond School Bells", "https://beyondschoolbells.org/mobile-maker-space/"],
+    [
+      "Metropolitan Community College",
+      "https://www.mccneb.edu/Community-Business/Workforce-Innovation-Division/Our-Facility/Prototype-Design-Lab"
+    ]
+  ],
+  "nevada": [
+    ["University of Nevada, Reno", "https://www.unr.edu/innevation/makerspace"],
+    ["Bridgewire Makerspace", "https://bridgewire.org/"],
+    ["UNLV University Libraries", "https://www.library.unlv.edu/spaces/makerspace"],
+    ["The Generator", "https://www.therenogenerator.com/"],
+    ["Washoe County Library", "https://www.washoecountylibrary.us/makers/"],
+    ["Carson City Library", "https://carsoncitylibrary.org/capital-makers/"],
+    ["The Curious Forge", "https://thecuriousforge.org/"],
+    ["Discovery Lab", "https://www.discoverykidslv.org/visit/exhibits/discovery-lab"],
+    [
+      "State of Nevada List of Coworking Spaces",
+      "https://business.nv.gov/Resource_Center/Coworking/_Incubator/_Accelerator_Spaces/"
+    ],
+    [
+      "Pinon Hills Elementary School",
+      "https://phes-dcsd1-nv.schoolloop.com/pf4/cms2/view_page?d=x&group_id=1540279697928&vdid=i217b20cab82dj"
+    ],
+    ["Nevada Public Library", "https://www.nplmo.org/the-next-level-makerspace-by-npl"],
+    ["DeLaMare Library", "https://unr.libcal.com/reserve/makerspace"]
+  ],
+  "new-hampshire": [
+    ["Manchester Makerspace", "https://manchestermakerspace.org/"],
+    ["Making Matters NH", "https://www.makingmattersnh.org/"],
+    ["University of New Hampshire", "https://www.unh.edu/ecenter/makerspace"],
+    ["MakeIt Labs", "http://www.makeitlabs.com/"],
+    ["The Claremont MakerSpace", "https://claremontmakerspace.org/"],
+    ["NASAA Makerspace Network", "https://www.nh.gov/nharts/programservices/communityarts.html"],
+    ["Port City Makerspace", "https://www.portcitymakerspace.com/"],
+    ["New Hampshire - Hackerspaces", "https://wiki.hackerspaces.org/New_Hampshire"],
+    ["Amherst Makerspace", "https://www.amherstmakerspace.com/"],
+    ["MAxT Makerspace", "http://www.maxtmakerspace.org/"],
+    ["Assemble Makerspace", "https://www.assemblenh.com/"],
+    ["Woodturners & Manchester Makerspace", "https://www.gnhw.org/blog/woodturners-manchester-makerspace"],
+    ["Research Guides", "https://libguides.snhu.edu/sb.php?subject_id=93430"],
+    [
+      "Keene Public Library's All Age Makerspace",
+      "https://keenenh.gov/keene-public-library/keene-public-librarys-all-age-makerspace"
+    ],
+    ["Makers Mill", "https://www.makersmill.org/"],
+    ["Howe Library", "https://www.thehowe.org/maker"]
+  ],
+  "new-jersey": [
+    ["NJIT Makerspace", "https://www.njitmakerspace.com/"],
+    ["Rutgers Makerspace", "https://makerspace.rutgers.edu/home"],
+    ["Bergen Makerspace", "http://bergenmakerspace.bergen.org/"],
+    ["Piscataway Public Library", "https://piscatawaylibrary.org/miy/"],
+    ["Maker Junction", "https://makerjunction.org/"],
+    ["New Jersey Library Makerspaces", "https://librarylinknj.org/projects/makerspaces"],
+    ["HackNCraftNJ", "http://www.hackncraftnj.org/"],
+    ["Hoboken Public Library", "https://hobokenlibrary.org/makerspace-2/"],
+    ["FUBAR Labs", "https://fubarlabs.org/"],
+    ["Gloucester County Library System", "https://www.gcls.org/make"],
+    ["AIMM Makerspace", "https://dct.tcnj.edu/facilities/makerspace/"],
+    ["New Brunswick Free Public Library", "https://www.nbfpl.org/makerspace"],
+    ["Jersey City Fabrication Lab", "https://jcfablab.com/"],
+    ["The Belmar Public Library", "https://www.belmarlibrary.org/content.php?page=19"]
+  ],
+  "new-mexico": [
+    ["Quelab", "https://quelab.net/"],
+    ["FUSE Makerspace", "https://www.cnm.edu/locations/fuse-makerspace"],
+    ["Socorro Makerspace", "https://socorromakerspace.wordpress.com/"],
+    ["School of Architecture and Planning", "https://saap.unm.edu/research/projects/mobilelab.html"],
+    ["Hitchhiker", "http://hitchhiker.nmstatelibrary.org/tag/makerspaces/"],
+    ["AFRL Maker Hub", "http://afrlmakerhub.com"],
+    ["Parachute Factory", "https://www.cctnewmexico.org/parachute-factory/"]
+  ],
+  "new-york": [
+    ["MakerSpace NYC", "https://www.makerspace.nyc/"],
+    ["NYC Makerspace", "http://nycmakerspace.org/"],
+    ["The Makery", "https://www.nycmakery.com/"],
+    ["Staten Island MakerSpace", "https://www.nycgo.com/arts-culture/staten-island-makerspace-st.-george"],
+    ["Futureworks NYC", "https://futureworks.nyc/"],
+    ["Fat Cat Fab Lab", "https://fatcatfablab.org/"],
+    ["Spark Workshop Brooklyn", "https://sparkworkshopbrooklyn.com/"],
+    ["NYU Tandon School of Engineering", "https://engineering.nyu.edu/research-innovation/makerspace"],
+    ["New York City School Library System", "https://nycdoe.libguides.com/innovation"],
+    ["The Rochester Makerspace", "https://rocmakers.org/"],
+    ["Syracuse University", "https://makerspace.syr.edu/"]
+  ],
+  "north-carolina": [
+    ["NCSU Libraries", "https://www.lib.ncsu.edu/services/makerspace"],
+    ["MakerSpace Charlotte", "https://www.makerspacecharlotte.org/"],
+    ["The Maker's Space", "https://www.themakersspaceraleigh.com/"],
+    ["Forge Greensboro", "https://www.forgegreensboro.org/"],
+    ["UNC-Chapel Hill Libraries", "https://library.unc.edu/science/makerspace/"],
+    ["Blackspace", "http://theblackspace.org/"],
+    ["SplatSpace", "https://splatspace.org/"],
+    ["Forsyth County Library", "https://www.forsyth.cc/library/Central/makerspace.aspx"],
+    ["Makerspace of Greenville", "https://makerspaceofgreenville.com/"],
+    ["J. Murrey Atkins Library", "https://library.charlotte.edu/technology-equipment/area-49/makerspace"],
+    ["UNC Charlotte Area 49", "https://guides.library.uncc.edu/area49/makerspace"],
+    ["Asheville Makers", "http://ashevillemakers.org/"],
+    [
+      "UNC Chapel Hill Murray Hall Makerspace and Lab",
+      "https://www.bhdp.com/university-north-carolina-chapel-hill-murray-hall-makerspace-and-lab-fit"
+    ],
+    ["Asheville City Schools", "https://nc02214494.schoolwires.net/domain/443"],
+    ["LibGuides at North Carolina Wesleyan College", "https://ncwc.libguides.com/Makerspace"],
+    ["Guilford County Schools", "https://www.gcsnc.com/domain/10045"],
+    ["University of North Carolina", "https://digitalmakerspace.uncw.edu/"]
+  ],
+  "north-dakota": [
+    ["North Dakota's Hands-on Science Center", "https://gatewaytoscience.org/maker-space/"],
+    ["North Dakota LibGuides", "https://library-nd.libguides.com/programming/STEAM"],
+    ["North Dakota - Hackerspaces", "https://wiki.hackerspaces.org/North_Dakota"],
+    ["Makerspace in the Architecture Library", "https://libguides.library.nd.edu/architecture/makerspace"]
+  ],
+  "ohio": [
+    ["Schantz MakerSpace", "https://www.schantzmakerspace.com/"],
+    ["Ohio University", "https://www.ohio.edu/instructional-innovation/initiatives/learning-environments/makerspaces"],
+    ["Cleveland Public Library", "https://cpl.org/aboutthelibrary/subjectscollections/techcentral/makerspace/"],
+    ["UpCycle Ohio", "https://upcycleohio.com/"],
+    ["Akron Makerspace", "https://akronmakerspace.org/"],
+    ["Cincinnati & Hamilton County Public Library", "https://cincinnatilibrary.org/services/makerspace/"],
+    ["University of Dayton", "https://udayton.edu/engineering/connect/innovation_center/makerspace/index.php"],
+    ["BiG Fab Lab", "http://bigfablab.com/"],
+    ["Mentor Public Library", "https://mentorpl.org/makers/makerspace/"],
+    ["Makerspace \u2014 BB2C - Building Bridges to Careers", "https://bb2careers.org/makerspace"],
+    ["Makerspace: Home - Subject & Course Guides", "https://libguides.lib.miamioh.edu/create/makerspace"],
+    ["Cincinnati's Makerspace", "https://themanufactory.us/"],
+    ["Greene County Public Library", "https://greenelibrary.info/makerspace/"],
+    ["Public Library of Youngstown and Mahoning County", "https://www.libraryvisit.org/makerspace/"],
+    ["Delaware County District Library", "https://www.delawarelibrary.org/locations/makerstudio/"],
+    ["University Of Cincinnati", "https://innovation.uc.edu/makerspace.html"],
+    ["Cuyahoga Falls Library", "https://cuyahogafallslibrary.org/services/makerspace/"],
+    ["Hudson City Schools", "https://www.hudson.k12.oh.us/domain/1218"]
+  ],
+  "oklahoma": [
+    ["Co-Laboratory Oklahoma", "https://colab-ok.com/"],
+    ["Oklahoma City IdeaSpace", "http://www.okcideaspace.org/about"],
+    ["The University of Oklahoma", "https://www.ou.edu/innovationhub"],
+    ["City of Mustang Oklahoma", "https://www.cityofmustang.org/library/page/makerspace-all-ages-0"],
+    ["Enid Public Library", "https://enid.okpls.org/programs/open-makerspace/"],
+    ["Oklahoma - Hackerspaces", "https://wiki.hackerspaces.org/Oklahoma"],
+    ["Fab Lab Tulsa", "https://fablabtulsa.org/"],
+    ["The Steam Engine", "https://www.steamengineokc.org/"]
+  ],
+  "oregon": [
+    ["DAMlab Makerspace", "https://business.oregonstate.edu/student-experience/resources/DAMlab"],
+    ["DeArmond MakerSpace", "https://library.uoregon.edu/scilib/psc-dearmond-makerspace"],
+    [
+      "The Collaboratory",
+      "https://www.hillsboro-oregon.gov/our-city/departments/library/services/collaboratory-makerspace"
+    ],
+    ["Eugene Makerspace", "https://eugenemakerspace.com/"],
+    ["Multnomah County Library", "https://multcolib.org/library-location/rockwood-makerspace"],
+    ["Tualatin Public Library Makerspace", "https://www.tualatinoregon.gov/library/tualatin-public-library-makerspace"],
+    ["Clackamas Community College", "https://www.clackamas.edu/campus-life/campuses-buildings-hours/makerspace"],
+    ["DIYcave", "https://diycave.com/"],
+    ["Open Bench Project", "https://obportland.org/"],
+    ["Portland Public Schools", "https://www.pps.net/Page/6960"],
+    ["City of West Linn", "https://westlinnoregon.gov/library/maker-programs-and-resources"],
+    ["Oregon Public Library", "https://www.oregonpubliclibrary.org/pop-up-makerspace"],
+    ["Talent Maker City", "https://www.talentmakercity.org/"],
+    ["Craterworks.org", "https://www.craterworks.org/"],
+    ["Portland Community College", "https://www.pcc.edu/maker/"],
+    ["Gorge MakerSpace", "https://www.gorgemakerspace.com/"],
+    ["Arkitek Design & Architecture", "https://www.arkitek.us/craterworksmakerspace"]
+  ],
+  "pennsylvania": [
+    [
+      "State Library Makerspace",
+      "https://www.statelibrary.pa.gov/GeneralPublic/State-Library-Makerspace/Pages/default.aspx"
+    ],
+    ["Pennsylvania College of Technology", "https://www.pct.edu/academics/makerspace"],
+    ["NextFab", "https://nextfab.com/"],
+    ["Katapult Makerspace", "https://www.katapultmakerspace.com/"],
+    ["Cranberry Township", "https://www.cranberrytownship.org/2742/Makerspace"],
+    ["Pennovation Works", "https://www.pennovation.upenn.edu/"],
+    ["Penn State College of Engineering", "https://www.lf.psu.edu/makerspace/index.aspx"],
+    ["Swarthmore College", "https://www.swarthmore.edu/makerspace"],
+    ["Chester County Library", "https://chescolibraries.org/using-library/digital-media-lab-and-makerspace"],
+    ["Colonial School District", "https://www.colonialsd.org/our-schools/plymouth-whitemarsh-high/library/makerspace"]
+  ],
+  "rhode-island": [
+    ["Rhode Island Maker Mill", "https://rimakermill.com/"],
+    ["Studio 55 Makerspace", "https://eastprovidencearts.org/spaces/studio-55-makerspace/"],
+    ["University of Rhode Island", "https://web.uri.edu/library/services/spaces/makerspaceuri/"],
+    ["FabNewport", "https://fabnewport.org/"],
+    ["RI STEAM Center", "http://www.risteamcenter.org/tag/makerspace/"],
+    ["Biodesign Makerspace", "https://biomaker.risd.edu/about.html"],
+    ["Tinker Bristol", "https://tinkerri.org/"],
+    ["Providence Public Library", "https://www.provlib.org/education/childrens-programs/pvd-young-makers/"],
+    ["University of Rhode Island LibGuides", "https://urilis.libguides.com/uri_library_makerspace"],
+    ["Clark Memorial Library", "https://www.clarklib.org/maker-space"],
+    ["Westerly Library & Wilcox Park", "https://westerlylibrary.org/event-location-new/makerspace"]
+  ],
+  "south-carolina": [
+    [
+      "University of South Carolina",
+      "https://sc.edu/about/offices_and_divisions/housing/rhodosfellows/makerspace/index.php"
+    ],
+    ["Synergy Mill", "https://synergymill.com/"],
+    ["Cola Makerspace", "https://www.colamakerspace.com/"],
+    ["Clemson University", "https://www.clemson.edu/centers-institutes/watt/about/makerspace.html"],
+    ["Reforge Charleston", "https://reforge.io/"],
+    [
+      "Wando Mount Pleasant Makerspace and Creative Studios",
+      "https://www.ccpl.org/makerspace-and-creative-studios-procedures"
+    ],
+    ["Makerspace of Greenville", "https://makerspaceofgreenville.com/"],
+    ["Richland Library", "https://www.richlandlibrary.com/studio-services"],
+    ["The Makerspace At Columbia", "https://make.columbia.edu/"],
+    ["South Carolina - Hackerspaces", "https://wiki.hackerspaces.org/South_Carolina"],
+    ["Rock Hill Schools", "https://www.rock-hill.k12.sc.us/Page/6035"],
+    ["Cola Makerspace", "https://www.causeiq.com/organizations/cola-makerspace,474348830/"]
+  ],
+  "south-dakota": [
+    ["South Dakota - Hackerspaces", "https://wiki.hackerspaces.org/South_Dakota"],
+    ["Rapid City Makerspace", "https://www.rapidcitylibrary.org/makerspace"],
+    ["Arts South Dakota", "https://artssouthdakota.org/event/open-makerspace-hours-4/"],
+    ["Sturgis Public Library", "https://www.sturgis-sd.gov/events/43482/"],
+    ["makeSPACE", "http://makespacesd.org/"],
+    ["SD Afterschool Network", "https://sdafterschoolnetwork.org/tmc-trailers/"],
+    ["Lake Area Technical College", "https://www.lakeareatech.edu/campus/library/makerspace/"],
+    ["Continuous Learning in Brookings", "https://liveinbrookings.com/learn/continuous-learning/"]
+  ],
+  "tennessee": [
+    ["Walker Library at Middle Tennesse State University", "https://library.mtsu.edu/c.php?g=1134802"],
+    ["University of Tennessee", "https://www.lib.utk.edu/hours/spaces/makerspace/"],
+    ["The CO", "https://www.attheco.com/makerspace"],
+    ["Make Nashville", "http://makenashville.org/"],
+    ["Tennessee State University", "https://www.tnstate.edu/library/makerspace.aspx"],
+    ["ChattLab", "https://wiki.chattlab.org/home"],
+    ["Tennessee Tech University", "https://www.tntech.edu/engineering/research/imakerspace/index.php"],
+    ["Knox Makers", "https://knoxmakers.org/"],
+    ["Union University", "https://www.uu.edu/dept/engineering/makerspace/"],
+    ["Sync Spcae", "https://syncspace.org/"],
+    ["Chattanooga Public Library", "https://chattlibrary.org/4th-floor/"],
+    ["Tennessee Library Association", "https://www.tnla.org/page/515"],
+    ["Midsouth Makers", "https://www.midsouthmakers.org/"],
+    ["Inventor Center", "https://theinventorcenter.com/"]
+  ],
+  "texas": [
+    ["Dallas Makerspace", "https://dallasmakerspace.org/"],
+    ["Texas Inventionworks", "https://inventionworks.engr.utexas.edu/"],
+    ["TX/RX Labs", "https://www.txrxlabs.org/"],
+    ["Maker's Edge", "http://www.themakersedge.com/"],
+    [
+      "Texas State University Libraries",
+      "https://www.library.txstate.edu/services/technology/3d-printing-makerspace.html"
+    ],
+    ["WALSH", "https://walshtx.com/walsh-village/makerspace/"],
+    ["The MakerBarn", "https://www.themakerbarn.org/"],
+    ["Asmbly", "https://asmbly.org/"],
+    ["The City of Fort Worth Makerspace", "https://www.fortworthtexas.gov/departments/library/programs/makerspace"],
+    ["Texas Tech University", "https://www.depts.ttu.edu/library/make/index.php"],
+    ["Arlington Public Library", "https://www.arlingtonlibrary.org/makerspace"],
+    [
+      "City of Tyler Makerspace",
+      "https://www.cityoftyler.org/government/departments/library/programs-services/programs/makerspace"
+    ],
+    ["Lamar University", "https://www.lamar.edu/science-and-technology/makerspace/index.html"],
+    ["UTDesign Makerspace", "https://utdmaker.space/"],
+    ["Creation Station Makerspace", "https://abilenetx.gov/760/Makerspace"],
+    ["TheLab.ms", "https://thelab.ms/"],
+    ["Anna ISD Makerspace", "https://www.annaisd.org/domain/459"],
+    ["LibGuides at Texas Wesleyan", "https://txwes.libguides.com/c.php?g=635993&p=4761915"],
+    ["Texas A&M University Engineering", "https://engineering.tamu.edu/academics/fedc/facility/index.html"],
+    ["Crashworks STEAM Studio", "https://crashworkswf.com/"],
+    ["UTMB Health", "https://www.utmb.edu/maker/home"]
+  ],
+  "utah": [
+    ["Make Salt Lake", "https://makesaltlake.org/"],
+    ["Sid Atkin MakerSpace", "http://library.washco.utah.gov/st-george/makerspace/"],
+    ["Cache Maker", "https://www.cachemakers.org/"],
+    ["Atwood Innovation Plaza", "https://innovation.dixie.edu/makerspace/"],
+    ["Lassonde Entrepreneur Institute", "https://lassonde.utah.edu/make/"],
+    ["ProVolt", "http://www.provolt.org/"],
+    ["ProLabs Studio", "https://prolabstudio.com/"],
+    ["BYU Library", "https://lib.byu.edu/services/makerspace/"],
+    ["Southern Utah Makerspace", "https://www.all-good.com/Southern-Utah-Makerspace"],
+    ["USU College of Engineering", "https://engineering.usu.edu/students/idea-factory/"],
+    ["Utah - Hackerspaces", "https://wiki.hackerspaces.org/Utah"],
+    ["North Logan City Library", "https://northloganlibrary.org/makerspace"],
+    ["My Tech High", "https://www.mytechhigh.com/makerspace-design"],
+    ["Channing Hall Think Lab", "https://channinghall.org/thinklab"]
+  ],
+  "vermont": [
+    ["Generator Makerspace", "https://generatorvt.com/"],
+    [
+      "Champlain College & Generator Makerspace Partnership",
+      "https://www.champlain.edu/centers-of-experience/generator-makerspace"
+    ],
+    ["The MINT", "https://rutlandmint.org/"],
+    ["UVM FabLab", "http://uvmfablab.net/working-with-the-fablab/"],
+    ["Pacem's Makerspace: devoted to fostering creative pursuits", "https://pacemschool.org/about/mission/"],
+    ["REclaimED Poultney", "https://www.reclaimedvermont.org/"],
+    ["MakerSphere", "https://www.makerspherevt.com/"],
+    ["The MINT", "https://rutlandvermont.com/the-mint/"],
+    ["Spark", "https://sparkvt.org/"],
+    ["Saint Michael's College", "https://www.smcvt.edu/student-life/student-activities/makerspace/"],
+    ["The Foundry", "https://thefoundryvt.org/"],
+    ["The Claremont MakerSpace", "https://claremontmakerspace.org/"],
+    ["Essex Westford School District", "https://www.ewsd.org/Page/6246"]
+  ],
+  "virginia": [
+    ["NovaLabs", "https://www.nova-labs.org/"],
+    ["The University of Virginia", "https://makergrounds.virginia.edu/"],
+    ["TinkerTank", "https://scholarslab.lib.virginia.edu/makerspace/"],
+    ["757 Makerspace", "https://www.757makerspace.com/"],
+    ["Science Museum of Virginia", "https://smv.org/explore/forge/"],
+    ["Makersmiths Inc.", "https://www.makersmiths.org/"],
+    ["Staunton Makerspace", "http://www.stauntonmakerspace.com/"],
+    ["Northern Virginia Community College", "https://www.nvcc.edu/systemic/fablab.html"],
+    ["VCU Libraries", "https://www.library.vcu.edu/spaces-tech/studios-and-makerspaces/"],
+    ["Museum of the Shenandoah Valley", "https://www.themsv.org/msv-makerspace/"],
+    ["Loudoun County Public Library", "https://library.loudoun.gov/SERVICES/Makerspace"],
+    ["Newport News Library", "https://www.library.nnva.gov/219/Makerspace"],
+    ["Vector Space", "https://vector-space.org/node/16"],
+    ["Hacksburg", "https://hacksburg.org/"],
+    ["Prince William Public Library", "https://www.pwcva.gov/department/library/central-library-makerspace"],
+    ["Chesterfield County Library", "https://library.chesterfield.gov/362/Makerspace"],
+    ["The Makerspaces at William & Mary", "https://makerspaces.wm.edu/resources/"],
+    ["Arlington Public Library", "https://library.arlingtonva.us/explore/for-makers-and-crafters/"],
+    ["Hack.RVA", "https://www.hackrva.org/"],
+    ["Reynolds Community College", "http://reynolds.edu/makerspace/"],
+    ["Fairfax County", "https://www.fairfaxcounty.gov/library/branch-out/create-home-makerspace"],
+    ["WVU Parkersburg", "https://www.wvup.edu/entrepreneur-opportunities/"]
+  ],
+  "washington": [
+    ["Maker Space - UW HFS - University of Washington", "https://hfs.uw.edu/The-MILL/Maker-Space"],
+    ["Western Washington University", "https://engineeringdesign.wwu.edu/makerspace"],
+    ["Bellingham Makerspace", "https://bellinghammakerspace.org/"],
+    ["North End Makerspace", "https://northendmakers.org/"],
+    ["Washington County Library Makerspace", "http://library.washco.utah.gov/washington/makerspace/"],
+    ["UW Bothell", "https://www.uwb.edu/ocl/collaboratory"],
+    ["King County Library System", "https://kcls.org/makerspaces/"],
+    ["Lacey Maker Space", "https://laceymakerspace.org/"],
+    ["Voiland College of Engineering and Architecture", "https://vcea.wsu.edu/student-success/maker-spaces/"],
+    ["GW Office of Innovation and Entrepreneurship", "https://innovation.gwu.edu/maker-spaces-campus"],
+    ["Edmonds College", "https://www.edmonds.edu/workforce/entrepreneurship/makerspace/default.html"],
+    ["City of Auburn Makerspace", "https://www.auburnwa.gov/city_hall/parks_arts_recreation/recreation/maker_space"]
+  ],
+  "west-virginia": [
+    ["BridgeValley Artisan Maker Space", "https://www.bridgevalley.edu/bridgevalley-artisan-maker-space"],
+    ["WVU Launch Lab", "https://launch.wvu.edu/home"],
+    ["West Virginia Department of Education", "https://wvde.us/steammindedwv/makerspace-guidance/"],
+    ["WVNCC", "https://www.wvncc.edu/current-students/makerspace@northern/7321"],
+    ["WVU Parkersburg", "https://www.wvup.edu/entrepreneur-opportunities/"],
+    ["WV Hive Network", "https://wvhive.com/makerspace/"],
+    ["BB2C Makerspace", "https://bb2careers.org/makerspace-hours-location"],
+    ["West Virginia - Hackerspaces", "https://wiki.hackerspaces.org/West_Virginia"],
+    ["Crea Company", "http://www.makebluefield.com/"],
+    ["The Robert C. Byrd Institute", "https://www.rcbi.org/maker-vault/"],
+    ["West Virginia Schools For The Deaf and the Blind", "https://www.wvsdb2.state.k12.wv.us/apps/pages/library"]
+  ],
+  "wisconsin": [
+    ["University of Wisconsin", "https://making.engr.wisc.edu/"],
+    ["The Bodgery", "https://www.thebodgery.org/"],
+    ["Milwaukee Makerspace", "https://milwaukeemakerspace.org/"],
+    ["Sector67", "https://www.sector67.org/blog/"],
+    [
+      "Concordia University",
+      "https://www.cuw.edu/academics/schools/arts-and-sciences/departments/computer-science/makerspace.html"
+    ],
+    ["The Creation Station", "https://onwisconsin.uwalumni.com/destination/the-creation-station/"],
+    ["Wisconsin Makers", "https://wisconsinmakers.org/about-us/"],
+    ["Appleton Makerspace", "https://appletonmakerspace.org/"],
+    ["University of Wisconsin-Eau Claire", "https://library.uwec.edu/spaces-collections/makerspace/"],
+    ["UWM EMS Makerspace", "https://uwm.edu/community-design-solutions/ems-makerspace/"],
+    ["Einstein Project", "https://www.einsteinproject.org/makerspaces"],
+    ["Wisconsin Valley Library Service", "https://wvls.org/equipment-for-booking/"],
+    ["Idea Studio", "https://fdlpl.org/ideastudio"],
+    ["CESA", "https://www.cesa2.org/curriculum/"],
+    ["Forest Lodge Library", "https://forestlodgelibrary.org/makerspace/"]
+  ],
+  "wyoming": [
+    ["Wyrkshop", "https://www.wyrkshop.org/"],
+    ["University of Wyoming", "http://www.uwyo.edu/coesic/"],
+    ["Wyoming State Library", "https://library.wyo.gov/put-a-makerspace-in-your-library/"],
+    ["Maker Space 307", "https://www.makerspace307.org/"],
+    ["Innovation Wyrkshop", "https://wyrkshop.libcal.com/"],
+    ["Phorge Makerspace", "https://phorge.co/"],
+    ["LCCC Ludden Library Makerspace", "https://libguides.lccc.wy.edu/makerspace/goldeneagle"],
+    ["Powell Makerspace", "https://powellchamber.org/powell-makerspace/"],
+    ["Pinedale Wyrkshop", "https://pinedalewyrkshop.com/"],
+    ["Campbell County Libraries", "https://www.ccgov.net/2160/Makerspace"],
+    ["Sheridan College", "https://www.sheridan.edu/about/facilities/gillette/area-59/"]
+  ]
 }

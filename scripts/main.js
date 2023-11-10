@@ -1,107 +1,132 @@
 // Get the json file of makerspaces from GitHub.
 // let requestURL = 'https://raw.githubusercontent.com/intern-jck/findMakerspace/main/assets/json/spaceList.json';
-let requestURL = '../assets/json/satte_list.json';
 
-let request = new XMLHttpRequest();
-request.open('GET', requestURL);
-request.responseType = 'json';
-request.send();
+const SPACE_LIST_JSON = '../assets/json/space_list.json';
 
-// Save contents of JSON.
-let makerList = {};
-request.onload = function () {
-  makerList = request.response;
-};
+/*
+  Object to store all the states and their makerspaces
+  Looks like:
+  {
+    [state_name]: [
+      [
+        [MAKERSPACE_NAME],
+        [MAKERSPACE_URL]
+      ],
+    ],
+  }
+*/
+let spaceList = {};
 
-// When the SVG loads, add events to each SVG path.
-// let mySvg = document.getElementById("us-map");
-// console.log(mySvg)
+function getStateList() {
+  fetch(SPACE_LIST_JSON)
+    .then((response) => {
+      return response.json();
+    })
+    .then((data) => {
+      spaceList = data;
+    })
+    .catch((error) => console.log('fetching state list json', error));
+}
 
-// mySvg.onload = function () {
-//   let svgPaths = document.getElementById("us-map").children;
-//   console.log(svgPaths)
-//   for (let i = 0; i < svgPaths.length; i++) {
-//     addEvent(svgPaths[i]);
-//   }
+// let request = new XMLHttpRequest();
+// request.open('GET', requestURL);
+// request.responseType = 'json';
+// request.send();
+
+// // Save contents of JSON.
+
+// request.onload = function () {
+//   spaceList = request.response;
 // };
 
-window.addEventListener('load', () => {
-  let mySvg = document.getElementById('us-map');
-  let svgPaths = document.getElementById('us-map').children;
-  console.log(svgPaths);
+// When the SVG loads, add events to each SVG path.
+
+function addEventsToUsMap() {
+  const mySvg = document.getElementById('us-map');
+
+  let svgPaths = mySvg.children;
+
   for (let i = 0; i < svgPaths.length; i++) {
     addStateMouseEvents(svgPaths[i]);
   }
-});
+}
 
 function addStateMouseEvents(state) {
   // Get state svg.
   element = document.getElementById(state.id);
+
   // Show name on mouse hover.
   element.addEventListener('mouseover', function () {
-    document.getElementById('state-title').textContent = state.id.replace('-', ' ').toUpperCase();
+    document.getElementById('page-header').textContent = state.id.replace('-', ' ').toUpperCase();
   });
 
   // Reset title if not.
   element.addEventListener('mouseout', function () {
-    document.getElementById('state-title').textContent = 'PICK A STATE!';
+    document.getElementById('page-header').textContent = 'PICK A STATE!';
   });
 
   // If clicked, show that state's makerspace list.
   element.addEventListener('click', function () {
-    updateMakerList(state.id);
-    const windowHeight = window.innerHeight;
+    updateSpaceList(state.id);
+    // const windowHeight = window.innerHeight;
     // A little hacky but should adjust so window scrolls into view on different screens
-    window.scrollBy(0, windowHeight - 200);
+    // window.scrollBy(0, windowHeight - 200);
+
+    document.getElementById('list-title').scrollIntoView({ behavior: 'smooth' });
   });
 }
 
-function updateMakerList(stateId) {
-  console.log(stateId);
+function updateSpaceList(stateId) {
+  const stateSpaces = spaceList[stateId];
+
+  const listTitle = document.getElementById('list-title');
+  listTitle.textContent = `${stateId.toUpperCase()} Makerspaces`;
 
   // Get the div to display makerspace list.
-  let listContent = document.getElementById('list-content');
+  const listContentDiv = document.getElementById('list-content');
 
   // Create title for list.
-  document.getElementById('list-title').innerHTML = stateId.toUpperCase() + ' Makerspaces';
+  // const listTitle = document.createElement('h2');
+  // listTitle.setAttribute('id', 'list-title');
+  // document.getElementById('list-title').innerHTML = stateId.toUpperCase() + ' Makerspaces';
 
   // Clear any lists currently being shown.
-  while (listContent.firstChild) {
-    listContent.removeChild(listContent.firstChild);
+  while (listContentDiv.firstChild) {
+    listContentDiv.removeChild(listContentDiv.firstChild);
   }
 
-  // For each space in the list,
-  for (let space in makerList[stateId]) {
-    // make the name row,
-    let spaceNameRow = document.createElement('div');
-    spaceNameRow.classList.add('row');
+  // console.log(spaceList[stateId]);
+  // Create a table displaying all the makerspaces for the selected state.
+  for (let i = 0; i < stateSpaces.length; i++) {
+    const spaceName = stateSpaces[i][0];
+    const spaceUrl = stateSpaces[i][1];
 
-    // make the space name,
-    var spaceName = document.createElement('h2');
-    spaceName.innerHTML = makerList[stateId][space][0];
-    spaceName.classList.add('pt-2');
-    spaceName.classList.add('space-name');
+    const rowDiv = document.createElement('div');
+    rowDiv.classList.add('list-row');
 
-    // make the link row,
-    let spaceLinkRow = document.createElement('div');
-    spaceLinkRow.classList.add('row');
+    const colName = document.createElement('span');
+    colName.classList.add('col-name');
+    colName.textContent = spaceName;
 
-    // make the space link,
-    var spaceLink = document.createElement('h2');
-    var linkAnchor = document.createElement('a');
-    linkAnchor.innerHTML = makerList[stateId][space][1];
-    linkAnchor.setAttribute('href', makerList[stateId][space][1]);
-    linkAnchor.setAttribute('target', '_blank');
-    linkAnchor.classList.add('pb-2');
-    linkAnchor.classList.add('space-link');
-    spaceLink.appendChild(linkAnchor);
+    const colLink = document.createElement('a');
+    colLink.classList.add('col-link');
+    colLink.textContent = spaceUrl;
+    colLink.setAttribute('href', spaceUrl);
+    colLink.setAttribute('target', '_blank');
 
-    // add name and link to their rows,
-    spaceNameRow.appendChild(spaceName);
-    spaceLinkRow.appendChild(spaceLink);
+    rowDiv.appendChild(colName);
+    rowDiv.appendChild(colLink);
 
-    // then add the rows to the page.
-    listContent.appendChild(spaceNameRow);
-    listContent.appendChild(spaceLinkRow);
+    listContentDiv.appendChild(rowDiv);
   }
 }
+
+// Get the kits when the page loads.
+window.addEventListener(
+  'load',
+  function (event) {
+    getStateList();
+    addEventsToUsMap();
+  },
+  false
+);
