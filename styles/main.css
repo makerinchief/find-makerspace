@@ -9,7 +9,7 @@
   --state-2-color: #2e3192;
   --state-3-color: #9e005d;
   --state-4-color: #009245;
-  --state-fill-color: black;
+  --state-hover-color: black;
   --state-stroke-color: black;
   --active-color: var(--state-4-color);
 }
@@ -42,22 +42,58 @@ a:hover {
 }
 
 #page-content {
-  /* border: 4px solid black; */
+  border: 4px solid black;
   margin-top: 2rem;
   margin-bottom: 10rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 2rem;
+  /* position: relative; */
 }
 
 #page-header {
-  /* border: 2px solid black; */
+  border: 2px solid black;
+  margin-top: 2rem;
+  display: flex;
+  align-items: center;
+}
+
+#page-header h1 {
+  border: 2px solid black;
   text-align: center;
-  font-size: 2.4rem;
+  margin: 0;
+  margin-left: auto;
+  width: 80%;
+}
+
+#page-header button {
+  border: 2px solid black;
+  margin-right: 0;
+  width: 10%;
+}
+
+/* STATE LIST */
+#state-list-div {
+  display: none;
+}
+
+#state-list-div.active {
+  border: 4px solid black;
+  background-color: var(--bg-color);
+  display: flex;
+  height: 30rem;
+  width: 60%;
+  z-index: 2;
+  position: absolute;
 }
 
 /* US Map SVG Paths */
 #us-map-div {
   border: 4px solid black;
-  margin: 2rem;
-  padding: 2rem;
+  /* margin: 2rem; */
+  /* padding: 2rem; */
+  width: 60%;
 }
 
 .cls-1,
@@ -65,7 +101,7 @@ a:hover {
 .cls-3,
 .cls-4 {
   stroke: var(--state-stroke-color);
-  stroke-miterlimit: 50;
+  stroke-miterlimit: 20;
   pointer-events: visibleFill;
 }
 
@@ -73,7 +109,7 @@ a:hover {
 .cls-2:hover,
 .cls-3:hover,
 .cls-4:hover {
-  fill: var(--state-fill-color);
+  fill: var(--state-hover-color);
   cursor: pointer;
 }
 
@@ -94,10 +130,8 @@ a:hover {
 }
 
 /* Makerspace List Section */
-
 #space-list-div {
   border: 4px solid black;
-  margin: auto;
   width: 80%;
 }
 
@@ -115,19 +149,15 @@ a:hover {
 }
 
 .list-row {
-  /* border: 2px solid black; */
-  /* padding: 1rem; */
   display: flex;
   font-size: 1.4rem;
 }
 
 .list-row span {
-  /* border: 2px solid black; */
   width: 40%;
 }
 
 .list-row a {
-  /* border: 2px solid black; */
   width: 60%;
 }
 
@@ -138,7 +168,6 @@ a:hover {
 
 .col-link {
   color: var(--state-2-color);
-  /* word-wrap: break-word; */
   text-overflow: ellipsis;
   white-space: nowrap;
   overflow: hidden;

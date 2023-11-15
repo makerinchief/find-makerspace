@@ -1,4 +1,3 @@
-// const SPACE_LIST_JSON = '../assets/json/space_list.json';
 const SPACE_LIST_JSON = 'https://raw.githubusercontent.com/makerinchief/jsons/main/makerspace_list.json';
 
 /*
@@ -27,39 +26,43 @@ function getStateList() {
 }
 
 function addEventsToUsMap() {
-  const mySvg = document.getElementById('us-map');
+  // const usMapSvg = document.getElementById('us-map');
+  // const svgPaths = usMapSvg.children;
 
-  let svgPaths = mySvg.children;
+  const svgPaths = document.getElementById('us-map').children;
 
   for (let i = 0; i < svgPaths.length; i++) {
-    addStateMouseEvents(svgPaths[i]);
+    addStateSvgMouseEvents(svgPaths[i]);
   }
 }
 
-function addStateMouseEvents(state) {
+function addStateSvgMouseEvents(state) {
   // Get state svg.
-  element = document.getElementById(state.id);
+  const stateSvg = document.getElementById(state.id);
 
   // Show name on mouse hover.
-  element.addEventListener('mouseover', function () {
-    document.getElementById('page-header').textContent = state.id.replace('-', ' ').toUpperCase();
+  stateSvg.addEventListener('mouseover', function () {
+    document.getElementById('header-title').textContent = state.id.replace('-', ' ').toUpperCase();
   });
 
   // Reset title if not.
-  element.addEventListener('mouseout', function () {
-    document.getElementById('page-header').textContent = 'PICK A STATE!';
+  stateSvg.addEventListener('mouseout', function () {
+    document.getElementById('header-title').textContent = 'PICK A STATE!';
   });
 
-  // If clicked, show that state's makerspace list.
-  element.addEventListener('click', function () {
+  // If clicked, show the state's makerspace list.
+  stateSvg.addEventListener('click', function () {
     updateSpaceList(state.id);
     document.getElementById('list-title').scrollIntoView({ behavior: 'smooth' });
   });
 }
 
+// Re-renders the list of makerspaces for given state.
 function updateSpaceList(stateId) {
+  // Get the spaces.
   const stateSpaces = spaceList[stateId];
 
+  // Get the list div and make a new title.
   const listTitle = document.getElementById('list-title');
   listTitle.textContent = `${stateId.toUpperCase()} Makerspaces`;
 
@@ -71,7 +74,7 @@ function updateSpaceList(stateId) {
     listContentDiv.removeChild(listContentDiv.firstChild);
   }
 
-  // Create a table displaying all the makerspaces for the selected state.
+  // Create a list for the spaces.
   for (let i = 0; i < stateSpaces.length; i++) {
     const spaceName = stateSpaces[i][0];
     const spaceUrl = stateSpaces[i][1];
@@ -96,7 +99,14 @@ function updateSpaceList(stateId) {
   }
 }
 
-// Get the kits when the page loads.
+//Show list of states on button click
+function showStateList() {
+  const stateListDiv = document.getElementById('state-list-div');
+  stateListDiv.classList.toggle('active');
+  console.log('show states');
+}
+
+// When page first loads.
 window.addEventListener(
   'load',
   function (event) {
