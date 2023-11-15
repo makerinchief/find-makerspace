@@ -1,4 +1,5 @@
-const SPACE_LIST_JSON = '../assets/json/space_list.json';
+// const SPACE_LIST_JSON = '../assets/json/space_list.json';
+const SPACE_LIST_JSON = 'https://raw.githubusercontent.com/makerinchief/jsons/main/makerspace_list.json';
 
 /*
   Object to store all the states and their makerspaces
