@@ -1,6 +1,3 @@
-// Get the json file of makerspaces from GitHub.
-// let requestURL = 'https://raw.githubusercontent.com/intern-jck/findMakerspace/main/assets/json/spaceList.json';
-
 const SPACE_LIST_JSON = '../assets/json/space_list.json';
 
 /*
@@ -27,19 +24,6 @@ function getStateList() {
     })
     .catch((error) => console.log('fetching state list json', error));
 }
-
-// let request = new XMLHttpRequest();
-// request.open('GET', requestURL);
-// request.responseType = 'json';
-// request.send();
-
-// // Save contents of JSON.
-
-// request.onload = function () {
-//   spaceList = request.response;
-// };
-
-// When the SVG loads, add events to each SVG path.
 
 function addEventsToUsMap() {
   const mySvg = document.getElementById('us-map');
@@ -68,10 +52,6 @@ function addStateMouseEvents(state) {
   // If clicked, show that state's makerspace list.
   element.addEventListener('click', function () {
     updateSpaceList(state.id);
-    // const windowHeight = window.innerHeight;
-    // A little hacky but should adjust so window scrolls into view on different screens
-    // window.scrollBy(0, windowHeight - 200);
-
     document.getElementById('list-title').scrollIntoView({ behavior: 'smooth' });
   });
 }
@@ -85,17 +65,11 @@ function updateSpaceList(stateId) {
   // Get the div to display makerspace list.
   const listContentDiv = document.getElementById('list-content');
 
-  // Create title for list.
-  // const listTitle = document.createElement('h2');
-  // listTitle.setAttribute('id', 'list-title');
-  // document.getElementById('list-title').innerHTML = stateId.toUpperCase() + ' Makerspaces';
-
   // Clear any lists currently being shown.
   while (listContentDiv.firstChild) {
     listContentDiv.removeChild(listContentDiv.firstChild);
   }
 
-  // console.log(spaceList[stateId]);
   // Create a table displaying all the makerspaces for the selected state.
   for (let i = 0; i < stateSpaces.length; i++) {
     const spaceName = stateSpaces[i][0];
