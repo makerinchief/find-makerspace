@@ -53,7 +53,7 @@ function addStateSvgMouseEvents(state) {
   // If clicked, show the state's makerspace list.
   stateSvg.addEventListener('click', function () {
     updateSpaceList(state.id);
-    document.getElementById('list-title').scrollIntoView({ behavior: 'smooth' });
+    document.getElementById('list-title').scrollIntoView();
   });
 }
 
@@ -61,6 +61,11 @@ function addStateSvgMouseEvents(state) {
 function updateSpaceList(stateId) {
   // Get the spaces.
   const stateSpaces = spaceList[stateId];
+
+  const spaceListDiv = document.getElementById('space-list-div');
+  if (!spaceListDiv.classList.contains('active')) {
+    spaceListDiv.classList.add('active');
+  }
 
   // Get the list div and make a new title.
   const listTitle = document.getElementById('list-title');
@@ -102,8 +107,18 @@ function updateSpaceList(stateId) {
 //Show list of states on button click
 function showStateList() {
   const stateListDiv = document.getElementById('state-list-div');
+  // Make sure to clear out anything in the div before adding to it.
+  while (stateListDiv.firstChild) {
+    stateListDiv.removeChild(stateListDiv.lastChild);
+  }
   stateListDiv.classList.toggle('active');
-  console.log('show states');
+
+  for (let state in spaceList) {
+    const stateNameButton = document.createElement('button');
+    stateNameButton.classList = 'state-list-button';
+    stateNameButton.textContent = state;
+    stateListDiv.append(stateNameButton);
+  }
 }
 
 // When page first loads.
