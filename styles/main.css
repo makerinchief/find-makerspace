@@ -48,7 +48,7 @@ button:hover {
 }
 
 #page-content {
-  border: 4px solid black;
+  /* border: 4px solid black; */
   margin-top: 2rem;
   margin-bottom: 10rem;
   padding: 2rem;
@@ -97,7 +97,7 @@ button:hover {
   position: absolute;
   background-color: var(--bg-color);
   overflow-y: scroll;
-  max-height: 50rem;
+  max-height: 30rem;
   width: 60%;
   display: flex;
   flex-wrap: wrap;
@@ -122,10 +122,11 @@ button:hover {
   color: var(--active-color);
 }
 
-/* US Map SVG Paths */
+/* US SVG MAP */
 #us-map-div {
   border: 4px solid black;
   width: 60%;
+  padding: 1rem;
 }
 
 .cls-1,

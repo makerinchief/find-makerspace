@@ -117,6 +117,15 @@ function showStateList() {
     const stateNameButton = document.createElement('button');
     stateNameButton.classList = 'state-list-button';
     stateNameButton.textContent = state;
+
+    stateNameButton.onclick = (event) => {
+      event.preventDefault();
+      stateListDiv.classList.remove('active');
+      updateSpaceList(state);
+      document.getElementById('list-title').scrollIntoView();
+      console.log(state);
+    };
+
     stateListDiv.append(stateNameButton);
   }
 }
