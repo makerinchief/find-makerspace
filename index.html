@@ -42,18 +42,19 @@
 
     <div id="page-header">
       <h1 id="header-title">PICK A STATE!</h1>
-      <!-- <div id="states-menu"></div> -->
-      <button onclick="showStateList()">SEE ALL STATES</button>
     </div>
 
     <div id="page-content">
-      <!-- <div>DROPDOWN STATE LIST MENU</div> -->
-
-      <div id="state-list-div"></div>
-
       <div id="us-map-div">
+        <!-- Button to show all states -->
+        <div id="state-list-div"></div>
+
+        <button onclick="showStateList()">SEE ALL STATES</button>
+
+        <!-- <div id="map-svg-div"> -->
         <!-- Each state is a seperate svg -->
-        <svg id="us-map" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 670.1 367.18">
+        <!-- viewBox="0 0 670.1 367.18" -->
+        <svg id="us-map" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 675 370">
           <g id="wyoming">
             <path
               class="cls-1"
@@ -405,6 +406,7 @@
             />
           </g>
         </svg>
+        <!-- </div> -->
       </div>
 
       <div id="space-list-div">
