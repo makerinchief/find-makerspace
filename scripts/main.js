@@ -49,20 +49,22 @@ function addStateSvgMouseEvents(state) {
 
   // If clicked, show the state's makerspace list.
   stateSvg.addEventListener('click', function () {
-    updateSpaceList(state.id);
+    showSpaceList(state.id);
     document.getElementById('list-title').scrollIntoView();
   });
 }
 
 // Re-renders the list of makerspaces for given state.
-function updateSpaceList(stateId) {
+function showSpaceList(stateId) {
   // Get the spaces.
   const stateSpaces = spaceList[stateId];
 
   const spaceListDiv = document.getElementById('space-list-div');
-  if (!spaceListDiv.classList.contains('active')) {
-    spaceListDiv.classList.add('active');
-  }
+
+  spaceListDiv.classList.remove('hidden-div');
+  // if (!spaceListDiv.classList.contains('active')) {
+  //   spaceListDiv.classList.add('active');
+  // }
 
   // Get the list div and make a new title.
   const listTitle = document.getElementById('list-title');
@@ -133,7 +135,7 @@ function showStateList() {
       stateListDiv.classList.add('hidden-div');
       document.getElementById('us-map').classList.remove('hidden-div');
       document.getElementById('state-list-show-button').classList.remove('hidden-div');
-      updateSpaceList(state);
+      showSpaceList(state);
       document.getElementById('list-title').scrollIntoView();
       console.log(state);
     };

@@ -18,7 +18,6 @@
 /* GLOBAL STYLES */
 html {
   box-sizing: border-box;
-  width: 100%;
   scroll-behavior: smooth;
 }
 
@@ -45,35 +44,24 @@ a:hover {
   cursor: pointer;
 }
 
+button {
+  background-color: var(--bg-color);
+}
+
 button:hover {
   cursor: pointer;
+  background-color: var(--active-color);
 }
 
 /* PAGE STYLES */
-#page-header {
-  /* border: 4px solid blue; */
-  /* display: flex; */
-  /* flex-direction: column; */
-  /* align-items: center; */
-}
-
 #page-header h1 {
-  /* border: 4px solid blue; */
   margin: 0;
   padding: 1rem;
   text-align: center;
   font-size: 2rem;
 }
 
-#page-header button {
-  border: 4px solid black;
-  background-color: var(--bg-color);
-  font-family: var(--font-family);
-  font-size: 2rem;
-}
-
 #page-content {
-  /* border: 4px solid orange; */
   margin-bottom: 10rem;
   display: flex;
   flex-direction: column;
@@ -92,36 +80,22 @@ button:hover {
   align-items: center;
 }
 
-#us-map-div button:hover {
-  background-color: var(--active-color);
-}
-
 #state-list-show-button.hidden-div {
   display: none;
 }
 
 #state-list-show-button {
-  width: 16rem;
-  border: 2px solid black;
-  background-color: var(--bg-color);
+  border: 4px solid black;
   font-family: var(--font-family);
   font-size: 1.8rem;
-  /* margin: auto; */
   margin-top: 1rem;
   vertical-align: middle;
-  /* display: flex; */
-  /* align-items: center; */
-  /* justify-content: center; */
 }
 
 #state-list-close-button {
-  border: 2px solid black;
-  background-color: var(--bg-color);
-  height: 2rem;
+  border: 4px solid black;
   font-family: var(--font-family);
   font-size: 1.8rem;
-  /* margin: auto; */
-  /* margin-top: 1rem; */
   vertical-align: middle;
 }
 
@@ -131,11 +105,8 @@ button:hover {
 
 #state-list-div {
   border: 4px solid black;
-  /* position: absolute; */
   background-color: var(--bg-color);
   overflow-y: scroll;
-  /* max-height: 30rem; */
-  /* width: auto; */
   display: flex;
   flex-wrap: wrap;
   align-items: center;
@@ -146,13 +117,11 @@ button:hover {
 
 .state-list-button {
   border: 4px solid black;
-  background-color: var(--bg-color);
-  /* height: 3rem; */
   font-family: var(--font-family);
   font-weight: bold;
   font-size: 1.4rem;
-  padding: 0;
-  width: 15rem;
+  padding-left: 1rem;
+  padding-right: 1rem;
 }
 
 /* US SVG MAP */
@@ -162,7 +131,6 @@ button:hover {
 
 #us-map {
   padding: 1rem;
-  /* border: 2px solid black; */
 }
 
 .cls-1,
@@ -199,12 +167,11 @@ button:hover {
 }
 
 /* MAKERSPACE LIST */
-#space-list-div {
+#space-list-div.hidden-div {
   display: none;
 }
 
-#space-list-div.active {
-  /* border: 4px solid black; */
+#space-list-div {
   width: 80%;
   display: flex;
   flex-direction: column;
@@ -219,7 +186,6 @@ button:hover {
 }
 
 #list-header h2 {
-  /* border: 4px solid black; */
   margin: 0;
   color: var(--font-color);
   text-align: center;
