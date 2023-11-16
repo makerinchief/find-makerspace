@@ -26,9 +26,6 @@ function getStateList() {
 }
 
 function addEventsToUsMap() {
-  // const usMapSvg = document.getElementById('us-map');
-  // const svgPaths = usMapSvg.children;
-
   const svgPaths = document.getElementById('us-map').children;
 
   for (let i = 0; i < svgPaths.length; i++) {
@@ -106,12 +103,26 @@ function updateSpaceList(stateId) {
 
 //Show list of states on button click
 function showStateList() {
+  document.getElementById('us-map').classList.add('hidden-div');
+  document.getElementById('state-list-show-button').classList.add('hidden-div');
+
   const stateListDiv = document.getElementById('state-list-div');
   // Make sure to clear out anything in the div before adding to it.
   while (stateListDiv.firstChild) {
     stateListDiv.removeChild(stateListDiv.lastChild);
   }
-  stateListDiv.classList.toggle('active');
+  stateListDiv.classList.remove('hidden-div');
+
+  const closeButton = document.createElement('button');
+  closeButton.id = 'state-list-close-button';
+  closeButton.textContent = 'CLOSE LIST';
+  closeButton.onclick = (event) => {
+    stateListDiv.classList.add('hidden-div');
+    document.getElementById('us-map').classList.remove('hidden-div');
+    document.getElementById('state-list-show-button').classList.remove('hidden-div');
+  };
+
+  stateListDiv.append(closeButton);
 
   for (let state in spaceList) {
     const stateNameButton = document.createElement('button');
@@ -119,8 +130,9 @@ function showStateList() {
     stateNameButton.textContent = state;
 
     stateNameButton.onclick = (event) => {
-      event.preventDefault();
-      stateListDiv.classList.remove('active');
+      stateListDiv.classList.add('hidden-div');
+      document.getElementById('us-map').classList.remove('hidden-div');
+      document.getElementById('state-list-show-button').classList.remove('hidden-div');
       updateSpaceList(state);
       document.getElementById('list-title').scrollIntoView();
       console.log(state);
