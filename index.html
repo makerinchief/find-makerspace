@@ -20,34 +20,33 @@
 
   <body>
     <nav id="navbar" class="navbar">
-      <div id="nav-ham">
-        <button onclick="showMenu()">
-          <i class="fa-solid fa-bars fa-3x"></i>
-        </button>
-      </div>
-
       <span id="nav-brand">
         <a href="/"> findMakerspace() </a>
       </span>
 
       <ul id="nav-menu">
-        <!-- <li>
+        <li>
           <a href="about.html"> About </a>
-        </li> -->
+        </li>
         <li>
           <a href="contact.html"> Contact </a>
         </li>
       </ul>
     </nav>
 
+    <div id="page-header">
+      <h1 id="header-title">PICK A STATE!</h1>
+    </div>
+
     <div id="page-content">
-      <h1 id="page-header">PICK A STATE!</h1>
-
-      <!-- <div>DROPDOWN STATE LIST MENU</div> -->
-
       <div id="us-map-div">
+        <!-- Button to show all states -->
+        <div id="state-list-div" class="hidden-div"></div>
+
+        <button id="state-list-show-button" onclick="showStateList()">SEE ALL STATES</button>
+
         <!-- Each state is a seperate svg -->
-        <svg id="us-map" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 670.1 367.18">
+        <svg id="us-map" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 675 370">
           <g id="wyoming">
             <path
               class="cls-1"
@@ -401,8 +400,11 @@
         </svg>
       </div>
 
-      <div id="space-list-div">
-        <h2 id="list-title"></h2>
+      <div id="space-list-div" class="hidden-div">
+        <div id="list-header">
+          <h2 id="list-title"></h2>
+          <a href="#top">BACK TO TOP</a>
+        </div>
         <div id="list-content">
           <!-- The table listing the names and links of makerspaces gets made in main.js -->
         </div>
