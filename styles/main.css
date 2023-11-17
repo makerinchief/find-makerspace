@@ -79,7 +79,6 @@ button:hover {
 /* US MAP DIV */
 /* Contains state list, state list button and map svg */
 #us-map-div {
-  border: 4px solid black;
   width: 60rem;
   height: 36rem;
   display: flex;
@@ -179,7 +178,7 @@ button:hover {
 }
 
 #space-list-div {
-  width: 80%;
+  width: 60%;
   display: flex;
   flex-direction: column;
 }
@@ -217,16 +216,17 @@ button:hover {
 
 .list-row {
   display: flex;
+  flex-direction: column;
   font-size: 1.4rem;
 }
 
-.list-row span {
+/* .list-row span {
   width: 40%;
 }
 
 .list-row a {
   width: 60%;
-}
+} */
 
 .col-name {
   font-weight: bold;
@@ -238,4 +238,38 @@ button:hover {
   text-overflow: ellipsis;
   white-space: nowrap;
   overflow: hidden;
+}
+
+@media screen and (max-width: 900px) {
+  #space-list-div {
+    width: 100%;
+  }
+
+  #list-content {
+    width: 100%;
+  }
+
+  .list-row {
+    flex-direction: column;
+  }
+
+  .list-row span {
+    width: 100%;
+  }
+
+  .list-row a {
+    width: 100%;
+  }
+}
+
+@media screen and (orientation: portrait) {
+  #us-map-div {
+    width: 100%;
+  }
+}
+
+@media screen and (orientation: landscape) {
+  #us-map-div {
+    width: 80%;
+  }
 }

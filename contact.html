@@ -4,39 +4,10 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>findMakerspace(state)</title>
+    <title>findMakerspace()</title>
 
     <!-- Font Awesome Icons -->
     <script src="https://kit.fontawesome.com/cdcc65decb.js" crossorigin="anonymous"></script>
-
-    <!-- EmailJS -->
-    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"></script>
-
-    <script type="text/javascript" defer>
-      (function () {
-        emailjs.init('user_zEaMjktSGuSK3vfKZTaF3');
-      })();
-    </script>
-
-    <script type="text/javascript" defer>
-      window.onload = function () {
-        document.getElementById('contact-form').addEventListener('submit', function (event) {
-          event.preventDefault();
-          // Hack to use same template for multiple sites
-          this.site.value = 'find-makerspace';
-          // these IDs from the previous steps
-          emailjs.sendForm('general_service', 'general_template', this).then(
-            function () {
-              console.log('SUCCESS!');
-              window.alert('Thank you for the message!');
-            },
-            function (error) {
-              console.log('FAILED...', error);
-            }
-          );
-        });
-      };
-    </script>
 
     <!-- My CSS -->
     <link rel="stylesheet" type="text/css" href="styles/main.css" />
@@ -85,36 +56,11 @@
       <div id="contact-links">
         <a href="mailto:info@makerinchief.com" target="_blank">
           <i class="fa-solid fa-envelope"></i>
-          <!-- E-mail -->
         </a>
         <a href="https://github.com/makerinchief/find-makerspace" target="_blank">
           <i class="fa-brands fa-github"></i>
-          <!-- GitHub -->
         </a>
       </div>
     </div>
-
-    <!-- <div id="contact-form"></div>
-      <form>
-        <input type="hidden" name="site" />
-        <div>
-          <div>
-            <label for="contact-name" class="form-label">NAME</label>
-            <input id="contact-name" type="text" name="name" aria-label="Name" />
-          </div>
-          <div>
-            <label for="contact-email" class="form-label">E-MAIL</label>
-            <input id="contact-email" type="email" name="email" aria-label="Email" />
-          </div>
-          <div>
-            <label for="contact-message" class="form-label">MESSAGE</label>
-            <textarea id="contact-message" rows="4" name="message"  aria-label="Message"></textarea>
-          </div>
-          <button type="submit" value="Send">
-            SEND
-          </button>
-        </div>
-      </form>
-    </div> -->
   </body>
 </html>
