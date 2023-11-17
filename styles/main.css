@@ -217,14 +217,6 @@ button:hover {
   font-size: 1.4rem;
 }
 
-/* .list-row span {
-  width: 40%;
-}
-
-.list-row a {
-  width: 60%;
-} */
-
 .col-name {
   font-weight: bold;
   color: var(--state-4-color);
