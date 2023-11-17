@@ -1,0 +1,41 @@
+#about-description {
+  width: 60%;
+}
+
+#about-description p {
+  font-size: 1.4rem;
+  text-indent: 2rem;
+}
+
+#about-description i {
+  width: 100%;
+  color: var(-font-color);
+  font-size: 4rem;
+  text-align: center;
+}
+
+#about-code {
+  width: 60%;
+}
+
+@media screen and (orientation: portrait) {
+  #about-description {
+    width: 100%;
+    padding: 1rem;
+  }
+
+  #about-code {
+    width: 100%;
+  }
+}
+
+@media screen and (orientation: landscape) {
+  #about-description {
+    width: 100%;
+    padding: 1rem;
+  }
+
+  #about-code {
+    width: 100%;
+  }
+}

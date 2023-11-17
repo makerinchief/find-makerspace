@@ -12,7 +12,8 @@
   --state-hover-color: black;
   --state-stroke-color: black;
   --active-color: var(--state-4-color);
-  --font-family: monospace;
+  --link-color: var(--state-2-color);
+  --font-family: monospace, 'Courier New', Courier;
 }
 
 /* GLOBAL STYLES */
@@ -62,10 +63,6 @@ button:hover {
 #page-header h1 {
   margin: 0;
   font-size: 2rem;
-}
-
-#page-header p {
-  font-size: 1.4rem;
 }
 
 #page-content {
