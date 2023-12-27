@@ -15,7 +15,11 @@
 }
 
 #about-code {
-  width: 60%;
+  /* border: 2px solid green; */
+  /* width: 60%; */
+  display: flex;
+  justify-content: center;
+  overflow-y: scroll;
 }
 
 @media screen and (orientation: portrait) {
